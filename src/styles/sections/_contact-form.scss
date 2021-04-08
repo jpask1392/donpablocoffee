@@ -1,0 +1,72 @@
+.contact-section.contact-form {
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 49.48%, #e1dbd3 100%);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  .contact-bkg-img {
+    display: none;
+    
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      bottom: 0;
+      width: 100%;
+      z-index: 0;
+    }
+  }
+}
+
+.contact-form {
+  form {
+    position: relative;
+    z-index: 1;
+  
+    input:not([type=submit]):not(.DropdownComponents__DropDownInput-sc-1ahum51-3):not([type=number]),
+    textarea {
+      width: 100%;
+      border-radius: 25px !important;
+      border: 1px solid theme-color("primary") !important;
+      margin-bottom: map-get($spacers, 4);
+      padding: 0.5rem 2rem !important;
+    }
+  
+    .dMHKxR.dMHKxR {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  
+    .kgtZbf:nth-child(5) {
+      padding-top: 3rem;
+  
+      .dMHKxR {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  
+    .kgtZbf:nth-child(6) {
+      padding-top: 2rem;
+  
+      .fBHeyB {
+        margin: auto
+      }
+  
+      button {
+        margin: auto;
+  
+        @extend .btn;
+        @extend .btn-primary;
+      }
+    }
+  
+    .Row__FormRow-sc-17nghml-0 {
+      display: block !important;
+  
+      @include media-breakpoint-up(md) {
+        display: flex !important;
+      }
+    }
+  }  
+}

@@ -1,0 +1,67 @@
+Shopify.theme.cartPage = {
+  init: function init(cart) {
+    Shopify.theme.customQuantity.init()
+    this.checkDiscountCode();
+    this.progressBar(cart);
+  },
+
+  progressBar: function progressBar(cart) {
+    const total_for_free = 5000; // in pennies
+    const shipping_alert_success = `
+      <div id="free_shipping_alert"><p class="free-shipping-success">Hooray! You get FREE Shipping!</p></div>
+    `;
+
+    var away = total_for_free - cart.total_price;
+    var away_percentage = 100 - Math.floor(away / ( total_for_free / 100 ));
+    var away_price = away / 100;
+    const shipping_alert_loading = `
+      <div id="free_shipping_alert">
+        <p>$${away_price} away from free shipping</p>
+        <div id="progressbar"><div class="loader" style="width: ${away_percentage}%"></div></div>
+      </div>
+    `;
+
+    const $cartContainer = $('.cart-totals__summary');
+    if (cart.total_price >= total_for_free ) {
+        $cartContainer.prepend(shipping_alert_success);
+    } else {
+        $cartContainer.prepend(shipping_alert_loading);
+    };
+  },
+
+  checkDiscountCode: function checkDiscountCode() {
+    $('#cartDiscountSubmit').on('click', async function () {
+      // will need to access this value from an app
+      const submittedValue = $(this).prev().val();
+      try {
+        await Shopify.API.checkDiscountCode(submittedValue)
+      } catch {
+        // discount does not exist
+      }
+
+    })
+  },
+
+  updateOnQuantityChange: function updateOnQuantityChange (id) {
+    Shopify.API.updateCartQuantity(id, function (data) {
+
+      // reload page
+      location.reload();
+
+      // update line item prices
+      // const items = data.items;
+      // items.forEach(item => {
+      //   const key = item.id;
+      //   $('#cart_item_' + key + ' .line-item-price')
+      //     .html(Shopify.formatMoney(item.line_price, "{{ shop.money_with_currency_format }}"));
+      // });
+
+      // // update totals
+      // $('#CartTotal .price b').html(Shopify.formatMoney(data.total_price, "{{ shop.money_with_currency_format }}"))
+      // $('#CartSubTotal .price').html(Shopify.formatMoney(data.total_price, "{{ shop.money_with_currency_format }}"))
+
+    });
+  }
+};
+
+Shopify.theme.cartPage.init(cart);

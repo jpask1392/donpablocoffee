@@ -1,0 +1,146 @@
+{% assign id = section.id %}
+{% comment %} Layout {% endcomment %}
+{% assign padding_top = section.settings.padding_top %}
+{% assign padding_bottom = section.settings.padding_bottom %}
+{% assign width = section.settings.width %}
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+  #shopify-section-{{ id }} {
+    background: linear-gradient(180deg, {{ section.settings.backgroundColor }} 49.48%, {{ section.settings.backgroundGradient }} 100%);
+    padding-top: {{ padding_top }}px;
+    padding-bottom: {{ padding_bottom }}px;
+  }
+{% endstyle %}
+
+{% if section.settings.show_section %}
+<div class="container {% unless width == 'standard' %}container--{{ width }}{% endunless %}">
+  <div class="row">
+    <div class="col-12">
+      <div class="" id="brewingAccordion">
+        {% for block in section.blocks %}
+        <div class="card">
+          <a 
+            href="#collapse{{forloop.index}}"
+            data-toggle="collapse" 
+            data-target="#collapse{{forloop.index}}" 
+            aria-expanded="false" 
+            aria-controls="collapse{{forloop.index}}">
+            <div class="card__header" id="headingOne">
+              <h2 class="section-title">
+                <b>{{ block.settings.accordionHeader }}</b>
+              </h2>
+              {% include settings.icon, name: 'chevron-right' %}
+            </div>
+          </a>
+
+          <div 
+            id="collapse{{forloop.index}}" 
+            class="collapse" 
+            aria-labelledby="headingOne" 
+            data-parent="#brewingAccordion">
+            <div class="card__body">
+              {{ block.settings.accordionBody }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Brewing Accordion",
+  "class": "brewing-section brewing-accordion has-coffee-background",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_section",
+      "label": "Display Section",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "sectionTitle",
+      "label": "Section Title"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "standard",
+      "options": [
+        {
+          "value": "standard",
+          "label": "Standard"
+        },
+        {
+          "value": "wide",
+          "label": "Wide"
+        },
+        {
+          "value": "narrow",
+          "label": "Narrow"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top spacing",
+      "min": 0,
+      "max": 80,
+      "default": 0,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom spacing",
+      "default": 0,
+      "min": 0,
+      "max": 80,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "color",
+      "id": "backgroundColor",
+      "label": "Background Color",
+      "default": "#fff"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Accordion",
+      "type": "accordion",
+      "settings": [
+        {
+          "type": "text",
+          "id": "accordionHeader",
+          "label": "Header"
+        },
+        {
+          "type": "html",
+          "id": "accordionBody",
+          "label": "Body",
+          "default": "<div><p>Enter Body Text</p></div>"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

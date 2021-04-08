@@ -1,0 +1,132 @@
+{% assign id = section.id %}
+{% comment %} Layout {% endcomment %}
+{% assign padding_top = section.settings.padding_top %}
+{% assign padding_bottom = section.settings.padding_bottom %}
+{% assign width = section.settings.width %}
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+  #shopify-section-{{ id }} {
+    background: linear-gradient(180deg, {{ section.settings.backgroundColor }} 49.48%, {{ section.settings.backgroundGradient }} 100%);
+    padding-top: {{ padding_top }}px;
+    padding-bottom: {{ padding_bottom }}px;
+  }
+{% endstyle %}
+
+{% if section.settings.show_section %}
+<div class="container {% unless width == 'standard' %}container--{{ width }}{% endunless %}">
+  <div class="row">
+    {% for block in section.blocks %}
+      <div class="col-md-4">
+        <div class="brewing-method">
+          <img src="{{ block.settings.image | img_url: 'medium' }}" alt="">
+          <div class="brewing-method__title">{{ block.settings.name }}</div>
+          <div class="brewing-method__body">
+            <div class="brewing-method__title brewing-method__title--hidden">{{ block.settings.name }}</div>
+            {{ block.settings.body }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Brewing Methods",
+  "class": "brewing-section brewing-methods",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_section",
+      "label": "Display Section",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "sectionTitle",
+      "label": "Section Title"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "standard",
+      "options": [
+        {
+          "value": "standard",
+          "label": "Standard"
+        },
+        {
+          "value": "wide",
+          "label": "Wide"
+        },
+        {
+          "value": "narrow",
+          "label": "Narrow"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top spacing",
+      "min": 0,
+      "max": 80,
+      "default": 0,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom spacing",
+      "default": 0,
+      "min": 0,
+      "max": 80,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "color",
+      "id": "backgroundColor",
+      "label": "Background Color",
+      "default": "#fff"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Methods",
+      "type": "method",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "richtext",
+          "id": "body",
+          "label": "Body"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,140 @@
+.index-hero-section {
+  overflow: hidden; 
+  position: relative; 
+  display: flex; 
+  justify-content: center;
+
+  &__content {
+    z-index: 1;
+    text-align: center;
+    padding: 3rem;
+    padding-bottom: 106px;
+    position: relative;
+
+    .section-title--hero {
+      color: white;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+
+      b, strong {
+        font-family: $headings-font-family;
+        font-size: 5rem;
+      }
+    }
+
+    .index-hero-subtitle {
+      color: white;
+      font-size: 1.5rem;
+      line-height: 1.25;
+      padding-bottom: map-get($spacers, 5);
+    }
+  }
+
+  &__slideshow {
+    position: absolute; 
+    width: 100%; 
+    left:0; 
+    top: 0; 
+    bottom: 0;
+
+    img {
+      height: 100%;
+      object-position: center;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &::before { // image overlay
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: black;
+      opacity: 0.5;
+      z-index: 0;
+    }
+
+    &.slick-slider .slick-list {
+      z-index: -2; // move images behind overlay
+    }
+
+    &.slick-dotted.slick-slider {
+      margin-bottom: 0;
+    }
+
+    .slick-list,
+    .slick-track {
+      height: 100%;
+    }
+
+    .slick-dots {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      z-index: 100;
+      list-style-type: none;
+      padding-bottom: map-get($spacers, 5);
+
+      li[role=presentation] {
+        float: left;
+
+        &:not(:last-of-type) {
+          margin-right: 30px;
+        }
+
+        button {
+          display: block;
+          width: 10px;
+          height: 10px;
+          padding: 0;
+          border: none;
+          border-radius: 100%;
+          background-color: theme-color("primary");
+          text-indent: -9999px;
+        }
+
+        &.slick-active button {
+          background-color: white;
+        }
+      }
+    }
+
+    .slick-arrow {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      width: 8%;
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      transform: none;
+      z-index: 1;
+
+      svg {
+        fill: white;
+      }
+
+      &::before {
+        content: "";
+      }
+
+      &.slick-prev {
+        left: 0;
+      }
+
+      &.slick-next {
+        right: 0;
+
+        svg {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.image-text-overlay {
+  display: flex;
+
+  &__image {
+    flex: 1;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.image-with-text-overlay {
+  .section-title {
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+  }
+
+  .content {
+    width: 100%;
+    background: #E7D5BD;
+    opacity: 0.93;
+    display: flex;
+
+    @include media-breakpoint-down(md) {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+
+    @include media-breakpoint-up(md) {
+      width: 60%;
+    }
+  }
+}
+
+.image-with-text {
+  .section-title {
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+  }
+}

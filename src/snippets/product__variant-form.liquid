@@ -1,0 +1,135 @@
+<form 
+  action="/cart/add" 
+  method="post" 
+  enctype="multipart/form-data" 
+  id="AddToCartForm" 
+  data-productid="{{product.id}}">
+
+  
+  <div class="title-review-wrapper">
+    <div class="price">{{ current_variant.price | money }}</div>
+  </div>
+
+  <div>
+    {% comment %}{% capture option_titles %}Packaging,Grind,Roast{% endcapture %}{% endcomment %}
+    {% assign option_titles = option_titles | split:',' %}
+    {% for option in product.options %}
+      {% if option_titles contains option %}
+        {% comment %}
+          Input section for controlling variant selections
+        {% endcomment %}
+        {% if option == "Style" %}{% endif %}
+        {% assign outerloop_index = forloop.index %}
+        {% capture option_index %}option{{ forloop.index }}{% endcapture %}
+        {% assign option_values = product.variants | map: option_index | uniq %}
+        {% assign productOptions = product.selected_or_first_available_variant.options | join: ", " %}
+
+        <div class="radio-btn-group row" id={{option_index}}><!-- Radio button group -->
+        {% comment %}
+          Case/switch statement for outputting radio button sections
+        {% endcomment %}
+        {% case option %}
+
+          {% when "Packaging" %}
+            <div class="radio-btn-group__title col-12">Packaging</div>
+            {% for value in option_values %}
+              {% assign inputID = value | replace: ' ', '' %}
+              <div class="col-6 col-md-4 label-wrapper">
+                <input 
+                  type="radio" 
+                  id="{{ inputID }}" 
+                  name="{{ option }}" 
+                  value="{{ value }}"
+                  {% if productOptions contains value %}checked{% endif %}
+                />
+                <label class="variant-selector" for={{ inputID }}>
+                  <span>{{ value }}</span>
+                  <span class="variant-selector__price">
+                    {% comment %} Get price related to bag size {% endcomment %}
+                    {% for variant in product.variants %}
+                      {% if variant.option1 == value %}
+                        {% assign price = variant.price %}
+                        {% assign compare_at_price = variant.compare_at_price %}
+                        {% break %}
+                      {% endif %}
+                    {% endfor %}
+                    <b>{{ price | money}}</b>
+                    {% if compare_at_price %}
+                    ({{ compare_at_price | minus: price | times: 100.0 | 
+                      divided_by: compare_at_price | money_without_currency | times: 100 
+                      | replace: '.0', ''}}% OFF)
+                    {% endif %}
+                  </span>
+                </label>
+              </div>
+            {% endfor %}
+
+          {% else %} {% comment %} Default label {% endcomment %}
+            <div class="radio-btn-group__title col-12">{{ option }}</div>
+            {% for value in option_values %}
+              {% assign inputID = value | replace: ' ', '' %}
+              <div class="col-6 col-lg-4 label-wrapper">
+                <input 
+                  type="radio" 
+                  id="{{ inputID }}" 
+                  name="{{ option }}" 
+                  value="{{ value }}"
+                  {% if productOptions contains value %}checked{% endif %}
+                />
+                <label class="variant-selector" for={{ inputID }}>
+                  {{ value }}
+                </label>
+              </div>
+            {% endfor %}
+
+          {% endcase %}
+          </div><!-- Radio button group END -->
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- Select Control -->
+  <select 
+    name="id" 
+    id="productSelect" 
+    data-productid="{{product.id}}" 
+    data-producthandle="{{product.handle}}" 
+    class="d-none">
+    {% for variant in product.variants %}
+      {% if variant.available %}
+        <option value="{{ variant.id }}" {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}>
+          {{ variant.title }} - {{ variant.price | money_with_currency }}
+        </option>
+      {% else %}
+        <option value="{{ variant.id }}">
+          {{ variant.title }} - sold out
+        </option>
+      {% endif %}
+    {% endfor %}
+  </select>
+  <!-- Select Control END -->
+
+  <!-- Quantity Control -->
+  <div class="quantity">
+    <label for="Quantity" class="radio-btn-group__title">Quantity</label>
+    <div class="quantity-nav">
+      <div class="quantity-button quantity-down">-</div>
+      <input type="number" min="1" max="9" step="1" value="1" name="quantity">
+      <div class="quantity-button quantity-up">+</div>
+    </div>
+  </div>
+
+  {% comment %} Recharge {% endcomment %}
+  <div class="subscribe-options">
+    {% if product.available %}{% include 'subscription-product' %}{% endif %} 
+  </div>
+  
+  <input 
+    type="submit" 
+    name="add" 
+    id="AddToCart" 
+    class="btn btn-primary"
+    value="Add to cart" />
+  <!-- Quantity Control END -->
+
+</form>

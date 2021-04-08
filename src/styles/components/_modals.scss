@@ -1,0 +1,52 @@
+#videoModal.modal {
+  .modal-dialog {
+    max-width: 100%;
+  }
+
+  .modal-content {
+    width: auto !important;
+    margin: auto;
+    background-color: transparent !important;
+    border: none !important;
+  }
+}
+
+.video__thumbnail {
+  position: relative;
+  cursor: pointer;
+  // flex-grow: 1;
+
+  .thumbnail-play-btn {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    svg {
+      fill: theme-color(primary);
+    }
+  }
+
+  &:hover .thumbnail-play-btn svg {
+    fill: theme-color(red);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}

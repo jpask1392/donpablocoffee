@@ -1,0 +1,35 @@
+ul.has-coffee-bean-bullets {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 2rem;
+
+  @include media-breakpoint-up(md) {
+    column-count: 2;
+  }
+
+  li {
+    position: relative;
+    padding-left: 2rem;
+
+    &::before {
+      content: url("data:image/svg+xml;utf8, <svg width='17' height='20' viewBox='0 0 17 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M16.0351 3.49532C15.9784 3.37095 15.8769 3.27271 15.7507 3.22032C15.6246 3.16793 15.4832 3.16527 15.355 3.21287C13.8218 3.78077 11.6223 5.04188 10.9561 7.70716C9.89988 11.9304 5.78236 13.1675 5.78236 13.1675C5.78236 13.1675 8.84581 11.3994 9.27997 7.10628C9.5776 4.17228 11.2769 2.52271 12.5845 1.67447C13.0024 1.40461 12.8608 0.756442 12.3707 0.685089C9.38236 0.246534 5.58787 2.32392 3.02451 6.08258C-0.154656 10.7442 -0.235578 16.2263 2.84425 18.3267C5.92408 20.4271 10.9986 18.3505 14.1777 13.6889C16.5906 10.1509 17.2183 6.14113 16.0351 3.49532Z' fill='%23DF9D3E'/></svg>");
+      position: absolute;
+      left: 0;
+      top: 0.15rem;
+      height: 1rem;
+      width: 1rem;
+    }
+
+    &:not(:last-of-type) {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+#shopify-section-about-us__clients {
+  ul.has-coffee-bean-bullets {
+    li {
+      font-weight: 700;
+    }
+  }
+}

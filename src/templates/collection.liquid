@@ -1,0 +1,52 @@
+{% assign collection_title = collection.title %}
+
+<div class="collections">
+  {% include 'include-page-header' %}
+  <div class="has-coffee-background">
+    <div class="collections-wrapper">
+      <div class="container">
+        <div class="row">
+          {% unless collection.description == blank %}
+          <div class="col-12">
+            <div class="collections__description">
+              {{ collection.description }}
+            </div>
+          </div>
+          {% endunless %}
+          
+          {% paginate collection.products by 20 %}
+          {% for product in collection.products %}
+            <div class="col-6 col-md-4 col-lg-3">
+              {% include 'product_tile' %}
+            </div>
+          {% else %}
+            <p>no matches</p>
+          {% endfor %}
+          {% if paginate.pages > 1 %}
+            {{ paginate | default_pagination }}
+          {% endif %}
+          {% endpaginate %}
+        </div>
+      </div>
+    </div>
+
+    {% if collection.metafields.arena.footer_content != blank %} 
+      <section class="collections__footer section">
+        <div class="rip-top">
+          {% include 'torn-element__top__02.svg' %}
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div>
+                {{collection.metafields.arena.footer_content}} 
+              </div>       
+            </div>
+          </div>
+        </div>
+      </section>
+    {% endif %}
+  </div>
+</div>
+
+{% include 'torn-element__collections.svg' %}

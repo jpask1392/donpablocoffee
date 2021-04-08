@@ -1,0 +1,57 @@
+.image-with-dual-text {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.index-image-with-dual-text {
+  position: relative;
+
+  .background-fade {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(theme-color(primary), 0.89);
+    z-index: 0;
+
+    @include media-breakpoint-up(md) {
+      width: 90%;
+    }
+
+    &--right {
+      right: 0;
+
+      @include media-breakpoint-up(md) {
+        background: linear-gradient(to left, rgba(theme-color(primary), 0.89) 51.25%, rgba(255, 255, 255, 0) 100%);
+      }
+    }
+
+    &--left {
+      left: 0;
+
+      @include media-breakpoint-up(md) {
+        background: linear-gradient(to right, rgba(theme-color(primary), 0.89) 51.25%, rgba(255, 255, 255, 0) 100%);
+      }
+    }
+  }
+
+  .index-image-with-dual-text-wrapper {
+    > .container {
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+#shopify-section-about-us__difference {
+  .background-fade {
+    transform: rotate(180deg);
+    width: 100%;
+  }
+
+  .rip-top {
+    svg {
+      fill: theme-color(grey);
+    }
+  }
+}

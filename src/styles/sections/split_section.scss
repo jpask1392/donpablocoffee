@@ -1,0 +1,21 @@
+.split-layout {
+  position: relative;
+  overflow: hidden; // needed for animations
+
+  &__image {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 85%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.about-us__roasting-wrapper {
+  background: linear-gradient(180deg, #FFFFFF 49.48%, #E1DBD3 100%);
+}

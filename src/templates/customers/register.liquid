@@ -1,0 +1,41 @@
+<div class="register container">
+  <div class="register__content-wrapper" style="justify-content: center;">
+    <div id="customer" class="register__content">
+      <div class="register__header">
+        <h2 class="section-title has-coffee-bean"><b>Sign Up</b></h2>
+      </div>
+      
+      <!-- /templates/customers/register.liquid -->
+      {% form 'create_customer' %} 
+      {{ form.errors | default_errors }}
+
+      <label class="sr-only" for="first_name">First Name</label>
+      <input type="text" placeholder="First Name" value="" name="customer[first_name]" size="30" required/>
+
+      <label class="sr-only" for="last_name">Last Name</label>
+      <input type="text" placeholder="Last Name" value="" name="customer[last_name]" size="30" required />
+
+      <label class="sr-only" for="email">Email Address</label>
+      <input type="email" placeholder="Enter your email" value="" name="customer[email]" size="30"  required/>
+
+      <label class="sr-only" for="password">Password</label>
+      <input
+        type="password" 
+        placeholder="Password" 
+        value="" 
+        name="customer[password]" 
+        size="30"
+        minlength="8" 
+        required
+      />
+
+      <input class="btn btn-primary" type="submit" value="Sign Up" />
+
+      {% endform %} 
+    
+
+    </div>
+
+  </div><!-- /layout-column-half-left" -->
+
+</div>

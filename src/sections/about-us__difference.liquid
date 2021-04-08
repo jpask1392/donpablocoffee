@@ -1,0 +1,195 @@
+{% if section.settings.show_section %}
+  {% include 'include-image-overlay-dual-text' %}
+{% endif %}
+
+{% schema %}
+{
+  "name": "Dual Paragraph",
+  "class": "index-image-with-dual-text",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_section",
+      "label": "Display Section",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "standard",
+      "options": [
+        {
+          "value": "standard",
+          "label": "Standard"
+        },
+        {
+          "value": "wide",
+          "label": "Wide"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "ripTop",
+      "label": "Rip Top",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "top__01",
+          "label": "Type One"
+        },
+        {
+          "value": "top__02",
+          "label": "Type Two"
+        },
+        {
+          "value": "top__03",
+          "label": "Type Three"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "ripBottom",
+      "label": "Rip Bottom",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "bottom__01",
+          "label": "Type One"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "alignContent",
+      "label": "Align Content",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top spacing",
+      "min": 0,
+      "max": 80,
+      "default": 0,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom spacing",
+      "default": 0,
+      "min": 0,
+      "max": 80,
+      "unit": "px"
+    },
+    {
+      "type": "select",
+      "id": "animation",
+      "label": "Animation",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "fadeIn",
+          "label": "Fade in"
+        },
+        {
+          "value": "fadeInDown",
+          "label": "Fade in down"
+        },
+        {
+          "value": "fadeInLeft",
+          "label": "Fade in left"
+        },
+        {
+          "value": "fadeInRight",
+          "label": "Fade in right"
+        },
+        {
+          "value": "slideInLeft",
+          "label": "Slide in left"
+        },
+        {
+          "value": "slideInRight",
+          "label": "Slide in right"
+        },
+        {
+          "value": "zoomIn",
+          "label": "Zoom in"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "headerOne",
+      "label": "Header One"
+    },
+    {
+      "type": "richtext",
+      "id": "paragraphOne",
+      "label": "Paragraph One"
+    },
+    {
+      "type": "text",
+      "id": "headerTwo",
+      "label": "Header Two"
+    },
+    {
+      "type": "richtext",
+      "id": "paragraphTwo",
+      "label": "Paragraph Two"
+    },
+    {
+      "type": "header",
+      "content": "Advanced"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ]
+}
+{% endschema %}

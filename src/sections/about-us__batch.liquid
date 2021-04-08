@@ -1,0 +1,229 @@
+{% assign type = "block" %}
+{% assign align = "image-right" %}
+
+{% if section.settings.show_section %}
+  {% for block in section.blocks %}
+    <div 
+      id="block-{{block.id}}" 
+      class="block block--{{ block.type }}"
+    >
+    {% case block.type %}
+      {% when 'rich_text' %}
+        {% include 'include-rich-text' %}
+      {% when 'video' %}
+        {% include 'include-video' %}
+      {% when 'text-with-image' %}
+        {% if align == "image-right" %}
+          {% assign align = "image-left" %}
+        {% else %}
+          {% assign align = "image-right" %}
+        {% endif %} 
+        {% include 'include-text-with-image', align: align %}
+    {% endcase %}
+    </div>
+  {% endfor %}
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Batch",
+    "class": "about-us-section about-us-batch coffee-background-bottom-corners",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_section",
+        "label": "Display Section",
+        "default": true
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "name": "Rich Text",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Heading"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Rich text"
+          },
+          {
+            "type": "select",
+            "id": "heading_alignment",
+            "label": "Heading alignment",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "justify",
+                "label": "Justify"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ],
+            "default": "left"
+          },
+          {
+            "type": "header",
+            "content": "Text"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "select",
+            "id": "text_alignment",
+            "label": "Text alignment",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "justify",
+                "label": "Justify"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ]
+          },
+          {
+            "type": "header",
+            "content": "Layout"
+          },
+          {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "md",
+        "options": [
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          }
+        ]
+      },
+          {
+            "type": "header",
+            "content": "Advanced"
+          },
+          {
+            "type": "text",
+            "id": "css_class",
+            "label": "CSS Class"
+          },
+          {
+            "type": "textarea",
+            "id": "custom_css",
+            "label": "Custom CSS"
+          }
+        ]
+      },
+      {
+        "type": "video",
+        "name": "Video",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Content"
+          },
+          {
+            "type": "video_url",
+            "id": "video_url",
+            "accept": [
+              "youtube",
+              "vimeo"
+            ],
+            "label": "Video Url"
+          }
+        ]
+      },
+      {
+        "type": "text-with-image",
+        "name": "Text With Image",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Content"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "select",
+            "id": "text_alignment",
+            "label": "Text alignment",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "justify",
+                "label": "Justify"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ]
+          },
+          {
+            "type": "header",
+            "content": "Advanced"
+          },
+          {
+            "type": "text",
+            "id": "css_class",
+            "label": "CSS Class"
+          },
+          {
+            "type": "textarea",
+            "id": "custom_css",
+            "label": "Custom CSS"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

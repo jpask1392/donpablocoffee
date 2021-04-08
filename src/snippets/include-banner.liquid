@@ -1,0 +1,57 @@
+{% comment %}
+  Snippet can be used in section or block
+  eg. {% include 'include-rich-text' %}
+{% endcomment %}
+
+{% comment %}Assign object as block or section{% endcomment %}
+{% if type == 'block' %}
+  {% assign object = block %}
+{% else %}
+  {% assign object = section %}
+{% endif %}
+
+{% assign id = object.id %}
+{% comment %}Heading{% endcomment %}
+{% assign title = object.settings.title %}
+{% assign heading_font = object.settings.heading_font %}
+{% assign heading_color = object.settings.heading_color %}
+{% assign heading_alignment = object.settings.heading_alignment %}
+{% comment %}Text{% endcomment %}
+{% assign text = object.settings.text %}
+{% assign text_alignment = object.settings.text_alignment %}
+{% assign icon = object.settings.icon %}
+{% comment %}Background{% endcomment %}
+{% assign background = object.settings.background_image %}
+{% comment %} Advanced {% endcomment %}
+{% assign css_class = object.settings.css_class %}
+{% assign custom_css = object.settings.custom_css %}
+
+{% comment %} HTML markup {% endcomment %}
+<div class="banner {{ css_class }}">
+  <div class="banner__bg-container">
+    <div class="banner__bg">
+      {% include 'responsive-image' with
+        image: background,
+        max_width: 99999,
+        max_height: 99999
+      %}
+    </div>
+  </div>      
+
+  <div class="banner__container">
+    <div class="banner__inner">
+      <div class="banner__content">
+      {% if title != blank %}
+        <h2 class="section-title title text-{{ heading_alignment }} has-coffee-bean">{{ title }}</h2>
+      {% endif %}
+
+      {% if text != blank %}
+        <div class="text-{{ text_alignment }} content">
+          {{ text }}
+          {% if icon %}<img src="{{ icon | img_url: "75x" }}">{% endif %}
+        </div>
+      {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

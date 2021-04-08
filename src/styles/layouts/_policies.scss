@@ -1,0 +1,13 @@
+.shopify-policy__container {
+  max-width: map-get($container-max-widths, lg) !important;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.shopify-policy__title {
+  margin-bottom: 3rem;
+
+  h1 {
+    @extend .has-coffee-bean;
+  }
+}

@@ -1,0 +1,50 @@
+.image-with-text-fullbleed {
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+  }
+
+  &__content-wrapper {
+    width: 100%;
+    align-self: center;
+    color: white;
+
+    @include media-breakpoint-up(lg) {
+      width: auto;
+      flex: 1;
+    }
+  }
+
+  &__content {
+    @include make-col-ready;
+
+    max-width: map-get($container-max-widths, md);
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    .section-title {
+      color: white;
+    }
+  }
+
+  &__image {
+    width: 100%;
+
+    @include media-breakpoint-up(lg) {
+      width: auto;
+      flex: 1;
+    }
+
+    .responsive-image__wrapper  {
+      height: 100%;
+      box-shadow: none !important;
+
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

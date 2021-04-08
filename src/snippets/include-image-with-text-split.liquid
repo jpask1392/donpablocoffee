@@ -1,0 +1,88 @@
+{% comment %}
+** Image with text **
+- Uses blocks
+{% endcomment %}
+
+{% assign id = section.id %}
+{% comment %} Layout {% endcomment %}
+{% assign show_gutter = section.settings.show_gutter %}
+{% assign width = section.settings.width %}
+{% assign padding_top = section.settings.padding_top %}
+{% assign padding_bottom = section.settings.padding_bottom %}
+{% assign animation = section.settings.animation %}
+{% comment %} Advanced {% endcomment %}
+{% assign css_class = section.settings.css_class %}
+{% assign custom_css = section.settings.custom_css %}
+
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+  #shopify-section-{{ id }} {
+    padding-top: {{ padding_top }}px;
+    padding-bottom: {{ padding_bottom }}px;
+  }
+  {% include 'css-loop', css: custom_css, id: id %}
+{% endstyle %}
+
+{% comment %} HTML markup {% endcomment %}
+<div class="container {% unless width == 'standard' %}container--{{ width }}{% endunless %}">
+  <div class="row">
+
+    {% if section.blocks.size > 0 %}
+      {% for block in section.blocks %}
+      
+      {% if forloop.length == 1 %}
+        {% assign column_width = 'col-12' %}
+      {% elsif forloop.length == 2 %}
+        {% assign column_width = 'col-md-6' %}
+      {% endif %}
+
+      {% if block.type == 'text' %}
+
+        <div class="image-with-text__text-column {{ column_width }}">
+          <div class="image-with-text__wrapper">
+
+            {% if block.settings.title != blank %}
+              <h3 class="section-title has-coffee-bean" >
+                {{ block.settings.title }}
+              </h3>
+            {% endif %}
+
+            {% if block.settings.text != blank %}
+              <div class="image-with-text__text text-{{ block.settings.alignment }} content">
+                {{ block.settings.text }}
+              </div>
+            {% endif %}
+
+            {% if block.settings.button_label != blank %}
+              <div class="buttons is-{{ block.settings.alignment }}">
+                {% include 'button', label: block.settings.button_label, href: block.settings.link, style: block.settings.button_style, type: "link" %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+
+      {% elsif block.type == 'image' %}
+        <div class="image-with-text__image-column {{ column_width }}">
+          {% if block.settings.image != blank %}
+          <div class="d-flex align-items-center h-100">
+          {% assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+            <img 
+              id="{{ img_id }}"
+              class="article__grid-image lazyload"
+              src="{{ block.settings.image | img_url }}"
+              data-src="{{ img_url }}"
+              data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+              data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+              data-sizes="auto"
+              alt="{{ block.settings.image.alt }}">
+          </div>
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+        </div>
+      {% endif %}
+
+    {% endfor %}
+  {% endif %}
+  </div>
+</div>

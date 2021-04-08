@@ -1,0 +1,349 @@
+/**
+ * Product page settings and plugins
+ */
+Shopify.theme.jsProduct = {
+  init: function init($section, product) {
+    this.customQuantity();
+    this.slick($section);
+    // this.productSelection(); // remove if variantSelector works
+    this.variantSelector($section, product);
+    this.videoPlayback();
+    this.$zoom($section);
+
+    $('#example').tooltip({
+      offset: 230,
+    })
+  },
+
+  /**
+   * Update quantity input when custom button clicked
+   * 
+   * @param {void}
+   * @returns {void}
+   */
+  customQuantity: function customQuantity() {
+    $('.quantity').each(function() {
+      var spinner = jQuery(this),
+        input = spinner.find('input[type="number"]'),
+        btnUp = spinner.find('.quantity-up'),
+        btnDown = spinner.find('.quantity-down'),
+        min = input.attr('min'),
+        max = input.attr('max');
+
+      btnUp.click(function() {
+        var oldValue = parseFloat(input.val());
+        if (oldValue >= max) {
+          var newVal = oldValue;
+        } else {
+          var newVal = oldValue + 1;
+        }
+        spinner.find("input").val(newVal);
+        spinner.find("input").trigger("change");
+      });
+
+      btnDown.click(function() {
+        var oldValue = parseFloat(input.val());
+        if (oldValue <= min) {
+          var newVal = oldValue;
+        } else {
+          var newVal = oldValue - 1;
+        }
+        spinner.find("input").val(newVal);
+        spinner.find("input").trigger("change");
+      });
+    });
+  },
+
+  /**
+   * Initialize slick slideshows on page
+   * 
+   * @param {void}
+   * @returns {void}
+   */
+  slick: function slick($section) {
+    
+      var arrowShape = 'M16.6757 0.309753L18.2286 1.86275C18.4359 2.06968 18.5393 2.30806 18.5393 2.57756C18.5393 2.8464 18.4359 3.08467 18.2286 3.29161L6.021 15.4998L18.2283 27.7075C18.4356 27.9146 18.539 28.1528 18.539 28.422C18.539 28.6913 18.4356 28.9296 18.2283 29.1365L16.6753 30.6893C16.4683 30.8966 16.23 31 15.9608 31C15.6917 31 15.4534 30.8963 15.2465 30.6893L0.771227 16.2143C0.564182 16.0074 0.460715 15.769 0.460715 15.4998C0.460715 15.2307 0.564182 14.9927 0.771227 14.7859L15.2465 0.309753C15.4535 0.102817 15.6918 3.78074e-06 15.9608 3.78395e-06C16.23 3.78716e-06 16.4683 0.102818 16.6757 0.309753Z';
+      var arrowPrev = '<a class="slick-arrow slick-prev"><svg width=30 height=30><path d="' + arrowShape + '"></path></svg><span class="sr-only">Previous</span></a>';
+      var arrowNext = '<a class="slick-arrow slick-next"><svg width=30 height=30><path d="' + arrowShape + '"></path></svg><span class="sr-only">Next</span></a>';
+
+      const $slide_images = $section.find('.product-images__featured');
+      $slide_images.slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        draggable: true,
+        // swipe: false,
+        // asNavFor: '.product-images__thumbnails',
+        fade: true,
+
+        adaptiveHeight: false
+      });
+
+      // const $slide_thumbnails = $section.find('.product-images__thumbnails');
+      // $slide_thumbnails.slick({
+      //   infinite: true,
+      //   slidesToShow: 3,
+      //   slidesToScroll: 1,
+      //   // asNavFor: '.product-images__featured',
+      //   prevArrow: arrowPrev,
+      //   nextArrow: arrowNext,
+      //   focusOnSelect: true,
+      // });
+
+      // $slide_thumbnails.slick('slickGoTo', 1);
+
+      // const $slide_images = $('.product-images__featured').slick({
+      //   slidesToShow: 1,
+      //   slidesToScroll: 1,
+      //   infinite: false,
+      //   // asNavFor: '.product-images__thumbnails',
+      //   responsive: [
+      //     {
+      //       breakpoint: 600,
+      //       prevArrow: arrowPrev,
+      //       nextArrow: arrowNext,
+      //       settings: {
+      //         dots: true
+      //       }
+      //     }
+      //   ]
+      // })
+
+      // const $slide_thumbnails = $('.product-images__thumbnails').slick({
+      //   infinite: false,
+      //   slidesToScroll: 1,
+      //   slidesToShow: 3,
+      //   // asNavFor: '.product-images__featured',
+      //   focusOnSelect: true,
+      //   draggable: true,
+      // })
+
+      // $slide_thumbnails.slick('slickFilter', '.show');
+
+
+    
+  },
+
+  /**
+   * Initialize zoom on slideshow product page
+   * 
+   * @param {$section}
+   * @returns {void}
+   */
+  $zoom: function $zoom($section) {
+    const $zoomTarget = $('.product-gallery__zoom-link')
+    // append zoomed image to target
+    $(document).ready(function(){
+      $zoomTarget.zoom({
+        magnify: 1.2,
+        on: 'click',
+        touch: false,
+        onZoomIn: function () {
+          $zoomTarget.addClass('is-zoomed')
+        },
+        onZoomOut: function () {
+          $zoomTarget.removeClass('is-zoomed')
+        }
+      });
+    });
+  },
+
+  variantSelector: function variantSelector($section, product) {
+    // update variants from radio buttons
+    $('.radio-btn-group#option1').find('input').on('change', function (e) {
+      var selectedVal = $(e.target).val();
+      $('.single-option-selector[data-option=option1]').val(selectedVal).change();
+    })
+
+    if ($('.radio-btn-group#option2').length) {
+      $('.radio-btn-group#option2').find('input').on('change', function (e) {
+        var selectedVal = $(e.target).val();
+        $('.single-option-selector[data-option=option2]').val(selectedVal).change()
+      })
+    }
+
+    if ($('.radio-btn-group#option3').length) {
+      $('.radio-btn-group#option3').find('input').on('change', function (e) {
+        var selectedVal = $(e.target).val();
+        $('.single-option-selector[data-option=option3]').val(selectedVal).change()
+      })
+    }
+
+    /**
+     * Function updates available options 
+     * by greying out non-available
+     * 
+     * Returns the updated selected option
+     * @param {String} variants all variants
+     * @param {Array} availableOptions 
+     * @return {String}
+     */
+    const updateAvialableOptions = (variants, selector) => {
+      // onchange, check current held combinations
+      // get selected options if they exist
+      let option1 = $('#option1').find('input:checked').val() || null;
+      let option2 = $('#option2').find('input:checked').val() || null;
+      let option3 = $('#option3').find('input:checked').val() || null;
+      let currentCombination = [];
+      if (option1) currentCombination.push(option1);
+      if (option2) currentCombination.push(option2);
+      if (option3) currentCombination.push(option3);
+
+      // format possible options in an array of option titles
+      // will have a maximum of  3 items in array
+      let possibleOptions = selector.selectors.map((selector) => selector.values);
+
+      let optionObj = {}
+      possibleOptions.forEach((possibleOption, index) => {
+        optionObj[index] = 'option' + (index + 1);
+      })
+
+      possibleOptions.forEach((possibleOption, index) => {
+        possibleOption.forEach((optionName, j) => {
+
+          let checkOptions = [];
+          for (let i = 0; i < possibleOptions.length; i++) {
+            checkOptions.push(i);
+          }
+          // store removed item to reference in loop
+          var removedItem = checkOptions.splice(index, 1);
+
+          let checks = {};
+          for (let i = 0; i < checkOptions.length; i++) {
+            checks[i] = variants.some((variant) => {
+              return (
+                variant[optionObj[removedItem[0]]] === optionName  && 
+                variant[optionObj[checkOptions[i]]] === currentCombination[checkOptions[i]]
+              )
+            });
+          }
+
+          // if all checks are true 
+          var allTrue = true;
+          for (const property in checks) {
+            if (!checks[property]) allTrue = false;
+          }
+
+          $('input[value="'+ optionName +'"]').prop("disabled", !allTrue);
+        })
+      })
+
+      // // should option 1 be available?
+      // // go through all option 1s
+      // possibleOptions[0].forEach((option1) => {
+      //   let available2 = false;
+      //   let available3 = false;
+
+      //   // is a combination avialable with option2?
+      //   available2 = variants.some((variant) => 
+      //     variant.option1 === option1 && 
+      //     variant.option2 === currentCombination[1]
+      //   )
+
+      //   // is a combination avialable with option3?
+      //   available3 = variants.some((variant) => 
+      //     variant.option1 === option1 && 
+      //     variant.option3 === currentCombination[2]
+      //   )
+
+      //   if (available2 && available3) {
+      //     // console.log(option1, ": available")
+      //     $('input[value="'+ option1 +'"]').prop("disabled", false)
+      //   } else {
+      //     // console.log(option1, ": not available")
+      //     $('input[value="'+ option1 +'"]').prop("disabled", true)
+      //   }
+      // })
+    }
+
+    const updateProductImage = (variant, selector) => {
+      let $slide_images = $section.find('.product-images__featured');
+
+      // console.log(variant.featured_image.id)
+
+      console.log($('[data-img-id="' + variant.featured_image.id + '"]').parent().parent().data('slick-index'));
+      let image_index = $('[data-img-id="' + variant.featured_image.id + '"]').parent().parent().data('slick-index');
+
+      $slide_images.slick('slickGoTo', parseInt(image_index));
+
+      // const images = selector.product.media.filter((image) => 
+      //   image.alt !== null && image.alt.includes(variant.option1) ||
+      //   image.alt === null
+      // );
+
+      // // $slide_thumbnails.slick('slickUnfilter');
+      // $slide_images.slick('slickUnfilter');
+
+      // $('.slick-slide').removeClass('show');
+      // images.forEach((image, i) => {
+      //   $('[data-slick-index=' + (image.position - 1) + ']').addClass('show');
+      // });
+
+      // // $slide_thumbnails.slick('slickFilter', '.show');
+      // $slide_images.slick('slickFilter', '.show');
+
+      // // $slide_thumbnails.slick('slickGoTo', 0);
+      // $slide_images.slick('slickGoTo', 0);
+    }
+
+    /**
+     * Callback function triggered when variant changed
+     * 
+     * @param variant 
+     * @param selector 
+     */
+    const selectCallback = (variant, selector) => { 
+
+      if (variant && variant.title !== "Default Title") {
+
+        // greys out unavailable options
+        updateAvialableOptions(selector.product.variants, selector);
+
+        if (variant.available) {
+          const formSelector = $('#AddToCartForm');
+
+          formSelector
+            .find('.price')
+            .html(Shopify.formatMoney(variant.price, "{{ shop.money_with_currency_format }}"));
+
+          updateProductImage(variant, selector);
+
+        } 
+      }
+    }
+
+    new Shopify.OptionSelectors("productSelect", { 
+      product: product, 
+      onVariantSelected: selectCallback 
+    });
+  },
+
+  videoPlayback: function videoPlayback() {
+    var videoURL;
+    var videoID;
+
+    $('span.thumbnail-play-btn').on('click', function () {
+      const itemData = $(this).parent();
+      const targetIframe = $('#videoIframe');
+      videoID = itemData.data('videoid')
+      videoURL = itemData.data('videourl')
+
+      // build URL to play video in Iframe
+      if (videoURL.includes('youtu')) {
+        // set modal iframe url
+        targetIframe.prop('src', `https://www.youtube.com/embed/${videoID}`)
+      }
+
+      if (videoURL.includes('vimeo')) {
+        targetIframe.prop('src', videoURL)
+      }
+
+      // slight delay to avoid flash when changing URL
+      setTimeout(function () {
+        $('#videoModal').modal('show')
+      }, 300)
+    })
+  }
+}
+
+// Shopify.theme.productPage.init(productData);

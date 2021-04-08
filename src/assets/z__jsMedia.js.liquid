@@ -1,0 +1,30 @@
+Shopify.theme.mediaPage = {
+  init: function init() {
+    var videoURL;
+    var videoID;
+
+    $('span.thumbnail-play-btn').on('click', function () {
+      const itemData = $(this).parent();
+      const targetIframe = $('#videoIframe');
+      videoID = itemData.data('videoid')
+      videoURL = itemData.data('videourl')
+
+      // build URL to play video in Iframe
+      if (videoURL.includes('youtu')) {
+        // set modal iframe url
+        targetIframe.prop('src', `https://www.youtube.com/embed/${videoID}`)
+      }
+
+      if (videoURL.includes('vimeo')) {
+        targetIframe.prop('src', videoURL)
+      }
+
+      // slight delay to avoid flash when changing URL
+      setTimeout(function () {
+        $('#videoModal').modal('show')
+      }, 300)
+    })
+  },
+}
+
+Shopify.theme.mediaPage.init()

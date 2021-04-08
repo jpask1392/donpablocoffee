@@ -1,0 +1,97 @@
+/**
+* HTML tag used to control global 
+* font sizes. The font size as a
+* percentage relates to the users
+* browsers set font size. Usually 16px.
+*/
+html {
+  font-size: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  main {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+  }
+}
+
+/**
+* Layouts
+*/
+
+.section-title + .rich-text__text,
+.section-title + p {
+  margin-top: 2rem;
+}
+
+.section {
+  padding-top: map-get($spacers, 4);
+  padding-bottom: map-get($spacers, 4);
+
+  @include media-breakpoint-up(md) {
+    padding-top: map-get($spacers, 6);
+    padding-bottom: map-get($spacers, 6);
+  }
+}
+
+.has-coffee-background {
+  background: theme-color(grey);
+  background-image: url('../assets/background.png');
+  background-size: 100%;
+  background-position-y: -100px;
+}
+
+.container--narrow {
+  max-width: 900px;
+  margin: auto;
+}
+
+.container--wide {
+  max-width: 1360px;
+  margin: auto;
+}
+
+.container--sm {
+  max-width: 750px;
+  margin: auto;
+}
+
+.is-background {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
+.custom-logo-link img {
+  height: 60px;
+  width: auto;
+}
+
+.company-number {
+  a:not(:last-of-type) {
+    position: relative;
+    padding-right: 10px;
+    margin-right: 10px;
+
+    &::after {
+      content: "";
+      width: 1px;
+      background: white;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+  }
+}
+
+.shopify-section {
+  position: relative;
+}

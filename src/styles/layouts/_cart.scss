@@ -1,0 +1,209 @@
+.cart {
+  padding-top: map-get($spacers, 5);
+  padding-bottom: map-get($spacers, 5);
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+
+  .cart-totals {
+    background-color: white;
+
+    &__summary,
+    &__discount,
+    &__actions,
+    &__total {
+      padding: map-get($spacers, 4);
+    }
+
+    &__summary {
+      
+    }
+
+    &__total {
+      background-color: rgba(theme-color(coffee-brown), 0.3);
+
+      .dcodeTable {
+        width: 100%;
+        display: table;
+        max-width: none;
+      }
+    }
+
+    &__discount {
+      background-color: rgba(theme-color(coffee-brown), 0.7);
+
+      #dcodeInnerWrapper {
+        display: flex;
+        flex-wrap: wrap;
+
+        .dcodeErrorMessage {
+          width: 100%;
+        }
+
+        input {
+          width: 100%;
+
+          @include media-breakpoint-up(md) {
+            width: auto;
+          }
+        }
+
+        @include media-breakpoint-up(md) {
+          // flex-wrap: wrap;
+        }
+      }
+
+      input#dcodeInput,
+      #dcodeSubmit {
+        border: 1px solid theme-color(primary);
+      }
+
+      input#dcodeInput {
+        padding: 0.5rem 2rem;
+        border-radius: 100px;
+        text-align: center;
+        margin-right: -2rem;
+
+        @include media-breakpoint-up(md) {
+          border-radius: 0;
+          border-top-left-radius: 100px;
+          border-bottom-left-radius: 100px;
+          text-align: left;
+          min-width: 0;
+          flex: 1;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      #dcodeSubmit {
+        padding: 0.5rem 2rem;
+        border-radius: 100px;
+        position: relative;
+        background-color: theme-color("primary");
+        color: white;
+        text-transform: uppercase;
+        white-space: nowrap;
+        display: block;
+        margin: auto;
+        margin-top: 1rem;
+
+        @include media-breakpoint-up(md) {
+          margin: 0;
+          margin-top: 0rem;
+        }
+      }
+    }
+
+    &__actions {
+      text-align: center;
+
+      input[type=submit] {
+        margin-bottom: map-get($spacers, 3);
+      }
+    }
+  }
+
+  .cart-title {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-family: "Abel-Regular";
+
+    &--sm {
+      font-size: 1.2rem;
+    }
+  }
+
+  .cart-list {
+    &__header {
+      margin-top: map-get($spacers, 4);
+      margin-bottom: map-get($spacers, 4);
+
+      .cart-title {
+        text-align: center;
+      }
+    }
+
+    &__row {
+      border-bottom: 1px solid theme-color(primary);
+      padding-bottom: map-get($spacers, 5);
+      margin-bottom: map-get($spacers, 5);
+
+      &:nth-child(2) {
+        border-top: 1px solid theme-color(primary);
+        padding-top: map-get($spacers, 5);
+      }
+
+      > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .cart-list__product {
+        img {
+          width: 100px;
+
+          @include media-breakpoint-up(md) {
+            width: 125px;
+          }
+        }
+
+        .summary {
+          @include media-breakpoint-up(md) {
+            flex: 1;
+          }
+
+          .section-title {
+            color: theme-color(red);
+          }
+        }
+      }
+
+      .cart-list__quantity {
+        margin: map-get($spacers, 4) 0;
+        
+        @include media-breakpoint-up(md) {
+          margin: 0;
+        }
+      }
+
+      .cart-list__total {
+
+      }
+    }
+  }
+}
+
+#free_shipping_alert {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: rgba(0, 0, 0, 0.03);
+  padding: 1rem;
+
+  p {
+    font-size: 1rem;
+  }
+
+  #progressbar {
+    height: 15px;
+    width: 100%;
+    position: relative;
+    border: 1px solid theme-color(primary);
+    border-radius: 100px;
+    overflow: hidden;
+    margin-top: 0.75rem;
+    margin-bottom: 10px;
+
+    .loader {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background: theme-color(primary);
+    }
+  }
+}

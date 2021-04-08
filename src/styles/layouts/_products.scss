@@ -1,0 +1,513 @@
+.tooltip-inner {
+  text-align: left;
+}
+
+.products {
+  &--merchandise {
+    .product-description {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 1.6rem;
+
+    b, strong {
+      font-size: 1.7rem;
+
+      @include media-breakpoint-up(md) {
+        font-size: 1.8rem;
+      }
+    }
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+      font-size: 2rem;
+    }
+  }
+
+  .call-to-order {
+    display: inline-block;
+    text-align: center;
+    padding: map-get($spacers, 4) 0;
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      width: auto;
+    }
+
+    .phone-number {
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    * {
+      display: block;
+    }
+  }
+
+  .product-images {
+    img {
+      width: 100%;
+    }
+
+    &__featured {
+      padding-top: map-get($spacers, 5);
+      padding-bottom: map-get($spacers, 5);
+      text-align: center;
+
+      .product-gallery__zoom-link {
+        cursor: zoom-in;
+
+        &.is-zoomed {
+          cursor: zoom-out;
+
+          #ProductPhotoImg {
+            opacity: 0;
+          }
+        }
+      }
+
+      .slick-arrow {
+
+        &.slick-next {
+          right: 0;
+
+          &::before {
+            content: none;
+          }
+        }
+      }
+
+      .slick-dots {
+        bottom: 0;
+        left: 0;
+
+        li button::before {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    &__thumbnails {
+      justify-content: center;
+
+      .thumbnail-wrapper {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        // cursor: pointer;
+
+        &:focus {
+          outline: none;
+        }
+
+        &__border {
+          padding: 1rem;
+          width: 150px;
+          height: 150px;
+          margin: 0 15px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+
+    .slick-slide.slick-current {
+      .thumbnail-wrapper__border {
+        border: 1px solid black;
+      }
+    }
+  }
+
+  #AddToCartForm {
+    input#AddToCart {
+      display: block;
+      margin: auto;
+
+      @include media-breakpoint-up(md) {
+        margin: 0;
+      }
+    }
+
+    .title-review-wrapper {
+      display: flex;
+      padding-right: 2rem;
+      padding-left: 2rem;
+
+      @include media-breakpoint-up(md) {
+        padding-left: 0;
+        padding-right: 0;
+        display: block;
+      }
+
+      .price {
+        flex: 1;
+        font-size: $h2-font-size;
+        text-align: right;
+
+        @include media-breakpoint-up(md) {
+          text-align: left;
+        }
+      }
+    }
+
+    .quantity {
+      .quantity-nav {
+        width: 200px;
+        justify-content: center;
+
+        @include media-breakpoint-up(md) {
+          justify-content: flex-start;
+        }
+      }
+
+      label {
+        width: 100%;
+      }
+
+      input[type=number] {
+        flex: 1;
+        margin: 0;
+        border-radius: 0;
+      }
+    }
+
+    .subscribe-options {
+      padding: map-get($spacers, 5) 0;
+      text-align: center;
+
+      @include media-breakpoint-up(md) {
+        text-align: left;
+      }
+
+      .rc_popup {
+        &__block {
+          min-width: 400px;
+          left: -10px;
+
+          &::before {
+            left: 10px;
+          }
+        }
+      }
+
+      #rc_container {
+        margin-bottom: 0;
+      }
+
+      .rc_block.rc_block__type {
+        padding: 0;
+
+        label.rc_label {
+          color: #676767;
+        }
+
+        &--active {
+          background: transparent;
+
+          label.rc_label {
+            color: black;
+          }
+        }
+
+        .custom-radio-btn-wrapper {
+          text-transform: uppercase;
+        }
+      }
+
+      .rc_block__type__autodeliver {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        #rc_autodeliver_options {
+          width: 100%;
+        }
+      }
+
+      label {
+        display: inline-block; 
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 0;
+        cursor: pointer;
+        user-select: none;
+
+        input[type=radio] {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0;
+
+          &:checked ~ .checkmark {
+            border: theme-color(primary) 2px solid;
+          }
+
+          &:checked ~ .checkmark:after {
+            display: block;
+          }
+        }
+
+        &:hover input ~ .checkmark {
+          background-color: #ccc;
+        }
+
+        .checkmark {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          height: 22px;
+          width: 22px;
+          background-color: #eee;
+          border-radius: 50%;
+          transform: translateY(-50%);
+          border: theme-color(primary) 2px solid;
+
+          &:after {
+            content: "";
+            position: absolute;
+            display: none;
+            top: 9px;
+            left: 9px;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            background: theme-color(primary);
+          }
+        }
+      }
+    }
+
+    .radio-btn-group {
+      margin-bottom: -1rem;
+      padding-bottom: map-get($spacers, 3);
+
+      &:first-of-type {
+        padding-top: map-get($spacers, 3);
+      }
+
+      @include media-breakpoint-up(md) {
+
+      }
+    
+      &__title {
+        font-weight: 800;
+        margin-bottom: 1rem;
+        text-align: center;
+
+        @include media-breakpoint-up(md) {
+          text-align: left;
+        }
+      }
+    
+      .label-wrapper {
+        margin-bottom: map-get($spacers, 4);
+        min-height: 70px;
+
+        .variant-selector {
+          display: inline-flex;
+          line-height: 1.2;
+          height: 100%;
+          width: 100%;
+          padding: 0.5rem 2rem;
+          background-color: #E7D5BD;
+          border-radius: 100px;
+          text-align: center;
+          text-transform: uppercase;
+          cursor: pointer;
+          transition: all 0.3s;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+
+          &__price {
+            width: 100%;
+            font-weight: 700;
+          }
+        }
+        
+        input[type="radio"] {
+          display: none;
+        
+          &:checked + label {
+            background-color: theme-color(brown);
+            color: white;
+          }
+
+          &:disabled ~ .variant-selector {
+            background-color: lightgrey;
+            opacity: 0.5;
+            color: black;
+            cursor: no-drop;
+          }
+        }
+      }
+    }
+
+    // #option1 {
+    //   margin-bottom: 0;
+
+    //   @include media-breakpoint-up(md) {
+    //     margin-bottom: 1.75rem;
+    //   }
+    // }
+  }
+}
+
+.product-information {
+  .section-title {
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+  }
+
+  &__coffee-facts {
+    .coffee-facts-table-wrapper {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .coffee-facts-table {
+      height: 100%;
+      padding-top: map-get($spacers, 5);
+      padding-bottom: map-get($spacers, 5);
+
+      @include media-breakpoint-up(md) {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      &__icons {
+        text-align: center;
+        margin-top: map-get($spacers, 4);
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include media-breakpoint-up(md) {
+          max-width: none;
+        }
+
+        .icon-wrapper {
+          margin: 1rem;
+        }
+      }
+
+      svg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        fill: theme-color("coffee-brown");
+        z-index: -1;
+        padding: 15px;
+
+        @include media-breakpoint-up(md) {
+          padding: 0;
+        }
+      }
+
+      .section-title {
+        text-align: center;
+        margin-bottom: 1.75rem;
+      }
+
+      table {
+        margin: auto;
+        max-width: 300px;
+
+        tr {
+          > td:first-of-type {
+            font-weight: 700;
+          }
+
+          td {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+
+  &__text-video {
+    video {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__water-info {
+
+  }
+}
+
+.water-information {
+  position: relative;
+
+  .section-title {
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+  }
+
+  &::before {
+    content: "";
+    background: rgba(theme-color(primary), 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    @include media-breakpoint-up(md) {
+      background: linear-gradient(270deg, #DF9D3E 51.25%, rgba(255, 255, 255, 0) 100%);
+    }
+  }
+}
+
+.selector-wrapper {
+  display: none;
+}
+
+.product-video-section {
+  &__text {
+    @include make-col-ready();
+
+    @include media-breakpoint-up(md) {
+      @include make-col(6);
+    }
+
+    &--full-width {
+      @include make-col(12);
+    }
+
+    // https://player.vimeo.com/video/279366663
+  }
+
+  &__video {
+    @include make-col-ready();
+
+    @include media-breakpoint-up(md) {
+      @include make-col(6);
+    }
+
+    &--full-width {
+      @include make-col(12);
+      margin: auto;
+      max-width: 900px;
+    }
+  }
+}

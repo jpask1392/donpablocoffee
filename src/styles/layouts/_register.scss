@@ -1,0 +1,36 @@
+.register {
+  @include make-container();
+
+  max-width: 1140px;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+
+  &__header {
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+
+    .header-text {
+      // font-family: $font-family-serif;
+    }
+  }
+
+  &__content-wrapper {
+    @include make-row();
+  }
+
+  &__content {
+    @include make-col-ready();
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: auto;
+
+      input:not([type=submit]) {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

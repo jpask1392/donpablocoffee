@@ -1,0 +1,35 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+.banner {
+  position: sticky;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px 0;
+  transition: all 0.3s;
+
+  &.has-scrolled {
+    background-color: white;
+  }
+}
+
+.announcement-bar {
+  padding: 1rem;
+  
+  @include media-breakpoint-up(md) {
+    padding: 0.25rem;
+  }
+
+  &__message {
+    @include media-breakpoint-up(md) {
+      text-align: center;
+    }
+  }
+}

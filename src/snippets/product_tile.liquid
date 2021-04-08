@@ -1,0 +1,55 @@
+{% comment %}
+  Find variant ID based on meta title
+{% endcomment %}
+{% assign variant_id = "" %}
+{% assign image_url = product.featured_image.src %}
+{% assign image_alt = product.featured_image.alt %}
+{% assign price = product.price %}
+{% if template.name == "collection" %}
+  {% assign switch = false %}
+  {% for variant in product.variants %}
+    {% for option in variant.options %}
+      {% if collection.metafields.arena.variant_redirect contains option %}
+        {% assign switch = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% if switch %}
+      {% assign variant_id = variant.id %}
+      {% assign image_url = variant.featured_image.src %}
+      {% assign image_alt = variant.featured_image.alt %}
+      {% assign price = variant.price %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<div class="product-tile">
+  <div class="product-tile__image">
+    <a href="{{ product.url }}{% if variant_id != blank %}?variant={{variant_id}}{% endif %}">
+    <img 
+      src="{{ image_url | img_url: '400x' }}" 
+      alt="{{ image_alt | escape }}">
+    </a>
+  </div>
+  <div class="product-tile__title dpc-font-md">
+    <a href="{{ product.url  }}">{{ product.title }}</a>
+  </div>
+  <div class="product-tile__price text-center">
+    {% if product.price_min == product.price_max %}
+      {{ price | money }}
+    {% else %}
+      {{ product.price_min | money }} - {{ product.price_max | money }}
+    {% endif %}
+  </div>
+  {% if product.variants.size > 1 %}
+    <a class="btn btn-primary btn-block" href="{{ product.url }}{% if variant_id != blank %}?variant={{variant_id}}{% endif %}">
+      View Options
+    </a>
+  {% else %} 
+    <a class="btn btn-primary btn-block" href="/cart/add?id={{ product.variants[0].id }}&quantity=1">
+      Add To Cart
+    </a>
+  {% endif %}
+  {% unless product.available %}<br><strong>sold out</strong>{% endunless %}
+</div>

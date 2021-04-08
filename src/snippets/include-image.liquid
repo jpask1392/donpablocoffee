@@ -1,0 +1,51 @@
+{% comment %}Assign object as block or section{% endcomment %}
+{% if type == 'block' %}
+  {% assign object = block %}
+{% else %}
+  {% assign object = section %}
+{% endif %}
+
+{% assign id = object.id %}
+{% comment %} Content {% endcomment %}
+{% assign image_1 = object.settings.image_1 %}
+{% assign image_2 = object.settings.image_2 %}
+
+{% comment %} Advanced {% endcomment %}
+{% assign css_class = object.settings.css_class %}
+{% assign custom_css = object.settings.custom_css %}
+
+<div class="image-block">
+  <div class="image-block__inner">
+
+    {% comment %} Single Image {% endcomment %}
+    {% if image_1 %}
+      {% unless image_2 %}
+        <div class="image-block__single">
+          {% include 'responsive-image' with
+            image: image_1,
+            max_width: 1360,
+            max_height: 99999
+          %}
+        </div>
+      {% endunless %}
+    {% endif %}
+
+    {% if image_1 and image_2 %}
+      <div class="image-block__double">
+        {% include 'responsive-image' with
+          image: image_1,
+          max_width: 764,
+          max_height: 99999
+        %}
+      </div>
+      <div class="image-block__double">
+        {% include 'responsive-image' with
+          image: image_2,
+          max_width: 764,
+          max_height: 99999
+        %}
+      </div>
+    {% endif %}
+
+  </div>
+</div>

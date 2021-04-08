@@ -1,0 +1,57 @@
+.quantity {
+  position: relative;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  width: 100px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border: 2px solid theme-color("primary");
+  flex: 1;
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  position: relative;
+  display: flex;
+  height: 50px;
+  // margin-bottom: map-get($spacers, 3);
+}
+
+.quantity-button {
+  cursor: pointer;
+  // border-left: 1px solid #eee;
+  width: 50px;
+  text-align: center;
+  color: white;
+  user-select: none;
+  background-color: theme-color("primary");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity-button.quantity-down {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.quantity-button.quantity-up {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}

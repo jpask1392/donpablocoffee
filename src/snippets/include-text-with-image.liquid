@@ -1,0 +1,42 @@
+{% comment %}
+  Snippet can be used in section or block
+  eg. {% include 'include-rich-text' %}
+{% endcomment %}
+
+{% comment %}Assign object as block or section{% endcomment %}
+{% if type == 'block' %}
+  {% assign object = block %}
+{% else %}
+  {% assign object = section %}
+{% endif %}
+
+{% assign id = object.id %}
+{% comment %}Heading{% endcomment %}
+{% assign title = object.settings.title %}
+{% assign heading_alignment = object.settings.heading_alignment %}
+{% assign heading_size = object.settings.heading_size %}
+{% comment %}content{% endcomment %}
+{% assign text = object.settings.text %}
+{% assign text_alignment = object.settings.text_alignment %}
+{% assign image = object.settings.image %}
+{% comment %}Background{% endcomment %}
+{% assign background = object.settings.background %}
+{% assign gradient = object.settings.gradient %}
+{% comment %} Advanced {% endcomment %}
+{% assign css_class = object.settings.css_class %}
+{% assign custom_css = object.settings.custom_css %}
+
+<div class="text-with-image {{ css_class }}" data-align="{{ align }}">
+  <div class="text-with-image__inner">
+    <div class="text-with-image__text">
+      {{ text }}
+    </div>
+    <div class="text-with-image__image">
+      {% include 'responsive-image' with
+        image: image,
+        max_width: 1020,
+        max_height: 1020
+      %}
+    </div>
+  </div>
+</div>

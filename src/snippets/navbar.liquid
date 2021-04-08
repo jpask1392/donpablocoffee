@@ -1,0 +1,126 @@
+{% if is_scrolled %}
+  {% assign logo_max_width = 100 %}
+{% else %}
+  {% assign logo_max_width = 250 %}
+{% endif %}
+
+<nav 
+  class="navbar navbar-expand-lg navbar-light" 
+  data-is-scroll={{ is_scrolled }}>
+  <div class="navbar-container">
+  
+  {% comment %} Set a logo image if one is selected {% endcomment %}
+  {% if section.settings.logo %}
+    <a href="{{ routes.root_url }}" class="site-header__logo-image">
+      {% include 'responsive-image' with
+          image: section.settings.logo,
+          max_width: logo_max_width,
+          max_height: 99999
+      %}
+
+      <noscript>
+        {% capture image_size %}{{ section.settings.logo_max_width | escape }}x{% endcapture %}
+        <img 
+          src="{{ section.settings.logo | img_url: image_size }}"
+          srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
+          alt="{{ section.settings.logo.alt | default: shop.name }}"
+          style="max-width: {{ section.settings.logo_max_width }}px;">
+      </noscript>
+    </a>
+  {% else %}
+    <a 
+      class="site-header__logo-link" 
+      href="{{ routes.root_url }}">
+      {{ shop.name }}
+    </a>
+  {% endif %}
+
+{% comment %} Main navigation list {% endcomment %}
+<div 
+  class="collapse navbar-collapse navbar__primary-nav" 
+  id="{% if is_scrolled %}NavAfterScroll{% else %}NavBeforeScroll{% endif %}">
+  <ul class="navbar-nav m-auto">
+    
+    {% for link in linklists[section.settings.main_linklist].links %}
+      {% assign child_list_handle = link.title | handleize %}
+      {% if linklists[child_list_handle].links != blank %}
+        <li class="menu-item">
+          <div class="menu-item__controls">
+            <a 
+              href="{{ link.url }}" 
+              class="nav-link {% if link.url == '#' %}nav-link--disable-click{% endif %}" 
+              id="navbarDropdown" 
+            >
+              {{ link.title }}
+            </a>
+
+            {% assign id = link.title | downcase | replace: " ", "" %}
+            <a 
+              class="navbar-toggler" 
+              type="button" 
+              data-toggle="collapse"
+              data-target="#{{ id }}"
+            >
+              {% include settings.icon, name: 'chevron-right' %}
+            </a>
+          </div>
+
+          <ul class="sub-menu collapse" id="{{id}}">
+            {% for childlink in linklists[child_list_handle].links %}
+              <a 
+                class="nav-link" 
+                href="{{ childlink.url }}">
+                <li class="menu-item">
+                  {{ childlink.title | escape }}
+                </li>
+              </a>
+            {% endfor %}
+          </ul>
+          
+        </li>
+      {% else %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+  </ul>
+</div>
+
+  <div class="navbar__action-group">
+    <div class="navbar__phone-number">
+      <div class="phone-number">
+        <a href="tel:{{shop.phone}}">
+          {% include settings.icon, name: 'phone' %} 
+          <span class="{% if is_scrolled %} d-md-none {% endif %}">{{shop.phone}}</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="navbar__actions">
+      {% if shop.customer_accounts_enabled %}
+        <a href="/account{% unless customer %}/login{% endunless %}">{% include settings.icon, name: 'user' %}</a>
+      {% endif %}
+      <a href="/cart">
+        <div class="header-cart">
+          <span class="header-cart__badge-count">{{cart.item_count}}</span>
+          {% include settings.icon, name: 'cart' %}
+        </div>
+      </a>
+      
+      {% comment %} Button to display on small screens {% endcomment %}
+      <a 
+        class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="{% if is_scrolled %}#NavAfterScroll{% else %}#NavBeforeScroll{% endif %}" 
+        aria-controls="{% if is_scrolled %}NavAfterScroll{% else %}NavBeforeScroll{% endif %}" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        {% include settings.icon, name: 'menu-button' %}
+      </a>
+    </div>
+  </div>
+</div>
+</nav>

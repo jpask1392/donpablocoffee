@@ -1,0 +1,183 @@
+{% section 'product__primary' %}
+
+<!-- Product further information -->
+<div class="product-information">
+  <section class="container section product-information__coffee-facts">
+    <div class="row">
+      <div class="col-md-6">
+        {{product.content}}
+      </div>
+      <div class="col-md-6 my-4 my-md-0 coffee-facts-table-wrapper">
+        <div class="coffee-facts-table">
+          {% include 'torn-element__product-page.svg' %}
+          <h3 class="section-title has-coffee-bean">{{product.metafields.arena.further_content_title}}</h3>
+          <!-- Coffee<br><b>Facts</b> -->
+
+          {{product.metafields.arena.further_content}}
+
+          {% comment %}
+          <table>
+            {% capture coffee_facts_meta_list %}country,region,grind,roast,organic,decaf,low-acid{% endcapture %}
+            {% assign coffee_facts_meta = coffee_facts_meta_list | split: "," %}
+            {% for item in coffee_facts_meta %}
+              <tr>
+                <td>{{ item | replace: '-', ' ' | capitalize }}:</td>
+                <td>{{product.metafields.coffeeFacts[item]}}</td>
+              </tr>
+            {% endfor %}
+          </table>
+          {% endcomment %}
+          <div class="coffee-facts-table__icons">
+            {% for image in product.metafields.arena.certificate-icons %}
+              <span class="icon-wrapper">
+                <img src="{{ image }}" alt="">
+              </span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% assign display_section = true %}
+  {% if product.metafields.arena.section-2-text-top == blank and product.metafields.arena.video_url == blank %}
+    {% assign display_section = false %}
+  {% endif %}
+
+  {% if display_section %}
+    <section class="container section product-information__text-video pt-0">
+      <div class="row">
+        {% assign video_text_class = "" %}
+        {% assign video_class = "" %}
+
+        {% if product.metafields.arena.section-2-text-top != blank and product.metafields.arena.video_url == blank %}
+          {% assign video_text_class = " product-video-section__text--full-width" %}
+        {% endif %}
+
+        {% if product.metafields.arena.section-2-text-top == blank and product.metafields.arena.video_url != blank %}
+          {% assign video_class = " product-video-section__video--full-width" %}
+        {% endif %}
+
+        {% unless product.metafields.arena.section-2-text-top == blank %}
+          <div class="product-video-section__text{{video_text_class}}">
+            {{product.metafields.arena.section-2-text-top}}
+          </div>
+        {% endunless %}
+
+        {% unless product.metafields.arena.video_url == blank %}
+        <div class="product-video-section__video{{video_class}}">
+          {% assign videoURL = product.metafields.arena.video_url %}
+          {% comment %} determine if youtube or vimeo {% endcomment %}
+          {% if videoURL contains 'vimeo' %}
+            {% assign videoID = videoURL | slice:31, 100 %}
+            <script>
+              // vimeo requires an api call to 
+              // get the videos thumbnail image
+              $.ajax({
+                url: 'https://vimeo.com/api/v2/video/{{videoID}}.json',
+                success: function (data) {
+                  const imageNode = `<img src="${data[0].thumbnail_large}"></img>`;
+                  $('#thumbnailID_{{videoID}}').html(imageNode);
+                  $('.thumbnail-play-btn').show();
+                }
+              });
+            </script>
+          {% elsif videoURL contains 'youtu.be' %}
+            {% assign videoID = videoURL | slice:17, 100 %}
+          {% elsif videoURL contains 'youtube.com' %}
+            {% assign videoID = videoURL | split: '?v=' | last %}
+          {% endif %}
+
+          <div 
+            class="video__thumbnail" 
+            data-toggle="modal" 
+            data-videoID={{videoID}}
+            data-videoURL={{videoURL}}>
+            <span class="thumbnail-play-btn" {% if videoURL contains 'vimeo' %} style="display: none;"{% endif %}>
+              <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32.5 4.81264e-09C14.5784 2.15879e-09 -1.03672e-08 14.5798 -2.31097e-08 32.5C-3.58522e-08 50.4202 14.5784 65 32.5 65C50.4216 65 65 50.4202 65 32.5C65 14.5798 50.4216 7.46649e-09 32.5 4.81264e-09ZM45.4201 33.6386L26.4619 45.8261C26.2397 45.9702 25.9831 46.0417 25.7292 46.0417C25.507 46.0417 25.2822 45.9861 25.0812 45.8764C24.6448 45.6384 24.375 45.1834 24.375 44.6875L24.375 20.3125C24.375 19.8166 24.6448 19.3616 25.0812 19.1236C25.5097 18.8882 26.0466 18.9027 26.4619 19.1739L45.4201 31.3614C45.8063 31.6099 46.0417 32.0398 46.0417 32.5C46.0417 32.9602 45.8063 33.3899 45.4201 33.6386Z"/>
+              </svg>
+            </span>
+            <div id="thumbnailID_{{videoID}}">
+              {% if videoURL contains 'vimeo' %}
+                <div class="spinner-wrapper">
+                  <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg>
+                </div>
+              {% else %}
+                <img src="https://img.youtube.com/vi/{{videoID}}/sddefault.jpg">
+              {% endif %}
+            </div>
+          </div>
+
+        </div>
+        {% endunless %}
+
+        {% unless product.metafields.arena.section-2-text-bottom == blank %}
+          <div class="col-12 pt-5">
+            {{product.metafields.arena.section-2-text-bottom}}
+          </div>
+        {% endunless %}
+      </div>
+
+    </section>
+  {% endif %}
+</div>
+<!-- Product further information END -->
+
+<!-- Product water information -->
+{% assign product_title = product.title | downcase %}
+{% if product_title contains 'decaf' %}
+<section 
+  class="water-information section"
+  style="background-image: url({{'product__water-information.jpg' | asset_url}});">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-6">
+        <h2 class="section-title has-coffee-bean">
+          COLOMBIAN SWISS WATER PROCESS<br>
+          <b>DECAF COFFEE</b>
+        </h2> 
+        <p>Don Pablo first started growing coffee in the lush hills of Colombia – so our Colombian coffee is one of our specialties, and our world famous Colombian Decaf is no exception. These exceptional beans are decaffeinated with the all-natural Swiss Water® Process, using nothing but pure water to gently rinse the beans of their caffeine content without disrupting their natural flavor. This process ensures the beans are guaranteed to be 99.9% caffeine free. Then, we put them through our artisan small-batch roasting process to slightly caramelize the coffee’s natural sugars to add a light roastiness and malt to a naturally smooth, sweet coffee. The result is a sweet, rich, and oh-so-smooth low-acid coffee that tastes just like you hoped it would – without the caffeine content!
+          Don Pablo Colombian Decaf is available in Medium Dark, and Light Roast. 100% Arabica Coffee, GMO free.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- Product water information END -->
+
+<!-- Product reviews -->
+<div class="container py-5">
+  <div class="row">
+    <div 
+      class="yotpo yotpo-main-widget" 
+      data-product-id="{{ product.id }}" 
+      data-name="{{ product.title | escape }}" 
+      data-url="{{ shop.url }}{{ product.url }}" 
+      data-image-url="{{ product.featured_image | product_img_url: "large" |replace: '?', '%3F' | replace: '&','%26'}}" 
+      data-description="{{ product.description | escape }}">
+    </div>
+  </div>
+</div>
+<!-- Product reviews END -->
+
+<!-- Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <iframe 
+        id="videoIframe"
+        src=""
+        width="800" height="500"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<script>const productData = {{ product | json }};</script>
+<script defer src="{{ 'z__jsProduct.js' | asset_url }}"></script>

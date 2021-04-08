@@ -1,0 +1,129 @@
+// ============================
+// SHOPIFY API REQUESTS
+// ============================
+Shopify.API = Shopify.API || {};
+
+Shopify.API.getProductByHandle = async (handleName) => {
+  const response = await $.getJSON(`/products/${handleName}.js`);
+  return response;
+}
+
+Shopify.API.checkDiscountCode = async (submittedCode) => {
+  const response = await $.getJSON(`/admin/discount_codes/lookup.json?code=${submittedCode}`);
+  return response;
+}
+
+Shopify.API.updateCartQuantity = (itemId, successCallback) => {
+  $.ajax({
+    type: "POST",
+    url: "/cart/change.js",
+    data: {
+      id: itemId,
+      quantity: parseInt($("#updates_" + itemId).val(), 10) || 0
+    },
+    dataType: "json",
+    success: successCallback
+  })
+}
+
+// ============================
+// THEME SPECIFIC
+// ============================
+
+/**
+ * Settings for main navigation 
+ */
+Shopify.theme.navigation = {
+  init: () => {
+    let el = $('#shopify-section-header');
+    let bottom_of_el = el.position().top + el.height();
+    let nav = $('.navbar[data-is-scroll=true]');
+
+    $(window).on("scroll", () => {
+      if (window.scrollY >= bottom_of_el && !nav.hasClass('has-scrolled')) {
+        nav.addClass('has-scrolled')
+      } else if (window.scrollY <= bottom_of_el && nav.hasClass('has-scrolled')) {
+        nav.removeClass('has-scrolled')
+      }
+    });
+
+    $('.sub-menu').on('show.bs.collapse', function () {
+      $(this).parent().addClass('active');
+    });
+
+    $('.sub-menu').on('hidden.bs.collapse', function () {
+      $(this).parent().removeClass('active');
+    });
+  } 
+}
+
+/**
+ * Slick slideshow plugin settings
+ */
+Shopify.theme.slick = {
+  init: () => {
+    var arrowShape = 'M16.6757 0.309753L18.2286 1.86275C18.4359 2.06968 18.5393 2.30806 18.5393 2.57756C18.5393 2.8464 18.4359 3.08467 18.2286 3.29161L6.021 15.4998L18.2283 27.7075C18.4356 27.9146 18.539 28.1528 18.539 28.422C18.539 28.6913 18.4356 28.9296 18.2283 29.1365L16.6753 30.6893C16.4683 30.8966 16.23 31 15.9608 31C15.6917 31 15.4534 30.8963 15.2465 30.6893L0.771227 16.2143C0.564182 16.0074 0.460715 15.769 0.460715 15.4998C0.460715 15.2307 0.564182 14.9927 0.771227 14.7859L15.2465 0.309753C15.4535 0.102817 15.6918 3.78074e-06 15.9608 3.78395e-06C16.23 3.78716e-06 16.4683 0.102818 16.6757 0.309753Z';
+    var arrowPrev = '<a class="slick-arrow slick-prev"><svg width=30 height=30><path d="' + arrowShape + '"></path></svg><span class="sr-only">Previous</span></a>';
+    var arrowNext = '<a class="slick-arrow slick-next"><svg width=30 height=30><path d="' + arrowShape + '"></path></svg><span class="sr-only">Next</span></a>';
+
+    $(document).ready(function(){
+      $('.index-hero-section__slideshow').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        prevArrow: arrowPrev,
+        nextArrow: arrowNext,
+      })
+
+      $('.index-reviews-section__slideshow').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        prevArrow: arrowPrev,
+        nextArrow: arrowNext,
+        appendArrows: '.arrows'
+      })
+    })
+  } 
+}
+
+/**
+ * Update quantity input when custom button clicked
+ * 
+ * @param {void}
+ * @returns {void}
+ */
+Shopify.theme.customQuantity = {
+  init: () => {
+    $('.quantity').each(function() {
+      var spinner = jQuery(this),
+        input = spinner.find('input[type="number"]'),
+        btnUp = spinner.find('.quantity-up'),
+        btnDown = spinner.find('.quantity-down'),
+        min = input.attr('min'),
+        max = input.attr('max');
+    
+      btnUp.click(function() {
+        var oldValue = parseFloat(input.val());
+        if (oldValue >= max) {
+          var newVal = oldValue;
+        } else {
+          var newVal = oldValue + 1;
+        }
+        spinner.find("input").val(newVal);
+        spinner.find("input").trigger("change");
+      });
+    
+      btnDown.click(function() {
+        var oldValue = parseFloat(input.val());
+        if (oldValue <= min) {
+          var newVal = oldValue;
+        } else {
+          var newVal = oldValue - 1;
+        }
+        spinner.find("input").val(newVal);
+        spinner.find("input").trigger("change");
+      });
+    });    
+  }
+}

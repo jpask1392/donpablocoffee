@@ -1,0 +1,11 @@
+.breadcrumb-navigation {
+  span[aria-hidden="true"] {
+    margin: 0 1rem;
+    font-size: 1.4rem;
+    color: theme-color("primary");
+  }
+
+  a {
+    color: black;
+  }
+}

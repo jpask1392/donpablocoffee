@@ -1,0 +1,21 @@
+// see _variables.scss for more custom button styles
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: none;
+}
+
+.btn {
+  text-transform: uppercase;
+
+  &-primary {
+    color: white;
+  }
+}
+
+#AddToCart.btn.btn-primary,
+input[name=checkout].btn.btn-primary {
+  background-color: theme-color(green);
+  border-color: theme-color(green);
+}

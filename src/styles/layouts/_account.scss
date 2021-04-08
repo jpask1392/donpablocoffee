@@ -1,0 +1,55 @@
+.account {
+  @include make-container();
+
+  max-width: 1140px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  &__header {
+    text-align: center;
+    padding-bottom: 3rem;
+
+    .header-text {
+      
+    }
+  }
+
+  &__subheaders {
+    margin-bottom: 1rem;
+  }
+
+  &__content {
+    @include make-row();
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+  }
+
+  &__order-history {
+    @include make-col-ready();
+    @include media-breakpoint-up(md) {
+      @include make-col(8);
+    }
+
+    .responsive-table {
+      width: 100%;
+      border: 1px solid theme-color(navy);
+
+      th {
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  &__account-details {
+    @include make-col-ready();
+    margin-top: 3rem;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 0;
+      @include make-col(4);
+    }
+  }
+}

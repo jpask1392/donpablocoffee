@@ -1,0 +1,101 @@
+{% comment %}
+  Snippet can be used in section or block
+  eg. {% include 'include-rich-text' %}
+{% endcomment %}
+
+{% comment %}Assign object as block or section{% endcomment %}
+{% if type == 'block' %}
+  {% assign object = block %}
+{% else %}
+  {% assign object = section %}
+{% endif %}
+
+{% assign id = object.id %}
+{% comment %}Heading{% endcomment %}
+{% assign title = object.settings.title %}
+{% assign heading_font = object.settings.heading_font %}
+{% assign heading_color = object.settings.heading_color %}
+{% assign heading_alignment = object.settings.heading_alignment %}
+{% comment %}Text{% endcomment %}
+{% if use_page_content %}
+  {% assign text = page.content %}
+{% else %}
+  {% assign text = object.settings.text %}
+{% endif %}
+{% assign text_alignment = object.settings.text_alignment %}
+{% assign columns = object.settings.columns %}
+{% comment %}Button{% endcomment %}
+{% assign button_label = object.settings.button_label %}
+{% assign button_link = object.settings.button_link %}
+{% assign button_style = object.settings.button_style %}
+{% assign button_alignment = object.settings.button_alignment %}
+{% comment %}Background{% endcomment %}
+{% assign background = object.settings.background %}
+{% assign gradient = object.settings.gradient %}
+{% comment %}Layout{% endcomment %}
+{% assign width = object.settings.width %}
+{% assign custom_padding = object.settings.custom_padding %}
+{% assign padding_top = object.settings.padding_top %}
+{% assign padding_bottom = object.settings.padding_bottom %}
+{% assign padding_top_mobile = object.settings.padding_top_mobile %}
+{% assign padding_bottom_mobile = object.settings.padding_bottom_mobile %}
+{% assign padding_left = object.settings.padding_left %}
+{% assign padding_right = object.settings.padding_right %}
+{% comment %} Advanced {% endcomment %}
+{% assign css_class = object.settings.css_class %}
+{% assign custom_css = object.settings.custom_css %}
+
+{% comment %} Is the color set to transparent? {% endcomment %}
+{% assign heading_alpha = heading_color | color_extract: 'alpha' %}
+{% assign text_alpha = text_color | color_extract: 'alpha' %}
+{% assign background_alpha = background | color_extract: 'alpha' %}
+{% assign gradient_alpha = gradient | color_extract: 'alpha' %}
+
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+
+  #shopify-section-{{ id }} {
+    {% if custom_padding %}
+      padding-top: {{ padding_top }}px;
+      padding-bottom: {{ padding_bottom }}px;
+      padding-left: {{ padding_left }}px;
+      padding-right: {{ padding_right }}px;
+    {% endif %}
+    background-image: linear-gradient({{ gradient_rotation }}deg, rgba(255,255,255,0), {{ gradient }});
+    background-color: {%- if background_alpha != 0 -%}{{ background }}!important{%- endif -%};
+  }
+
+{% endstyle %}
+
+{% if object.settings.ripTop and object.settings.ripTop != "none" %}
+<div class="rip-top">
+  {% assign rip_filename = "torn-element__" | append: object.settings.ripTop | append: '.svg' %}
+  {% include {{rip_filename}} %}
+</div>
+{% endif %}
+
+{% comment %} HTML markup {% endcomment %}
+<div class="rich-text container {{ css_class }} container--{{width}}">
+  {% if title != blank %}
+    <h2 class="section-title title text-{{ heading_alignment }} has-coffee-bean">{{ title }}</h2>
+  {% endif %}
+
+  {% if text != blank %}
+    <div class="rich-text__text text-{{ text_alignment }} content">
+      {{ text }}
+    </div>
+  {% endif %}
+
+  {% if button_label != blank %}
+    <div class="buttons text-{{ button_alignment }} mt-4">
+      {% include 'button', label: button_label, href: button_link, style: button_style, type: "link" %}
+    </div>
+  {% endif %}
+</div>
+
+{% if object.settings.ripBottom and object.settings.ripBottom != "none" %}
+<div class="rip-bottom">
+  {% assign rip_filename = "torn-element__" | append: object.settings.ripBottom | append: '.svg' %}
+  {% include {{rip_filename}} %}
+</div>
+{% endif %}

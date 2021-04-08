@@ -1,0 +1,27 @@
+.yotpo-display-wrapper {
+  .yotpo-bottomline {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+
+    @include media-breakpoint-up(md) {
+      flex-wrap: nowrap;
+    }
+
+    .yotpo-stars {
+      width: 100%;
+      margin-bottom: 0.5rem;
+
+      @include media-breakpoint-up(md) {
+        margin-bottom: 0;
+        width: auto;
+      }
+    }
+
+    a.text-m {
+      margin-left: 1rem;
+      font-weight: 700;
+      color: theme-color(primary) !important;
+    }
+  }
+}

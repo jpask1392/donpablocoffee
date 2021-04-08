@@ -1,0 +1,45 @@
+{% comment %} Assign object as block or section {% endcomment %}
+{% if type == 'block' %}
+  {% assign object = block %}
+{% else %}
+  {% assign object = section %}
+{% endif %}
+
+{% assign id = object.id %}
+{% comment %} Content {% endcomment %}
+{% assign title = object.settings.title %}
+{% assign text = object.settings.text %}
+{% assign image = object.settings.image %}
+{% comment %} Text background {% endcomment %}
+{% assign text_width =  object.settings.text_width %}
+{% comment %}Advanced{% endcomment %}
+{% assign css_class = object.settings.css_class %}
+{% assign custom_css = object.settings.custom_css %}
+
+
+<div class="image-with-text-fullbleed {{ css_class }}">
+  <div class="image-with-text-fullbleed__inner">
+
+    <div class="image-with-text-fullbleed__content-wrapper text-align-{{ text_alignment }}">
+      <div class="image-with-text-fullbleed__content">
+      {% if title != blank %}
+        <h2 class="section-title has-coffee-bean has-coffee-bean--on-dark">
+          <span>{{ title }}</span>
+        </h2>
+      {% endif %}
+
+      {% if text != blank %}
+        {{ text }}
+      {% endif %}
+      </div>
+    </div>
+
+    <div class="image-with-text-fullbleed__image">
+      {% include 'responsive-image' with
+          image: image,
+          max_width: 99999,
+          max_height: 99999
+      %}
+    </div>
+  </div>
+</div>

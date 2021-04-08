@@ -1,0 +1,97 @@
+{% assign type = "block" %}
+{% assign align = "image-right" %}
+
+{% if section.settings.show_section %}
+<div class="alternating-split">
+  {% for block in section.blocks %}
+    {% assign title = block.settings.title %}
+    {% assign text = block.settings.text %}
+    {% assign image = block.settings.image %}
+    
+    <div id="block-{{block.id}}" class="alternating-split__section">
+      <!-- <style>
+        #block-{{block.id}} {
+          background-image: url('{{image | img_url: '2040x'}}');
+        }
+      </style> -->
+
+      <div class="alternating-split__bg">
+        <img src="{{ image | img_url: '2040x' }}" alt="">
+      </div>
+
+      <div class="content-wrapper">
+        <div class="content">
+          {% if title != blank %}
+            <h2 class="section-title title has-coffee-bean">
+              {{ title }}
+            </h2>
+          {% endif %}
+          {% if text != blank %}
+            <div class="body-text">
+              {{ text }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Stacked",
+    "tag": "section",
+    "class": "p-0",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_section",
+        "label": "Display Section",
+        "default": true
+      }
+    ],
+    "blocks": [
+      {
+        "type": "section",
+        "name": "Section",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Content"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Rich text"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "header",
+            "content": "Advanced"
+          },
+          {
+            "type": "text",
+            "id": "css_class",
+            "label": "CSS Class"
+          },
+          {
+            "type": "textarea",
+            "id": "custom_css",
+            "label": "Custom CSS"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

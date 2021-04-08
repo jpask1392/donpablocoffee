@@ -1,0 +1,67 @@
+<section class="products products--merchandise">
+  <div class="container">
+    {% include 'breadcrumbs' %}
+    <div class="row">
+    {% assign current_variant = product.selected_or_first_available_variant %}
+    {% assign featured_image = current_variant.featured_image | default: product.featured_image %}
+
+      <div class="product-images col-md-6">
+        {% include 'product__slideshow' %}
+      </div>
+
+      <div class="col-md-6">
+        <h1 class="section-title">
+          <b class="d-block" style="max-width: 500px;">{{ product.title }}</b>
+        </h1>
+
+        <div class="title-review-wrapper">
+          <div class="yotpo bottomLine"
+            data-appkey="bLULwROTp9b4yqxznlQadN6u8gdBj76PW4xJd8Si"
+            data-domain="{{shop.permanent_domain | escape }}"
+            data-product-id="{{ product.id }}"
+            data-product-models="{{ product.id }}"
+            data-name="{{ product.title | escape }}"
+            data-url="{{ shop.url }}{{ product.url }}"
+            data-image-url="{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}"
+            data-description="{{ product.description | escape }}"
+            data-bread-crumbs="{% for tag in product.tags %}{{ tag | escape }};{% endfor %}">
+          </div>
+        </div>
+
+        {% if product.description != blank %}
+          <div class="product-description">
+            {{ product.description }}
+          </div>
+        {% endif %}
+
+        {% include 'product__variant-form', option_titles: 'Size,Color,Gender' %}
+
+        <div class="call-to-order">
+          <b>Call to Order</b>
+          <a class="phone-number" href="tel: 8774366722">(877) 436-6722</a>
+          Mon-Fri 8am-6pm ET
+        </div> 
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product",
+  "class": "product-primary-section section has-coffee-background jsProduct",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "richtext",
+      "id": "tooltipText",
+      "label": "Subscribe & save tooltip text"
+    }
+  ] 
+}
+{% endschema %}

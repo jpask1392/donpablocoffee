@@ -1,0 +1,63 @@
+body.template-login {
+  #MainContent {
+    .container {
+      padding: 3rem 15px;
+  
+      .section-title {
+        margin-bottom: 3rem;
+      }
+    
+      input:not([type=submit]) {
+        border-style: solid;
+        border-width: 1px;
+        border-color: theme-color(primary);
+        min-width: 300px;
+        margin-bottom: 1rem;
+      }
+    
+      .action_bottom {
+        line-height: 2;
+    
+        .btn {
+          margin-bottom: 2rem;
+        }
+    
+        a {
+          color: theme-color(primary);
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+
+#recover-password {
+  .template_header {
+    margin-bottom: 2rem;
+  }
+
+  .action_bottom {
+    margin-top: 0;
+  }
+}
+
+#ReCharge.user-customer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  .rc_title-bar__title {
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  .rc_header-settings__description {
+    display: block;
+  }
+
+  #customer_tab_content {
+    .row.grid {
+      justify-content: center;
+    }
+  }
+}

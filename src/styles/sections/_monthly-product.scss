@@ -1,0 +1,32 @@
+.index-monthly-product {
+  .monthly-product {
+    overflow: hidden;
+
+    &__image {
+      padding-top: map-get($spacers, 5);
+      padding-bottom: map-get($spacers, 5);
+
+      @include media-breakpoint-up(md) {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      img {
+        position: relative;
+        height: 100%;
+        width: 200%;
+        left: -50%;
+        object-fit: contain;
+        min-height: 300px;
+    
+        @include media-breakpoint-up(md) {
+          position: absolute;
+        }
+      }
+    }
+  
+    &__subtitle {
+      text-align: center;
+    }
+  }
+}

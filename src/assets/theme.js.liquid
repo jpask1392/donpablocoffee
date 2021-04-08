@@ -1,0 +1,42 @@
+"use strict";
+
+$(document).ready(() => {
+  Shopify.theme.navigation.init()
+  Shopify.theme.slick.init()
+
+  // Document ready
+  $(function() {
+
+    // get all sections that require javascript
+    var $jsSections = $('[class*=js]');
+
+    // if product data has been set, set product object
+    var product = {};
+    if (typeof(productData) !== 'undefined') {
+      product = {...productData};
+    }
+    
+    // Loop through sections with js classes and load them in
+    var $jsSectionNames = $jsSections.each(function () {
+      for (var i = 0; i < this.classList.length; i++) {
+        if (this.classList[i].substring(0, 2) === "js"){
+          var triggerClass = this.classList[i];
+          if (Shopify.theme[triggerClass]) {
+            
+            // pass the section element through to its initializer
+            Shopify.theme[triggerClass].init($(this), product);
+          } else {
+            console.warn('Uh oh, ' + triggerClass + ' is referenced in section schema class, but can not be found. Make sure "z__' + triggerClass + '.js" and Shopify.theme.' + triggerClass + '.init() function exists.');
+          }
+
+        }
+      }
+    });
+
+    
+      // $('#accountModal').modal('show');
+
+
+  });
+})
+

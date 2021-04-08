@@ -1,0 +1,34 @@
+/** Search form */
+.search-form {
+  @extend .form-inline;
+}
+
+.search-form label {
+  @extend .form-group;
+
+  font-weight: normal;
+}
+
+.search-form .search-field {
+  @extend .form-control;
+}
+
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+.errors {
+  ul {
+    list-style-type: none;
+    font-size: 0.8rem;
+    padding: 1rem;
+    background: #E29088;
+    color: white;
+    text-align: center;
+
+    a {
+      color: white;
+    }
+  }
+}

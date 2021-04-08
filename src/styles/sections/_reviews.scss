@@ -1,0 +1,103 @@
+.index-reviews-section {
+  overflow: hidden;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  &__title {
+    text-align: center;
+    padding-bottom: map-get($spacers, 5);
+    position: relative;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+
+    .arrows {
+      .slick-arrow {
+        display: inline-block;
+        position: static;
+        width: 30px;
+        height: 30px;
+        margin-top: 30px;
+
+        &::before {
+          content: none;
+        }
+  
+        &.slick-next {
+          svg {
+            transform: scaleX(-1);
+          }
+        }
+
+        &.slick-prev {
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .col-md-9 {
+    img {
+      position: absolute;
+      bottom: -70px;
+      left: 0;
+      width: 260px;
+      transform: translateX(-50%);
+
+      @include media-breakpoint-up(md) {
+        width: 300px;
+        bottom: -40px;
+        transform: translateX(-80%);
+      } 
+    }
+  }
+
+  &__slideshow {
+    margin-left: 15px;
+
+    .slick-slide {
+      > div {
+        display: block;
+      }
+    }
+
+    @include media-breakpoint-up(md) {
+      margin-left: 0;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background: black;
+      width: 100vw;
+      z-index: -1;
+      border-top-left-radius: 60px;
+      border-bottom-left-radius: 60px;
+    }
+
+    .review-slide {
+      padding: map-get($spacers, 5);
+
+      &__quote-mark {
+        font-size: 100px;
+        line-height: 1;
+        height: 50px;
+        color: theme-color("primary");
+      }
+
+      &__body {
+        color: white;
+        padding: map-get($spacers, 5) 0;
+      }
+
+      &__author {
+        color: white;
+        font-family: $headings-font-family;
+      }
+    }
+  }
+}

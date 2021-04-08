@@ -1,0 +1,118 @@
+{% comment %}Assign object as block or section{% endcomment %}
+{% if block.type %}
+  {% assign object = block %}
+{% else %}
+  {% assign object = section %}
+{% endif %}
+{% assign id = object.id %}
+{% comment %} Content {% endcomment %}
+{% assign section_title = object.settings.header %}
+{% assign section_body = object.settings.body %}
+{% assign thumbnail_image = object.settings.thumbnail_image %}
+
+<style>
+  {% include 'css-loop', css: custom_css, id: id %}
+</style>
+
+<div class="video" data-section-type="video" data-section-id="{{ section.id }}">
+  <div class="video__inner">
+
+    {% comment %} determine if youtube or vimeo {% endcomment %}
+    {% assign videoURL = object.settings.video_url %}
+
+
+    {% comment %} Use this for auto populating thumbnail image {% endcomment %}
+
+    
+      {% if videoURL contains 'vimeo' %}
+        {% assign videoID = videoURL | split: '/' | last %}
+        {% unless thumbnail_image %}
+          <script type="module">
+            // vimeo requires an api call to 
+            // get the videos thumbnail image
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+              if (this.readyState == 4 && this.status == 200) {
+                const data = JSON.parse(this.responseText)
+                const imageNode = `<img src="${data[0].thumbnail_large}"></img>`;
+                document.getElementById('thumbnailID_{{videoID}}').innerHTML = imageNode;
+              }
+            };
+            xhttp.open("GET", "https://vimeo.com/api/v2/video/{{videoID}}.json", true);
+            xhttp.send();
+          </script>
+        {% endunless %}
+      {% elsif videoURL contains 'youtu.be' %}
+        {% assign videoID = videoURL | slice:17, 100 %}
+      {% elsif videoURL contains 'youtube.com' %}
+        {% assign videoID = videoURL | split: '?v=' | last %}
+      {% endif %}
+
+    <div class="video__content">
+      {% if section_title %}
+        <h2 class="video__title">
+          {{ section_title }}
+          <hr>
+        </h2>
+      {% endif %}
+      {% if section_body.size > 0 %}
+        <div class="video__body text-center">{{ section_body }}</div>
+      {% endif %}
+
+      <div 
+        class="video__thumbnail" 
+        data-toggle="modal"
+        data-videoID={{videoID}}
+        data-videoURL={{videoURL}}
+      >
+        <style>
+          .video__thumbnail {
+            {% unless videoURL contains 'vimeo' %}
+              {% capture background_image %} https://img.youtube.com/vi/{{videoID}}/sddefault.jpg {% endcapture %}
+            {% endunless %}
+
+            {% if thumbnail_image %}
+              {% assign background_image = thumbnail_image | img_url: '2040x' %}
+            {% endif %}
+            background-image: url('{{ background_image }}');
+          }
+        </style>
+        <span class="thumbnail-play-btn">
+          <svg width="36" height="40" viewBox="0 0 36 40" xmlns="http://www.w3.org/2000/svg"><path d="M34.9799 18.256L2.97999 0.256076C2.35999 -0.091923 1.60399 -0.083923 0.991997 0.272076C0.375999 0.632075 0 1.28807 0 2.00007V38C0 38.712 0.375999 39.368 0.991997 39.728C1.304 39.908 1.65199 40 1.99999 40C2.33599 40 2.67599 39.916 2.97999 39.7439L34.9799 21.744C35.6079 21.388 35.9999 20.724 35.9999 20C35.9999 19.276 35.6079 18.612 34.9799 18.256Z"/></svg>
+        </span>
+        <div id="thumbnailID_{{videoID}}">
+          {% if videoURL contains 'vimeo' %}
+            <div class="spinner-wrapper">
+              <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <span class="close" data-dismiss="modal" aria-label="Close">x</span>
+      <iframe 
+        id="videoIframe"
+        src="{{ videoURL }}"
+        width="800" height="500"
+        frameborder="0"
+        allow=autoplay
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<script defer src="{{ 'z__jsAbout.js' | asset_url }}"></script>
+

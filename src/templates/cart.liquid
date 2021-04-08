@@ -1,0 +1,118 @@
+<div class="cart has-coffee-background">
+  <div class="container">
+      {% include 'breadcrumbs' %}
+      {% if cart.item_count > 0 %}
+
+      <form action="/cart" method="post" novalidate class="row">
+        <div class="col-lg-8">
+          <div class="cart-list">
+            <div class="cart-list__header row mx-0 d-none d-lg-flex">
+              <div class="col-6 cart-title">Product</div>
+              <div class="col-3 cart-title">Quantity</div>
+              <div class="col-3 cart-title">Total</div>
+            </div>
+            {% for item in cart.items %}
+              <div class="cart-list__row row mx-0" id="cart_item_{{item.id}}">
+                <div class="cart-list__product col-md-6">
+                  <a class="text-dark" href="/cart/change?line={{ forloop.index }}&amp;quantity=0">X</a>
+                  <a href="{{ item.url | within: collections.all }}" class="px-4">
+                    <img src="{{ item | img_url: 'medium' }}" alt="{{ item.title | escape }}">
+                  </a>
+                  <div class="summary">
+                    <a href="{{ item.url }}" class="section-title">
+                      <b>{{ item.product.title }}</b>
+                    </a>
+                    <div class="section-title">{{ item.variant.title }}</div>
+                    <div class="mt-2"><b>{{ item.price | money }}</b></div>
+                  </div>
+                </div>
+                <div class="cart-list__quantity col-md-3">
+                  <div class="quantity">
+                    <div class="quantity-nav">
+                      <div class="quantity-button quantity-down">-</div>
+                      <input 
+                        type="number" 
+                        min="1" 
+                        step="1" 
+                        value="{{ item.quantity }}"
+                        name="updates[]"
+                        id="updates_{{ item.id }}"
+                        onChange="Shopify.theme.cartPage.updateOnQuantityChange('{{item.id}}')"
+                      >
+                      <div class="quantity-button quantity-up">+</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-list__total col-md-3">
+                  <div class="line-item-price">
+                  {% if item.original_line_price != item.line_price %}{{ item.original_line_price | money }}{% endif %}
+                  {{ item.line_price | money }}
+                  {% for discount in item.discounts %}{{ discount.title }}{% endfor %}
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="cart-totals">
+            <div class="cart-totals__summary">
+              <div class="cart-title">Cart Totals</div>
+              <div id="CartSubTotal" class="d-flex justify-content-between">
+                <span class="cart-title cart-title--sm">SUBTOTAL</span> 
+                <span class="cart-title--sm subtotal price">{{ cart.total_price | money }}</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="cart-title cart-title--sm">SHIPPING</span> 
+                <span class="text-right"><p>
+                  Enter your address <br>
+                  at checkout to view <br>
+                  shipping options<br>
+                  <br>
+                  Taxes and Shipping will be<br>
+                  calculated at checkout.
+                </p></span>
+              </div>
+            </div>
+
+            <div id="CartTotal" class="cart-totals__total">
+              <div class="cart-totals__price-summary d-flex justify-content-between">
+                <span class="cart-title cart-title--sm">TOTAL</span>
+                <span class="price"><b>{{ cart.total_price | money }}</b></span>
+              </div>
+              <div class="cart-totals__discount-calcs"></div>
+            </div>
+
+            {% comment %}
+            <div class="cart-totals__discount">
+              
+            </div>
+            {% endcomment %}
+
+            <div class="cart-totals__actions">
+              <input type="submit" class="btn btn-primary" name="checkout" value="Checkout" />
+              <a href="/" class="btn btn-primary">Continue Shopping</a>
+            </div>
+
+          </div>
+        </div>
+      </form>
+
+      {% else %}
+        <div class="col-12">
+          <h2>cart</h2>
+          Cart is empty
+        </div>
+      {% endif %}
+      </div>
+    
+  </div>
+</div>
+
+<script>const cart = {{ cart | json }};</script>
+<script defer src="{{ 'z__jsCart.js' | asset_url }}"></script>
+
+ <!-- Begin ReCharge code -->
+ {% include 'subscription-cart-footer' %}
+ <!-- End ReCharge code -->
