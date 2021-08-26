@@ -227,63 +227,15 @@ Shopify.theme.jsProduct = {
           $('input[value="'+ optionName +'"]').prop("disabled", !allTrue);
         })
       })
-
-      // // should option 1 be available?
-      // // go through all option 1s
-      // possibleOptions[0].forEach((option1) => {
-      //   let available2 = false;
-      //   let available3 = false;
-
-      //   // is a combination avialable with option2?
-      //   available2 = variants.some((variant) => 
-      //     variant.option1 === option1 && 
-      //     variant.option2 === currentCombination[1]
-      //   )
-
-      //   // is a combination avialable with option3?
-      //   available3 = variants.some((variant) => 
-      //     variant.option1 === option1 && 
-      //     variant.option3 === currentCombination[2]
-      //   )
-
-      //   if (available2 && available3) {
-      //     // console.log(option1, ": available")
-      //     $('input[value="'+ option1 +'"]').prop("disabled", false)
-      //   } else {
-      //     // console.log(option1, ": not available")
-      //     $('input[value="'+ option1 +'"]').prop("disabled", true)
-      //   }
-      // })
     }
 
     const updateProductImage = (variant, selector) => {
       let $slide_images = $section.find('.product-images__featured');
 
-      // console.log(variant.featured_image.id)
-
-      console.log($('[data-img-id="' + variant.featured_image.id + '"]').parent().parent().data('slick-index'));
-      let image_index = $('[data-img-id="' + variant.featured_image.id + '"]').parent().parent().data('slick-index');
+      let image_index = $('[data-img-id="' + variant.featured_image.id + '"]')
+        .parent().parent().data('slick-index');
 
       $slide_images.slick('slickGoTo', parseInt(image_index));
-
-      // const images = selector.product.media.filter((image) => 
-      //   image.alt !== null && image.alt.includes(variant.option1) ||
-      //   image.alt === null
-      // );
-
-      // // $slide_thumbnails.slick('slickUnfilter');
-      // $slide_images.slick('slickUnfilter');
-
-      // $('.slick-slide').removeClass('show');
-      // images.forEach((image, i) => {
-      //   $('[data-slick-index=' + (image.position - 1) + ']').addClass('show');
-      // });
-
-      // // $slide_thumbnails.slick('slickFilter', '.show');
-      // $slide_images.slick('slickFilter', '.show');
-
-      // // $slide_thumbnails.slick('slickGoTo', 0);
-      // $slide_images.slick('slickGoTo', 0);
     }
 
     /**
@@ -293,9 +245,7 @@ Shopify.theme.jsProduct = {
      * @param selector 
      */
     const selectCallback = (variant, selector) => { 
-
       if (variant && variant.title !== "Default Title") {
-
         // greys out unavailable options
         updateAvialableOptions(selector.product.variants, selector);
 
@@ -314,7 +264,8 @@ Shopify.theme.jsProduct = {
 
     new Shopify.OptionSelectors("productSelect", { 
       product: product, 
-      onVariantSelected: selectCallback 
+      onVariantSelected: selectCallback,
+      enableHistoryState: true
     });
   },
 
@@ -345,5 +296,3 @@ Shopify.theme.jsProduct = {
     })
   }
 }
-
-// Shopify.theme.productPage.init(productData);

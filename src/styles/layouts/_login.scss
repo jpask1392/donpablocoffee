@@ -61,3 +61,7 @@ body.template-login {
     }
   }
 }
+
+#rc_login:last-child {
+  display: none;
+}

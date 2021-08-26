@@ -11,36 +11,32 @@ flex-grow: 1;">
       
       {% form 'customer_login' %}
 
-      {{ form.errors | default_errors }}
-      
-      <div id="login_email" class="">
-        <input type="email" value="" placeholder="your email" name="customer[email]" id="customer_email" class="large" />
-      </div>
-      
-      {% if form.password_needed %}
-      
-      <div id="login_password" class="">
-        <input type="password" placeholder="password" value="" name="customer[password]" id="customer_password" class="large password" />
-      </div>
-      
-      {% endif %}
-      
-      <div class="action_bottom">
-        <p>
-          <input class="btn btn-primary" type="submit" value="{{ 'customer.login.sign_in' | t }}" />
-        </p>
-        <!--<span class="note"><a href="{{ shop.url }}">{{ 'customer.login.cancel' | t }}</a></span>-->
-        <div id="forgot_password">
-          <a href="#" onclick="showRecoverPasswordForm();return false;">{{ 'customer.login.forgot_password' | t }}</a>
-        </div>        
-        <span class="note">Don't have an account? <a href="/account/register"><span>Create one!</span></a></span>
+        <div class="m-auto" style="max-width: 300px;">
+          {{ form.errors | default_errors }}
+          
+          <div id="login_email" class="">
+            <input type="email" value="" placeholder="your email" name="customer[email]" id="customer_email" class="large" />
+          </div>
+          
+          {% if form.password_needed %}
+            <div id="login_password" class="">
+              <input type="password" placeholder="password" value="" name="customer[password]" id="customer_password" class="large password" />
+            </div>
+          {% endif %}
+        </div>
         
-      </div>
+        <div class="action_bottom mb-5">
+          <p>
+            <input class="btn btn-primary" type="submit" value="{{ 'customer.login.sign_in' | t }}" />
+          </p>
+          <!--<span class="note"><a href="{{ shop.url }}">{{ 'customer.login.cancel' | t }}</a></span>-->
+          <div id="forgot_password">
+            <a href="#" onclick="showRecoverPasswordForm();return false;">{{ 'customer.login.forgot_password' | t }}</a>
+          </div>        
+          <span class="note">Don't have an account? <a href="/account/register"><span>Create one!</span></a></span>
+          
+        </div>
       {% endform %}
-      
-      <!-- Begin ReCharge code -->
-      {% include 'subscription-account-login' %}
-      <!-- End ReCharge code -->
 
     </div>
     
@@ -74,7 +70,7 @@ flex-grow: 1;">
       </div>
       <div class="action_bottom">
         <p>
-          <input class="btn" type="submit" value="{{ 'customer.recover_password.submit' | t }}" />
+          <input class="btn btn-primary" type="submit" value="{{ 'customer.recover_password.submit' | t }}" />
         </p>
         <span class="note"><a href="#" onclick="hideRecoverPasswordForm();return false;">{{ 'customer.recover_password.cancel' | t }}</a></span>
       </div>

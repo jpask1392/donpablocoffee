@@ -1,17 +1,14 @@
 {% assign product = all_products[section.settings.product_of_the_month] %}
-{% comment %}
-** Image with text - dynamic **
-- Draggable section
-- Uses blocks
-{% endcomment %}
 
 {% assign id = section.id %}
+{% comment %} Content {% endcomment %}
+{% assign content = section.settings.content %}
+{% assign image = section.settings.image %}
+{% unless image %}{% assign image = product.featured_image %}{% endunless %}
 {% comment %} Layout {% endcomment %}
-{% assign show_gutter = section.settings.show_gutter %}
 {% assign width = section.settings.width %}
 {% assign padding_top = section.settings.padding_top %}
 {% assign padding_bottom = section.settings.padding_bottom %}
-{% assign animation = section.settings.animation %}
 {% comment %} Advanced {% endcomment %}
 {% assign css_class = section.settings.css_class %}
 {% assign custom_css = section.settings.custom_css %}
@@ -43,32 +40,36 @@
         <div class="d-none d-md-block">
           <h4 class="text-center">{{ product.title }}</h4>
           <p class="d-none d-md-block">
-            {{ product.description }}
+            {% unless content %}
+              {{ product.description }}
+            {% else %}
+              {{ content }}
+            {% endunless %}
           </p>
           <div class="text-center">
-            <a class="btn btn-primary" href="/product/{{product.handle}}">View Product</a>
+            <a class="btn btn-primary" href="{{product.url}}">View Product</a>
           </div>
         </div>
 
       </div>
 
       <div class="col-md-5 ml-auto monthly-product__image">
-        {% assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+        {% assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
         <img 
           id="{{ img_id }}"
           class="lazyload"
-          src="{{ section.settings.image | img_url }}"
+          src="{{ image | img_url }}"
           data-src="{{ img_url }}"
           data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-          data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+          data-aspectratio="{{ image.aspect_ratio }}"
           data-sizes="auto"
-          alt="{{ section.settings.image.alt}}">
+          alt="{{ image.alt}}">
       </div>
 
       <div class="col d-md-none">
         <div class="text-center">
           <h4>{{ product.title }}</h4>
-          <a class="btn btn-primary" href="/product/{{product.handle}}">Buy Now</a>
+          <a class="btn btn-primary" href="{{product.url}}">Buy Now</a>
         </div>
       </div>
 
@@ -120,46 +121,6 @@
       "unit": "px"
     },
     {
-      "type": "select",
-      "id": "animation",
-      "label": "Animation",
-      "default": "none",
-      "options": [
-        {
-          "value": "none",
-          "label": "None"
-        },
-        {
-          "value": "fadeIn",
-          "label": "Fade in"
-        },
-        {
-          "value": "fadeInDown",
-          "label": "Fade in down"
-        },
-        {
-          "value": "fadeInLeft",
-          "label": "Fade in left"
-        },
-        {
-          "value": "fadeInRight",
-          "label": "Fade in right"
-        },
-        {
-          "value": "slideInLeft",
-          "label": "Slide in left"
-        },
-        {
-          "value": "slideInRight",
-          "label": "Slide in right"
-        },
-        {
-          "value": "zoomIn",
-          "label": "Zoom in"
-        }
-      ]
-    },
-    {
       "type": "header",
       "content": "Content"
     },
@@ -170,11 +131,10 @@
       "info": "Choose a product to display"
     },
     {
-      "type": "checkbox",
-      "id": "use_product_desc",
-      "label": "Use Product Desc",
-      "default": true,
-      "info": "Check to populate section with product description"
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "info": "Use if not using product description."
     },
     {
       "type": "image_picker",

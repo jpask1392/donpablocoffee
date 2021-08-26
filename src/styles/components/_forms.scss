@@ -18,6 +18,33 @@
   @extend .btn-secondary;
 }
 
+form:not(#AddToCartForm):not([isembed="true"]) {
+  input:not([type='submit']) {
+    @extend .form-control;
+
+    padding: 0.25rem 1rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: theme-color(primary);
+    // min-width: 300px;
+    margin-bottom: 1rem;
+  }
+}
+
+.klaviyo-form {
+  input {
+    margin-bottom: 0 !important;
+  }
+
+  button {
+    @extend .btn;
+    @extend .btn-primary;
+
+    line-height: 2 !important;
+    padding: 0.5rem 2rem !important;
+  }
+}
+
 .errors {
   ul {
     list-style-type: none;

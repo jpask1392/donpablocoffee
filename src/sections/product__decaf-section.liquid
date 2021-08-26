@@ -1,0 +1,44 @@
+<section 
+  class="water-information section"
+  style="background-image: url({{'product__water-information.jpg' | asset_url}});">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-6">
+        <h2 class="section-title has-coffee-bean">
+          {{ section.settings.subheader }}<br/>
+          <b>{{ section.settings.header }}</b>
+        </h2> 
+        {{ section.settings.decaf_text }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product Decaf Section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "subheader",
+      "label": "Subheader"
+    },
+    {
+      "type": "text",
+      "id": "header",
+      "label": "Header"
+    },
+    {
+      "type": "richtext",
+      "id": "decaf_text",
+      "label": "Decaf Text",
+      "info": "Will be displayed on decaf product pages"
+    }
+  ] 
+}
+{% endschema %}

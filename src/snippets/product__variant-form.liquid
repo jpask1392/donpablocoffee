@@ -110,18 +110,13 @@
   <!-- Select Control END -->
 
   <!-- Quantity Control -->
-  <div class="quantity">
+  <div class="quantity mb-4">
     <label for="Quantity" class="radio-btn-group__title">Quantity</label>
     <div class="quantity-nav">
       <div class="quantity-button quantity-down">-</div>
-      <input type="number" min="1" max="9" step="1" value="1" name="quantity">
+      <input type="number" min="1" step="1" value="1" name="quantity">
       <div class="quantity-button quantity-up">+</div>
     </div>
-  </div>
-
-  {% comment %} Recharge {% endcomment %}
-  <div class="subscribe-options">
-    {% if product.available %}{% include 'subscription-product' %}{% endif %} 
   </div>
   
   <input 

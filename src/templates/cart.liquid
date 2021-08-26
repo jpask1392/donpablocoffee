@@ -31,6 +31,7 @@
                     <div class="quantity-nav">
                       <div class="quantity-button quantity-down">-</div>
                       <input 
+                        class="mb-0" style="min-width:0;"
                         type="number" 
                         min="1" 
                         step="1" 
@@ -112,7 +113,3 @@
 
 <script>const cart = {{ cart | json }};</script>
 <script defer src="{{ 'z__jsCart.js' | asset_url }}"></script>
-
- <!-- Begin ReCharge code -->
- {% include 'subscription-cart-footer' %}
- <!-- End ReCharge code -->

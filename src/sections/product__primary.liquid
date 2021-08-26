@@ -1,6 +1,8 @@
 <section class="products">
   <div class="container">
-    {% include 'breadcrumbs' %}
+    <div class="mb-5">
+      {% include 'breadcrumbs' %}
+    </div>
     <div class="row">
     {% assign current_variant = product.selected_or_first_available_variant %}
     {% assign featured_image = current_variant.featured_image | default: product.featured_image %}

@@ -25,11 +25,14 @@
   
     input:not([type=submit]):not(.DropdownComponents__DropDownInput-sc-1ahum51-3):not([type=number]),
     textarea {
-      width: 100%;
+      @extend .form-control;
+
+      // width: 100%;
       border-radius: 25px !important;
       border: 1px solid theme-color("primary") !important;
       margin-bottom: map-get($spacers, 4);
       padding: 0.5rem 2rem !important;
+      height: auto !important;
     }
   
     .dMHKxR.dMHKxR {

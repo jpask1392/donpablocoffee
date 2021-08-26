@@ -50,10 +50,12 @@
   .product-images {
     img {
       width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     &__featured {
-      padding-top: map-get($spacers, 5);
+      // padding-top: map-get($spacers, 5);
       padding-bottom: map-get($spacers, 5);
       text-align: center;
 
@@ -375,6 +377,7 @@
     .coffee-facts-table-wrapper {
       max-width: 600px;
       margin: auto;
+      align-self: flex-start;
     }
 
     .coffee-facts-table {

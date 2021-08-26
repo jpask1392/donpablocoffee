@@ -124,27 +124,10 @@
 </div>
 <!-- Product further information END -->
 
-<!-- Product water information -->
 {% assign product_title = product.title | downcase %}
 {% if product_title contains 'decaf' %}
-<section 
-  class="water-information section"
-  style="background-image: url({{'product__water-information.jpg' | asset_url}});">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 offset-md-6">
-        <h2 class="section-title has-coffee-bean">
-          COLOMBIAN SWISS WATER PROCESS<br>
-          <b>DECAF COFFEE</b>
-        </h2> 
-        <p>Don Pablo first started growing coffee in the lush hills of Colombia – so our Colombian coffee is one of our specialties, and our world famous Colombian Decaf is no exception. These exceptional beans are decaffeinated with the all-natural Swiss Water® Process, using nothing but pure water to gently rinse the beans of their caffeine content without disrupting their natural flavor. This process ensures the beans are guaranteed to be 99.9% caffeine free. Then, we put them through our artisan small-batch roasting process to slightly caramelize the coffee’s natural sugars to add a light roastiness and malt to a naturally smooth, sweet coffee. The result is a sweet, rich, and oh-so-smooth low-acid coffee that tastes just like you hoped it would – without the caffeine content!
-          Don Pablo Colombian Decaf is available in Medium Dark, and Light Roast. 100% Arabica Coffee, GMO free.</p>
-      </div>
-    </div>
-  </div>
-</section>
+  {% section 'product__decaf-section' %}
 {% endif %}
-<!-- Product water information END -->
 
 <!-- Product reviews -->
 <div class="container py-5">

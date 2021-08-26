@@ -6,6 +6,10 @@
 
 {% assign id = section.id %}
 
+{% comment %} Content {% endcomment %}
+{% assign display_newsletter = section.settings.display_newsletter %}
+{% assign newsletter_link = section.settings.newsletter_link %}
+
 {% comment %} Advanced {% endcomment %}
 {% assign css_class = section.settings.css_class %}
 {% assign custom_css = section.settings.custom_css %}
@@ -14,13 +18,34 @@
   {% include 'css-loop', css: custom_css, id: id %}
 {% endstyle %}
 
-{% comment %} HTML markup {% endcomment %}
 <footer class="primary-footer {{ css_class }}">
   <section class="primary-footer__extended">
     <div class="container">
       <div class="row m-0">
         <div class="newsletter">
-          {% include 'newsletter-form' %}
+          {% if display_newsletter %}
+          {% comment %}
+            <div class="d-flex flex-wrap">  
+              <p class="section-title text-white mr-md-5">subscribe To Our <br><b>Newsletter</b></p>
+              <div class="d-md-flex" style="min-width: 0;">
+                <a href="{{ newsletter_link }}" target="_blank">
+                  <button class="btn btn-primary">
+                    Subscribe
+                  </button>
+                </a>
+              </div>
+            </div>
+            {% include 'newsletter-form', link: newsletter_link %}
+            {% endcomment %}
+
+            <div class="d-flex flex-wrap">  
+              <p class="section-title text-white mr-md-5">subscribe To Our <br><b>Newsletter</b></p>
+              <div class="d-md-flex" style="min-width: 0;">
+                <div class="klaviyo-form-U6izLS"></div>
+              </div>
+            </div>
+            
+          {% endif %}
         </div>
         <div class="socials">
           <span class="section-title"><b>Follow Us</b></span>
@@ -67,6 +92,21 @@
   "name": "Footer",
   "class": "footer",
   "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "checkbox",
+      "id": "display_newsletter",
+      "label": "Display Newsletter?",
+      "default": true
+    },
+    {
+      "type": "url",
+      "id": "newsletter_link",
+      "label": "Newsletter Link"
+    },
     {
       "type": "header",
       "content": "Advanced"

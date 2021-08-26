@@ -1,0 +1,65 @@
+{% comment %} Content {% endcomment %}
+{% assign form_id = section.settings.form_id %}
+{% assign title = section.settings.title %}
+{% assign body = section.settings.body %}
+
+<div class="contact-bkg-img">
+<div class="contact-bkg-img__rhs">
+  <img src="{{ 'coffee-beans-lhs.png' | asset_img_url: 'large' }}" alt="">
+</div>
+<div class="contact-bkg-img__lhs">
+  <img src="{{ 'coffee-beans-rhs.png' | asset_img_url: 'large' }}" alt="">
+</div>
+</div>
+
+<div class="container container--sm">
+  <div class="rich-text pb-5 px-3">
+    <h2 class="section-title title text-center has-coffee-bean">{{ title }}</h2>
+    <div class="rich-text__text content">{{ body }}</div>
+  </div>
+  <div class="klaviyo-form-{{ form_id }}"></div>
+</div>
+
+{% schema %}
+  {
+    "name": "Form",
+    "class": "sweepstakes-section contact-form contact-section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Rich text"
+      },
+      {
+        "type": "richtext",
+        "id": "body",
+        "label": "Body"
+      },
+      {
+        "type": "text",
+        "id": "form_id",
+        "label": "Klaviyo Form ID"
+      },
+      {
+        "type": "header",
+        "content": "Advanced"
+      },
+      {
+        "type": "text",
+        "id": "css_class",
+        "label": "CSS Class"
+      },
+      {
+        "type": "textarea",
+        "id": "custom_css",
+        "label": "Custom CSS"
+      }
+    ]
+  }
+{% endschema %}
