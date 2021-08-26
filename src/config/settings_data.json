@@ -1,42 +1,1575 @@
 {
-  "current": "Default",
-  "presets": {
-    "Default": {
-      "sections": {
-        "collection-list": {
-          "type": "collection-list",
-          "blocks": {
-            "collection-list-0": {
-              "type": "collection"
-            },
-            "collection-list-1": {
-              "type": "collection"
-            },
-            "collection-list-2": {
-              "type": "collection"
-            }
-          },
-          "block_order": [
-            "collection-list-0",
-            "collection-list-1",
-            "collection-list-2"
-          ]
-        },
-        "featured-collection": {
-          "type": "featured-collection",
-          "settings": {
-            "collection": "frontpage"
-          }
-        },
-        "featured-product": {
-          "type": "featured-product"
+  "current": {
+    "favicon": "shopify:\/\/shop_images\/fav-icon_1a9ac68b-1b3d-465c-a182-a2781d0b220b.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Don_Pablo_logo.jpg",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#df9d3d",
+    "checkout_button_color": "#106a01",
+    "checkout_error_color": "#e32c2b",
+    "button_primary_padding": "regular",
+    "button_primary_bg_color": "#000000",
+    "button_primary_bg_color_transparency": 100,
+    "button_primary_border_color": "rgba(0,0,0,0)",
+    "button_primary_text_color": "#ffffff",
+    "button_primary_bg_color--highlight": "#606060",
+    "button_primary_bg_color_transparency--highlight": 100,
+    "button_primary_border_color--highlight": "rgba(0,0,0,0)",
+    "button_primary_text_color--highlight": "#ffffff",
+    "button_primary_border_radius": 0,
+    "button_secondary_padding": "regular",
+    "button_secondary_bg_color": "rgba(0,0,0,0)",
+    "button_secondary_bg_color_transparency": 0,
+    "button_secondary_border_color": "#000000",
+    "button_secondary_text_color": "#000000",
+    "button_secondary_bg_color--highlight": "#000000",
+    "button_secondary_bg_color_transparency--highlight": 100,
+    "button_secondary_border_color--highlight": "#000000",
+    "button_secondary_text_color--highlight": "#ffffff",
+    "button_secondary_border_radius": 0,
+    "button_link_padding": "regular",
+    "button_link_text_color": "#000000",
+    "button_link_text_color--highlight": "#ccc",
+    "button_link_underline_style": "solid",
+    "button_link_underline_thickness": 1,
+    "button_cart_padding": "regular",
+    "button_cart_bg_color": "#c70000",
+    "button_cart_bg_color--highlight": "#de1313",
+    "button_cart_border_color": "rgba(0,0,0,0)",
+    "button_cart_border_color--highlight": "rgba(0,0,0,0)",
+    "button_cart_text_color": "#fff",
+    "button_cart_text_color--highlight": "#fff",
+    "button_cart_icon": "",
+    "button_cart_icon_position": "left",
+    "button_cart_border_radius": 2,
+    "icon": "icon_solid",
+    "toggle_icon_style": "plus_and_minus",
+    "social_media_share_style": "squared",
+    "twitter_link": "https:\/\/twitter.com\/CafeDonPablo",
+    "facebook_link": "https:\/\/www.facebook.com\/cafedonpablo",
+    "youtube_link": "https:\/\/www.youtube.com\/channel\/UCYSged1Lcpv_xcBGWkNVQ2A",
+    "vimeo_link": "",
+    "pinterest_link": "",
+    "tumblr_link": "",
+    "instagram_link": "https:\/\/www.instagram.com\/cafedonpablo\/",
+    "snapchat_link": "",
+    "houzz_link": "",
+    "linkedin_link": "",
+    "dribbble_link": "",
+    "behance_link": "",
+    "flickr_link": "",
+    "email_link": "",
+    "og_image_fallback": "",
+    "show_announcement_bar": true,
+    "show_popup": false,
+    "show_fixed_message": false,
+    "header_layout": "classic",
+    "footer_layout": "classic",
+    "product_layout": "classic",
+    "image_loading_style": "fade-in",
+    "mobile_top_button_text": "",
+    "mobile_top_button_link": "",
+    "logo_mobile": "",
+    "logo_mobile_overlay": "",
+    "mobile_logo_width": 200,
+    "logo_mobile_position": "center",
+    "logo_menu_position": "left",
+    "show_search_icon_mobile": true,
+    "mobile_sidebar_position": "below",
+    "icon_style": "icons",
+    "mobile_menu_background_color": "rgba(0,0,0,0)",
+    "mobile_menu_opacity": 100,
+    "mobile_menu_link_color": "rgba(0,0,0,0)",
+    "mobile_menu_link_hover_color": "rgba(0,0,0,0)",
+    "breadcrumb_capitalization": "none",
+    "breadcrumb_separator": "arrow",
+    "breadcrumb_size": "regular",
+    "dropdown_style": "vertical",
+    "dropdown_position": "below-parent",
+    "dropdown_link_spacing": "medium",
+    "use_placeholders": false,
+    "form_button_style": "button--primary",
+    "display_heading_divider": true,
+    "heading_divider_animation": "none",
+    "heading_divider_style": "short",
+    "heading_divider_width": 2,
+    "toggle_sidebar": false,
+    "tab_style": "underline",
+    "table_styles_enabled": true,
+    "qty_box_style": "box",
+    "qty_border_radius": 0,
+    "tag_style": "solid",
+    "mega_menu_1": true,
+    "mega_menu_2": false,
+    "mega_menu_3": false,
+    "mega_menu_4": false,
+    "mega_menu_5": false,
+    "mega_menu_6": false,
+    "mega_menu_7": false,
+    "mega_menu_8": false,
+    "mega_menu_9": false,
+    "mega_menu_10": false,
+    "shop_bg_color": "#ffffff",
+    "border_color": "#d3d3d3",
+    "regular_color": "#000000",
+    "link_color": "#007ace",
+    "link_hover_color": "#51b2f5",
+    "heading_color": "#000000",
+    "banner_heading_color": "#ffffff",
+    "divider_color": "#000000",
+    "logo_text": "#ffffff",
+    "header_background": "#3f3f3f",
+    "header_link_color": "#ffffff",
+    "header_link_hover_color": "#51b2f5",
+    "header_cart_badge_color": "#007ace",
+    "cart_background_color": "#fff",
+    "show_dropdown_shadow": true,
+    "dropdown_background": "#ffffff",
+    "dropdown_background_opacity": 100,
+    "dropdown_link_color": "#000000",
+    "dropdown_link_hover_color": "#007ace",
+    "footer_background": "#808080",
+    "footer_border": "rgba(0,0,0,0)",
+    "footer_link_color": "#ffffff",
+    "footer_link_hover_color": "#000000",
+    "footer_text_color": "#ffffff",
+    "sale_color": "#c70000",
+    "was_price_color": "#808080",
+    "product_hover_text_color": "#000000",
+    "product_hover_bg_color": "#ffffff",
+    "banner_bestseller": "#f0d00e",
+    "banner_comingsoon": "#585757",
+    "banner_new": "#007ace",
+    "banner_preorder": "#6e6e6f",
+    "banner_sale": "#c70000",
+    "banner_staffpick": "#222222",
+    "qty_icon_color": "#fff",
+    "qty_icon_hover_color": "#ddd",
+    "qty_background_color": "#000",
+    "qty_background_hover_color": "#222",
+    "regular__font": "open_sans_n4",
+    "regular_font_size": 15,
+    "logo__font": "open_sans_n4",
+    "logo_font_size": 20,
+    "logo_font_style": "none",
+    "nav__font": "open_sans_n4",
+    "nav_font_size": 14,
+    "nav_letter_spacing": 1,
+    "nav_font_style": "none",
+    "dropdown_heading_font_size": 16,
+    "dropdown_font_size": 12,
+    "dropdown_letter_spacing": 0,
+    "dropdown_font_style": "none",
+    "button__font": "open_sans_n4",
+    "button_letter_spacing": 0,
+    "button_font_style": "none",
+    "heading__font": "open_sans_n4",
+    "heading_size": 24,
+    "heading_letter_spacing": 0,
+    "heading_font_style": "none",
+    "preheading_font": "open_sans_n4",
+    "preheading_size": 15,
+    "preheading_style": "none",
+    "subheading_font": "open_sans_n4",
+    "subheading_size": 15,
+    "subheading_style": "none",
+    "banner_heading__font": "open_sans_n4",
+    "banner_heading_size": 40,
+    "banner_heading_style": "none",
+    "banner_text__font": "open_sans_n4",
+    "banner_text_size": 15,
+    "banner_text_letter_spacing": 1,
+    "footer_heading_font_size": 18,
+    "footer_font_size": 14,
+    "search_option": "everything",
+    "search_title": "Search",
+    "search_placeholder": "What are you looking for?",
+    "search_heading_color": "#000",
+    "search_display_style": "popup",
+    "search_popup_bg": "#fff",
+    "search_menu": "",
+    "enable_autocomplete": true,
+    "search_to_display": 5,
+    "show_secondary_image": false,
+    "display_vendor": false,
+    "thumbnail_hover_enabled": true,
+    "thumbnail_text_alignment": "center",
+    "stickers_enabled": true,
+    "sticker_shape": "square",
+    "sticker_position": "left",
+    "collection_swatches": true,
+    "collection_swatches_shape": "square",
+    "enable_shopify_review_comments": false,
+    "enable_shopify_collection_badges": false,
+    "display_product_quantity": false,
+    "limit_quantity": false,
+    "display_inventory_left": false,
+    "inventory_threshold": 10,
+    "free_price_text": "Free",
+    "product_form_style": "dropdown",
+    "swatch_style": "square",
+    "notify_me_form": true,
+    "notify_me_description": "<p>Notify me when this product is available:<\/p>",
+    "size_chart": "",
+    "enable_quickshop": true,
+    "quickshop_button_style": "button--secondary",
+    "quickshop_show_vendor": false,
+    "quickshop_show_price_savings": true,
+    "show_dynamic_checkout_button": false,
+    "quickshop_truncate_words": false,
+    "quickshop_truncate_words_limit": 20,
+    "qs_popup_color": "#fff",
+    "show_product_gallery_thumbnails": true,
+    "quickshop_arrows": true,
+    "quickshop_magnify_images": false,
+    "quickshop_speed": 0,
+    "quickshop_gallery_transition_styles": "slide",
+    "quickshop_thumbnail_position": "bottom-thumbnails",
+    "enable_thumbnail_slider": true,
+    "quickshop_gallery_position": "left",
+    "video_looping": false,
+    "cart_action": "mini_cart",
+    "show_lock_icon": true,
+    "cart_icon": "bag",
+    "display_special_instructions": false,
+    "display_tos_checkbox": false,
+    "tos_page": "",
+    "display_savings": false,
+    "display_ajax_quantity_box": false,
+    "cart_message": "",
+    "go_to_checkout": true,
+    "enable_shipping_calculator": false,
+    "shipping_calculator_default_country": "United States",
+    "show_multiple_currencies": false,
+    "currency_format": "money_with_currency_format",
+    "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+    "default_currency": "USD",
+    "disqus_enabled": false,
+    "disqus_shortname": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/Don_Pablo_sillouette_logo_2_1.png",
+          "logo_max_width": 205,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": false,
+          "message_text": "Free shipping on all orders of $50 or more!",
+          "message_link": "",
+          "color_bg": "#000000",
+          "color_text": "#ffffff"
         }
       },
-      "content_for_index": [
-        "collection-list",
-        "featured-collection",
-        "featured-product"
-      ]
-    }
+      "1591744667445": {
+        "type": "index__mega-menu",
+        "settings": {
+          "title": "Rich text",
+          "heading_font": "open_sans_n4",
+          "heading_color": "rgba(0,0,0,0)",
+          "accordion_header_color": "rgba(0,0,0,0)",
+          "heading_alignment": "center",
+          "heading_size": 30,
+          "width": "standard",
+          "padding_top": 32,
+          "padding_bottom": 32,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "button_label": "",
+          "button_link": "",
+          "button_alignment": "center",
+          "button_style": "btn-primary"
+        }
+      },
+      "1591804282642": {
+        "type": "index__collection",
+        "settings": {
+          "title": "Our Best Sellers",
+          "featured_collection": "best-sellers",
+          "limit": 8,
+          "width": "standard",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "padding_left": 0,
+          "padding_right": 0,
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "1591805262342": {
+        "type": "index__hero",
+        "blocks": {
+          "1591805262342-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/a_95c3fcb6-658c-4eb9-917f-aa900fec0223.jpg",
+              "alignment": "center center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections"
+            }
+          },
+          "1591805262342-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1.jpg",
+              "alignment": "center center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections"
+            }
+          },
+          "1592513106605": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c.jpg",
+              "alignment": "center center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections"
+            }
+          },
+          "6ab2e807-dd5c-4bd8-9a7f-f75ed1aaa7bd": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/b.jpg",
+              "alignment": "center center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections"
+            }
+          },
+          "6b36b079-cf57-45b3-84a5-0cd3b00a5b4a": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/d.jpg",
+              "alignment": "center center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections"
+            }
+          }
+        },
+        "block_order": [
+          "1591805262342-0",
+          "1591805262342-1",
+          "1592513106605",
+          "6ab2e807-dd5c-4bd8-9a7f-f75ed1aaa7bd",
+          "6b36b079-cf57-45b3-84a5-0cd3b00a5b4a"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "display_newsletter": true,
+          "newsletter_link": "https:\/\/manage.kmail-lists.com\/subscriptions\/subscribe?g=TBvTdr&%24fields=%24consent&%24list_fields=%24consent",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1592012934315": {
+        "type": "index__product-display",
+        "settings": {
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "product_of_the_month": "don-isidro-genuine-antigua-guatemala",
+          "content": "<p><strong>Limited Release Specialty Coffee<\/strong><\/p><p>Full-body with a sweet, delicate brightness and hints of chocolate, honey roasted cacao nibs, with a clean fruit-toned finish. Here at Don Pablo Coffee, we are taking this exceptional coffee and roasting it in small batches which highlights the incredible flavors within. This is a well-balanced classic coffee with extraordinary flavors.<\/p><p><strong>12 oz Bag - Available in:<br\/><\/strong>Light Roast<br\/>True Medium Roast <br\/>Medium-Dark Roast<br\/>Dark Roast<\/p>",
+          "image": "shopify:\/\/shop_images\/Don_Isidro_36694912-e7c1-4faf-a75c-8f2d58a614b6.png",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1592523435875": {
+        "type": "index__image-with-dual-text",
+        "settings": {
+          "width": "standard",
+          "ripTop": "top__01",
+          "ripBottom": "bottom__01",
+          "alignContent": "right",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "background_image": "shopify:\/\/shop_images\/Don_Pablo_Guatemala.jpg",
+          "headerOne": "Don Pablo<br><b>Coffee Growers & Roasters<\/b>",
+          "paragraphOne": "<p>Established in 2004, Don Pablo Coffee is a family owned, vertically integrated coffee company located in Miami, Florida. We grow our own coffee in Colombia, S.A. and purchase only the highest quality Arabica specialty coffee beans from all over the world. Our partnership with the largest private coffee milling and exporting company in Latin America allows us select the top 1% of Arabica coffee beans available. We small batch roast all our Specialty Coffees to order to deliver the highest quality, freshly roasted specialty coffees to our valued customers within days of roasting.<\/p><p><br\/><\/p>",
+          "headerTwo": "ORDER DON PABLO <br><b>SPECIALTY COFFEE ONLINE<\/b>",
+          "paragraphTwo": "<p>We put a lot of hard work and care into all of our Specialty Coffees, and we invite you to experience it for yourself risk free. We guarantee the quality and flavor of all our Specialty Coffees. If you don't love our coffee, we'll refund your order, no questions asked.<\/p>",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1593209682258": {
+        "type": "index__reviews",
+        "blocks": {
+          "1595439064023": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>I’m so happy I found Don Pablo Coffee; we’ve tried a few different blends and haven’t been the least bit disappointed with any of them. Every one has been very smooth and doesn’t have that bite that you get from coffees that have too much chicory. I took advantage of the monthly subscription and with my zealous attitude I ordered too much and after a few months decided I’d better scale it down. I emailed first thing on a Saturday morning and got a reply in no time assuring me my request would be taken care of! Fantastic customer service! Thanks so much! <\/p>",
+              "reviewAuthor": "Demaris Gerwin"
+            }
+          },
+          "1595438601701": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>I think it was 9 years ago that I sampled your coffee for the first time at Costco. Like a lot of shoppers, I grabbed a cup and kept walking. The first sip stopped me in my tracks (which can be dangerous at Costco.) The second had me making a fast u-turn to get my first bag of Don Pablo. I have been an extraordinarily loyal customer ever since.<\/p><p><\/p><p>Thanks for your dedication to your craft, and for keeping your prices very reasonable!<\/p>",
+              "reviewAuthor": "David K."
+            }
+          },
+          "1595438667708": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>We love this coffee… We followed Mr. Burke’s suggestions for grinding and brewing and are very happy with the full-bodied, delicious taste of this coffee without any bitterness!<\/p>",
+              "reviewAuthor": "Beggin B."
+            }
+          },
+          "1595438987186": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>I honestly have NEVER tasted a finer coffee blend at anywhere near this price… Someone down in Florida really knows the in’s and outs’s of blending and roasting beans. To sum it all up; This coffee is a bargain when compared to “grocery gourmets”. It’s smooth, flavorful, well roasted and inexpensive. Kudos to Don Pablo!<\/p>",
+              "reviewAuthor": "Billy P."
+            }
+          },
+          "1595439006427": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>This is an excellent bean that gives you a clean full flavor brew and brew. For the amount that this costs and the quality it delivers, it is one of the best deals going.<\/p>",
+              "reviewAuthor": "B. Hamlin"
+            }
+          },
+          "1595439036136": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>I don’t leave many reviews but I had to review this coffee… I made my first cup and took a sip. Oh my goodness! This coffee is amazing. Not a hint of bitterness! Just fresh, a bit naturally sweet, robust coffee. I’m a convert! I’ll use up my ground coffees, but this is the coffee I’m buying from now on.<\/p>",
+              "reviewAuthor": "Sharon T."
+            }
+          },
+          "1595439045963": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>This is the best coffee on the planet. It was fresh and smells great during grinding and even more during the brewing process. Everyone I have had try this orders some for themselves.<\/p>",
+              "reviewAuthor": "Mike A."
+            }
+          },
+          "38d950c0-1763-4427-bc8f-a4297a6fde19": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>EXCELLENT - WOW! This is the, hands down, BEST coffee!! Never have I found any decaf to rival this. It doesn’t even taste like decaf at all. I have an allergy to caffeine and also pesticides. I cannot say enough about the excellence in taste and quality of this particular coffee.<\/p>",
+              "reviewAuthor": "K.I."
+            }
+          },
+          "a2b391c5-8aef-4a44-a4ba-ea2a0dec8d9f": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>This is the best coffee for low acidity. I&#x27;ve tried many kinds of coffee and this coffee has the best flavor. It&#x27;s not bitter and no aftertaste. The seller of this product ships immediately upon ordering. I have used the beans and the pre-ground. Both tastes good, but I prefer the beans. My family and friends also like this coffee.<\/p><p><\/p>",
+              "reviewAuthor": "Karen"
+            }
+          },
+          "347d19dd-9c67-4f9a-905f-fcde225cf0c6": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>Best Coffee ever. Won&#x27;t drink anything else. <\/p>",
+              "reviewAuthor": "Katherine"
+            }
+          },
+          "67017f58-e5dd-48f9-a8aa-9958ea0f0cc3": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>We have enjoyed Don Pablo&#x27;s coffee for many years but only recently discovered this Guatemalan variety they are roasting. We love it. There truly are flavors of chocolate in this brew. We are now converts. <\/p>",
+              "reviewAuthor": "Larry"
+            }
+          },
+          "2500ed4c-d6ce-4452-b45b-291d7c315b32": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>This is the best decaf coffee that I&#x27;ve ever had. It has great aroma and a nice pleasant rich taste. If I didn&#x27;t know it is decaf, I would never guess that it is.<\/p>",
+              "reviewAuthor": "Diane"
+            }
+          },
+          "f146c9cf-3892-48e2-83b0-d4bc8128d02e": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>This coffee is exactly like what I purchased in Colombia while on a cruise. The taste is perfect and there is no noticeable acid taste that often comes with strong coffee. It definitely lives up to the “low acidity” claim on the packaging.<\/p>",
+              "reviewAuthor": "Kathy"
+            }
+          },
+          "ce8d15c7-058c-41d7-9a83-3b54beaa91c4": {
+            "type": "review",
+            "settings": {
+              "reviewBody": "<p>Best decaf, low acid there is! Great for those trying to lay off the caffeine and also great for those with acid reflux. I LOVE IT! I had to stop drinking regular coffee because of irregular heart beat rhythm and trying to conceive and because of acid reflux. This is just the greatest stuff for my mornings.<\/p>",
+              "reviewAuthor": "Heather"
+            }
+          }
+        },
+        "block_order": [
+          "1595439064023",
+          "1595438601701",
+          "1595438667708",
+          "1595438987186",
+          "1595439006427",
+          "1595439036136",
+          "1595439045963",
+          "38d950c0-1763-4427-bc8f-a4297a6fde19",
+          "a2b391c5-8aef-4a44-a4ba-ea2a0dec8d9f",
+          "347d19dd-9c67-4f9a-905f-fcde225cf0c6",
+          "67017f58-e5dd-48f9-a8aa-9958ea0f0cc3",
+          "2500ed4c-d6ce-4452-b45b-291d7c315b32",
+          "f146c9cf-3892-48e2-83b0-d4bc8128d02e",
+          "ce8d15c7-058c-41d7-9a83-3b54beaa91c4"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "page-header": {
+        "type": "page-header",
+        "settings": {
+          "backgroundImage": "shopify:\/\/shop_images\/AdobeStock_217339703_1.jpg"
+        }
+      },
+      "contact__contact-form": {
+        "type": "contact__contact-form",
+        "settings": {
+          "sectionTitle": "SEND US <br><b>A MESSAGE<\/b>",
+          "sectionSubtext": "<p>We would love to hear what you think about Don Pablo Coffee. Call us at: (877) 436-8722 or fill in the contact form below:<\/p>",
+          "width": "narrow",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "backgroundColor": "#ffffff",
+          "backgroundGradient": "#e1dbd3"
+        }
+      },
+      "contact__contact-map": {
+        "type": "contact__contact-map",
+        "settings": {
+          "sectionTitle": "<b>DON PABLO Coffee<\/b>",
+          "sectionSubtext": "",
+          "customerServiceTollFree": "(877) 436-6722",
+          "customerServiceLocal": "(305) 249-5628",
+          "customerServiceEmail": "info@donpablocoffee.com",
+          "wholesaleContactRep": "Timothy Moynihan",
+          "wholesaleContactRepTitle": "Director of Sales",
+          "wholesaleDirect": "",
+          "wholesaleOffice": "(305) 249-5628",
+          "wholesaleEmail": "tmoynihan@burkebrands.com",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "backgroundColor": "#ffffff"
+        }
+      },
+      "brewing__page-header": {
+        "type": "brewing__page-header",
+        "settings": {
+          "backgroundImage": "shopify:\/\/shop_images\/AdobeStock_138360071_1.jpg"
+        }
+      },
+      "brewing__intro": {
+        "type": "brewing__intro",
+        "settings": {
+          "show_section": true,
+          "sectionTitle": "ENJOY GOURMET COFFEE BEANS <br><b>FROM CAFE DON PABLO<\/b>",
+          "body": "<p>At Cafe Don Pablo, we’re proud to produce some of the finest craft coffees, sourcing from authentic small farms throughout North, South &amp; Central America and using a traditional artisan roasting process to create our coffee blends.<\/p><p><br\/>The only way to truly get the most from Don Pablo coffee is through the optimal brewing method. Brewing coffee is both an art and a science, and there are as many approaches as there are premium coffee blends, but at Don Pablo, we have our own recommendation on how to brew the perfect cup of Don Pablo coffee. Follow this guide to craft a cup of coffee using premium beans from Cafe Don Pablo!<\/p>",
+          "image": "shopify:\/\/shop_images\/coffee_cup_91cd6d7d-e12e-47c5-852c-b88bfde82add.png",
+          "width": "standard",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "backgroundColor": "#ffffff"
+        }
+      },
+      "brewing__accordion": {
+        "type": "brewing__accordion",
+        "blocks": {
+          "1593629071564": {
+            "type": "accordion",
+            "settings": {
+              "accordionHeader": "GRINDING THE <span>BEANS<\/span>",
+              "accordionBody": "<p>Beside buying excellent quality coffee beans, the freshest and best way to enjoy your cup of coffee, is to grind it at home, right before brewing, just before you are drinking it. It keeps the coffee compounds intact. This is the crucial, it is the real secret to enhance the taste of your coffee at home. Grind size has a tremendous effect on the outcome of the brew as it determines the flow of water through the grounds. Choosing the grind size will depend on the type of brewing, and the final taste you desire i.e. American, Espresso, Turkish, Classic or Latte. The finer the grind, the larger the surface area of the coffee bean exposed. This ultimately allows greater extraction of the coffee particles such as flavor compounds, solid, and oils. <br><br>A general concept of grinding takes into consideration the length of time ground coffee is in contact with water, and the temperature and pressure they are brewed at. Exemplifying this, Espresso requires quite a fine grind; whereas, French press is partial to the other end of the spectrum, a coarse grind. The type of roast can be a variable in altering grind size as well. For example, if you are brewing with a lighter roast you could grind the beans finer, to achieve a deeper extraction. Later on, you will find our recommended grind size for each coffee brewing method.<\/p>"
+            }
+          },
+          "1593629100109": {
+            "type": "accordion",
+            "settings": {
+              "accordionHeader": "THE <span>WATER<\/span>",
+              "accordionBody": "<p>Not only does water make up the major component of your average cup of coffee, but it is also the solvent responsible for extracting the soluble flavors, esters, oils, and minerals from the roasted coffee beans.<\/p>\n\n<ul class=\"has-coffee-bean-bullets\">\n<li>Water quality can differ greatly depending on the source. Inferior quality water will inevitably affect the quality of your brewed cup in a negative way. Use fresh spring, mineral, or filtered water. Keep the water clean and pure for tastiest brews.<\/li>\n<li>Water composition is very important because the minerals in the water are essential to the extraction process while brewing. It is worth mentioning that if water is not clean, or contain intruding elements like chloride or any other, the extracting process, is disturbed directly altering the flavor of your infusion.<\/li>\n<li>Water temperature to brew our specialty coffee should be between 185°F (85°C) and 195°F (91°C) for optimal extraction. Generally speaking; the lower end of this temperature spectrum works well for darker roasts while the higher end can be more efficient for lighter roasts. If you do not have a water thermometer, a practical application is to boil the water and let it stand for two minutes, or add a splash of cold water before mixing it with the grounds. Most automated or electrical coffee brewing systems will account for temperature and\/or allow you to set it.<\/li>\n<\/ul>"
+            }
+          },
+          "1593629112233": {
+            "type": "accordion",
+            "settings": {
+              "accordionHeader": "ROAST AND FRESHNESS <span>OF THE COFFEE<\/span>",
+              "accordionBody": "<p>When it comes to enjoying a cup of coffee, freshness is of top importance. The process of roasting the coffee beans plays a huge role in the quality of your cup of coffee. After being roasted, coffee needs time to “rest.” During this time, coffee releases gases, and develops the oils and aromatic compounds that rise to the top of the beans, to provide the coffee optimum flavor and aroma. We take care of this stage, and package our whole beans at peak freshness. After roasting, we let our coffee rest, to then package it. It helps our Coffee stay fresher longer as whole bean. Once you grind the beans at home, oxidation starts to take place and deterioration begins. We recommend fresh roasted coffee beans to be freshly ground directly before you brew; this ensures the freshest and best cup of coffee.\n<\/p>\n<p class=\"pt-4\"><b>ROAST STYLE AND STRENGTH<\/b><\/p>\n<ul class=\"has-coffee-bean-bullets\">\n<li>Do you like your coffee “strong”? in the coffee world, strong coffee doesn’t mean caffeinated or bitter coffee. The strength refers to its richness, or satisfying fullness in flavor, body, and acidity. The strengths in the coffee is reached by the brewing ratio.<\/li>\n<li>Caramelization of the natural sugars in the bean: a darker roast fully caramelizes the natural sugars in the coffee bean, adding a “punch of flavor” but reducing its body and natural flavor character. A dark roast will stand up through copious amount of cream and sweetener.<\/li>\n<li>Medium-dark roast, makes a very satisfying rich brew, that reveals the natural flavor of the bean, and ensures that the coffee is smooth with a clean finish and pleasant aftertaste. (Note: besides being my personal favorite roast, it is our best seller by far, and it is my opinion, that many people who drink dark roasts, would actually enjoy a medium-dark roast more, if they knew how to drink it… so we really want to sell it here).<\/li>\n<\/ul>"
+            }
+          },
+          "1593629132676": {
+            "type": "accordion",
+            "settings": {
+              "accordionHeader": "BREWING <span>THE COFFEE<\/span>",
+              "accordionBody": "<p>Brewing ratio refers to the proportion of ground coffee used in relation to the amount of water used. This can seem confusing considering that grind size, water temperature, brew ratio, and brew time are all in relation to each other. To keep consistency, use a kitchen scale to measure. If you do not have a kitchen scale that’s ok, we have included conversions to common kitchen measures like tablespoons and cups.<\/p>\n\n<p class=\"pt-4\"><b>BREWING RATIO<\/b><\/p>\n\n<ul class=\"has-coffee-bean-bullets\">\n<li>Brewing a Classic Drip style, for a balanced cup of coffee for most filter-methods, we recommend 10 to 11 grams of coffee, or the equivalent to one slightly rounded tablespoon, per ¾ cup (6 oz) of water.<\/li>\n<li>Brewing an Espresso and other styles, follow coffee machine guidelines or personal preferences.<\/li>\n<\/ul>\n<p>\nJust keep in mind that, the more you brew, the more you will hone in on the details to make the perfect cup of coffee according to your own taste.\n<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1593629071564",
+          "1593629100109",
+          "1593629112233",
+          "1593629132676"
+        ],
+        "settings": {
+          "show_section": true,
+          "sectionTitle": "",
+          "width": "standard",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "backgroundColor": "#d3d3d3"
+        }
+      },
+      "brewing__methods": {
+        "type": "brewing__methods",
+        "blocks": {
+          "1593637121296": {
+            "type": "method",
+            "settings": {
+              "name": "Traditional Drip Machine",
+              "body": "<p>Add one level to slightly rounded measuring tablespoon (10g) of finely ground coffee (fine granular sand, not yet a powder) to each six ounce cup of water. (177 ml)<\/p>",
+              "image": "shopify:\/\/shop_images\/AdobeStock_313424101_1.jpg"
+            }
+          },
+          "1593637160546": {
+            "type": "method",
+            "settings": {
+              "name": "French Press",
+              "body": "<p>Add 1-2 measuring tablespoons (10-20g) of coarse ground coffee per cup (177ml) of water and adjust to taste. Never add boiling water.<\/p>",
+              "image": "shopify:\/\/shop_images\/AdobeStock_171192072_1.jpg"
+            }
+          },
+          "1593637166062": {
+            "type": "method",
+            "settings": {
+              "name": "Expresso Machine",
+              "body": "<p>Fill porta-filter to line with espresso ground coffee. It’s important to get the precise grind to ensure maximum crema.<\/p>",
+              "image": "shopify:\/\/shop_images\/AdobeStock_320448129_1.jpg"
+            }
+          },
+          "1593637174969": {
+            "type": "method",
+            "settings": {
+              "name": "Hand Drip Method",
+              "body": "<p>Add 8-10 grams of medium-fine ground coffee per cup. Heat water to 190-195 degrees, (88-90.5 c) pre-soak grounds, slowly add water in a clockwise motion. Adjust to taste.<\/p>",
+              "image": "shopify:\/\/shop_images\/AdobeStock_132924173_1.jpg"
+            }
+          },
+          "1593637179981": {
+            "type": "method",
+            "settings": {
+              "name": "Cold Brew",
+              "body": "<p>Steep equal amounts of coarse ground coffee and filtered water in a covered container for 12-24 hours, strain coffee out and use cheesecloth or a paper coffee filter to remove leftover grounds. Add water to taste.<\/p>",
+              "image": "shopify:\/\/shop_images\/AdobeStock_316014592_1.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1593637121296",
+          "1593637160546",
+          "1593637166062",
+          "1593637174969",
+          "1593637179981"
+        ],
+        "settings": {
+          "show_section": true,
+          "sectionTitle": "",
+          "width": "standard",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "backgroundColor": "#ffffff"
+        }
+      },
+      "brewing__maintenance": {
+        "type": "brewing__maintenance",
+        "settings": {
+          "show_section": true,
+          "title": "COFFEE MAKERS AND  <br><b>BREWING SYSTEMS  MAINTENANCE<\/b>",
+          "heading_alignment": "center",
+          "text": "<p>With any brewing method it is important to ensure that all elements are clean and dry before use. This includes cleaning all filter baskets and carafes along with using fresh filters and clean tools.<\/p>",
+          "text_alignment": "center",
+          "button_label": "",
+          "button_alignment": "center",
+          "button_style": "btn-primary",
+          "background": "#dabe99",
+          "gradient": "rgba(0,0,0,0)",
+          "width": "narrow",
+          "ripTop": "top__02",
+          "ripBottom": "none",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "padding_left": 0,
+          "padding_right": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "about-us__page-header": {
+        "type": "about-us__page-header",
+        "settings": {
+          "backgroundImage": "shopify:\/\/shop_images\/about_us.jpg"
+        }
+      },
+      "about-us__story": {
+        "type": "about-us__story",
+        "blocks": {
+          "fee421e1-77b9-49a0-a46b-edaded353dc3": {
+            "type": "rich_text",
+            "settings": {
+              "title": "THE<br><b>DON PABLO STORY<\/b>",
+              "heading_alignment": "center",
+              "text": "<p>Today, Don Pablo Coffee is a world-class grower and roaster of specialty grade, small-batch roasted-to-order coffees sourced from the world’s best coffee-growing regions and delivered throughout the world.  But Don Pablo Coffee all started with a love story.<\/p>",
+              "text_alignment": "center",
+              "width": "md",
+              "css_class": "",
+              "custom_css": ""
+            }
+          },
+          "76bfd07f-4ac3-493d-9297-177b71a0f7b0": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/youtu.be\/YuPbwcNFijA",
+              "thumbnail_image": "shopify:\/\/shop_images\/12-01-07_047_sq_2.jpg"
+            }
+          },
+          "e33c2e93-c8b8-4ef4-a496-9b5a66780fc2": {
+            "type": "text-with-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9hhh_2.jpg",
+              "text": "<p>In 1989, Darron J. Burke, founder of Burke Brands LLC., moved to South Florida in search of adventure. Little did he know he would soon meet the love of his life, Eliana, and his life would change forever. While visiting Eliana’s family in Colombia, Darron fell in love with Latin culture and the country’s delicious coffee. The couple quickly recognized an opportunity and began to learn everything they could about coffee growing and roasting in Colombia and traveled the rest of Latin America to further their education and forge relationships with other coffee growers.<\/p>",
+              "text_alignment": "left",
+              "css_class": "",
+              "custom_css": ""
+            }
+          },
+          "4490d8c9-75ca-4aec-b9f2-f6a6ebefa1cc": {
+            "type": "text-with-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9hhh_2_1.jpg",
+              "text": "<p>The couple chose the name “Don Pablo” from the nickname Eliana’s grandmother gave to Darron. As a native Spanish speaker, she had great difficulty pronouncing his real name, so she called him “Don Pablo” after a character in her favorite tongue twister.<\/p><p>Thus, Don Pablo Coffee was born, and more than a quarter-century later the passion for quality and dedication to the craft of small-batch artisan roasting shines through in every fresh cup.<\/p>",
+              "text_alignment": "left",
+              "css_class": "",
+              "custom_css": ""
+            }
+          }
+        },
+        "block_order": [
+          "fee421e1-77b9-49a0-a46b-edaded353dc3",
+          "76bfd07f-4ac3-493d-9297-177b71a0f7b0",
+          "e33c2e93-c8b8-4ef4-a496-9b5a66780fc2",
+          "4490d8c9-75ca-4aec-b9f2-f6a6ebefa1cc"
+        ],
+        "settings": {
+          "show_section": true
+        }
+      },
+      "about-us__split": {
+        "type": "about-us__split",
+        "settings": {
+          "show_section": true,
+          "image": "shopify:\/\/shop_images\/12-01-07_047_amazon.jpg",
+          "is_image_background": false,
+          "title": "",
+          "text": "<p>In 1989, Darron J. Burke, founder of Burke Brands LLC., moved to South Florida in search of adventure. Little did he know he would soon meet the love of his life, Eliana, and his life would change forever. While visiting Eliana’s family in Colombia, Darron fell in love with Latin culture and the country’s delicious coffee. The couple quickly recognized an opportunity and began to learn everything they could about coffee growing and roasting in Colombia and traveled the rest of Latin America to further their education and forge relationships with other coffee growers.<\/p><p><\/p><p>The couple chose the name “Don Pablo” from the nickname Eliana’s grandmother gave to Darron. As a native Spanish speaker, she had great difficulty pronouncing his real name, so she called him “Don Pablo” after a character in her favorite tongue twister.<\/p><p><\/p><p>Thus, Don Pablo Coffee was born, and more than a quarter-century later the passion for quality and dedication to the craft of small-batch artisan roasting shines through in every fresh cup.<\/p>",
+          "text_alignment": "center",
+          "text_horizontal_position": "center",
+          "text_vertical_position": "middle",
+          "background_color": "#ff0000",
+          "background_opacity": 77,
+          "border_color": "#ffffff",
+          "border_width": 0,
+          "text_width": 40,
+          "button_1": "Button 1",
+          "button_1_style": "button--secondary",
+          "button_2": "Button 2",
+          "button_2_style": "button--secondary",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": true,
+          "pretext_color_mobile": "rgba(0,0,0,0)",
+          "heading_color_mobile": "rgba(0,0,0,0)",
+          "subheading_color_mobile": "rgba(0,0,0,0)",
+          "width": "wide",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "padding_left": 80,
+          "padding_right": 80,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "about-us__gourmet": {
+        "type": "about-us__gourmet",
+        "settings": {
+          "show_section": true,
+          "title": "SPECIALTY-GRADE COFFEE<br><b>ROASTED IN SMALL-BATCHES<\/b>",
+          "heading_alignment": "center",
+          "text": "<p>At Don Pablo Coffee, we are actively sourcing the best quality specialty grade beans from the top 2% of the world&#x27;s coffee production. Our roots in Colombia and Honduras, and the decades-long relationships with other coffee farmers in Latin America, Africa, and Asia that we have, makes this possible. We draw on the timeless Latin American traditions of roasting quality coffee fresh to order in small batches, to bring customers in the US and the rest of the world, a better cup of coffee, every time. As a family-owned business, we have formed close ties with our coffee farmers and their families, which gives us unmatched access to the best beans from the most prestigious coffee-growing regions in the world. This combined with our unique small-batch roasting process that blends age-old traditions with modern scientific innovations, gives our coffee an irresistible flavor profile that keeps our customers coming back for more.<\/p><p><\/p><p>Our Sharing Certified program (<a href=\"http:\/\/www.sharingcertified.org\">www.sharingcertified.org<\/a>) rewards farmers by giving back a portion of our roasted coffee profits, if they reach benchmarks in Labor, Economic and Environmental Sustainability, and also Quality. Our on-staff Green Coffee Buyer and Q Grader meticulously ensures this quality well before any coffee reaches our customer’s cup. We are also certified for Food Safety by AIB (<a href=\"https:\/\/www.aibinternational.com\/en\/\">https:\/\/www.aibinternational.com<\/a>) and Certified by CCOF for Organic Production (<a href=\"https:\/\/www.ccof.org\/\">https:\/\/www.ccof.org<\/a>), as an added measure part to ensure that all health and safety measures are being met. <\/p><p><\/p>",
+          "text_alignment": "left",
+          "button_label": "",
+          "button_alignment": "center",
+          "button_style": "btn-primary",
+          "background": "#f6f6f6",
+          "gradient": "rgba(0,0,0,0)",
+          "width": "narrow",
+          "ripTop": "none",
+          "ripBottom": "none",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "padding_left": 0,
+          "padding_right": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "about-us__difference": {
+        "type": "about-us__difference",
+        "settings": {
+          "show_section": false,
+          "width": "standard",
+          "ripTop": "top__01",
+          "ripBottom": "bottom__01",
+          "alignContent": "left",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "animation": "none",
+          "background_image": "shopify:\/\/shop_images\/AdobeStock_190994633_1.jpg",
+          "headerOne": "THE <br><b>DON PABLO DIFFERENCE<\/b>",
+          "paragraphOne": "<p>Wondering what sets Don Pablo apart from other coffee brands? It’s our unique combination of our close relationships with the best coffee farmers in Latin America, Asia, and Africa, a meticulous dedication to the craft of artisan coffee roasting, and our commitment to unbeatably fresh coffee.<\/p>",
+          "headerTwo": "OUR <br><b>FAMILY TIES<\/b>",
+          "paragraphTwo": "<p>We are a family-owned and operated coffee company, and because of that, we’re able to form close personal relationships with coffee growers at the point of origin. This gives us a dedicated source of supply of the finest Arabica beans in the Western Hemisphere, allowing us to choose nothing but the absolute ‘cream’ of the coffee crop. We grow, pick, and process our own coffee beans in Colombia, and we closely manage the production of more than 1,000,000 coffee trees throughout South and Central America through our Sharing Certified Program. We keep our coffee pure, never blending it with Robusta, past crop, or defective beans, and our on-staff Q Grader meticulously ensures the quality of every bean we roast. We are AIB Food Safety Certified and Certified by the CCOF for Organic Production – meaning you can be sure you’re getting the best possible gourmet specialty coffee, every time.<\/p>",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "about-us__roasting": {
+        "type": "about-us__roasting",
+        "settings": {
+          "show_section": true,
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "about-us__fresh": {
+        "type": "about-us__fresh",
+        "settings": {
+          "show_section": true,
+          "title": "OUR COMMITMENT <br><b>TO FRESH COFFEE<\/b>",
+          "heading_alignment": "center",
+          "text": "<p>World-class beans and an artisanal roasting process would be wasted if we weren&#x27;t able to get our coffee to you while it is still fresh. There’s simply no substitute for fresh, recently-roasted coffee, so we’ve structured our business to ensure you get the freshest cup possible every time. We roast our coffee to-order instead of roasting on a production schedule like our competitors, and we keep the supply chain short, with no coffee sitting in warehouses and DC&#x27;s getting stale while we wait for an order to be placed. This ensures you get a freshly-roasted batch. Our process guarantees an unmatched flavor, freshness, and clean finish – and you can smell the difference from the moment you open the bag.<strong> <\/strong><\/p>",
+          "text_alignment": "left",
+          "button_label": "",
+          "button_alignment": "center",
+          "button_style": "btn-primary",
+          "background": "rgba(0,0,0,0)",
+          "gradient": "rgba(0,0,0,0)",
+          "ripTop": "none",
+          "ripBottom": "none",
+          "width": "narrow",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "padding_left": 0,
+          "padding_right": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "about-us__clients": {
+        "type": "about-us__clients",
+        "settings": {
+          "show_section": true,
+          "image": "shopify:\/\/shop_images\/3_21.jpg",
+          "title": "Our <br><b>Clients<\/b>",
+          "text": "<p>One cup is never enough of Cafe Don Pablo. Our product listings on Amazon, have over 2,000 positive reviews from satisfied customers. Our coffee is available for purchase on our website, Amazon, retail stores, office coffee service, and served in various restaurants across the world.<\/p>\n<p>We are proud to distribute our coffee through the following retailers, wholesalers, and distributors, with more to come:\n<\/p>\n<ul class=\"has-coffee-bean-bullets\">\n<li>Costco<\/li>\n<li>Sam's Club<\/li>\n<li>Amazon.com<\/li>\n<li>Walmart.com<\/li>\n<li>Canteen Vending Services<\/li>\n<li>Restaurant Beverage Services<\/li>\n<li>First Choice Coffee Service<\/li>\n<li>Green Earth Beverage Systems<\/li>\n<\/ul>\n<p><\/p>",
+          "text_alignment": "center",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "about-us__selling-points": {
+        "type": "about-us__selling-points",
+        "blocks": {
+          "fe1d528b-c536-44d6-8b0b-0bbffc2fbb7f": {
+            "type": "rich_text",
+            "settings": {
+              "title": "WHAT MAKES <br><b>OUR COFFEE SO GREAT?<\/b>",
+              "heading_alignment": "center",
+              "text": "<ul class=\"has-coffee-bean-bullets\">\n<li>Quality - We use 100% specialty-grade Arabica beans from the top 2% of the world's coffee production<\/li>\n<li>Method - We roast in multiple small batch roasters<\/li>\n<li>Expertise - We have the expertise to unlock the beans' full flavor potential based on its altitude and terroir<\/li>\n<li>Freshness - We roast to-order for all of our customers, large and small<\/li>\n<li>We sell superlative quality coffee at a price that represents an incredible value to our customers<\/li>\n<\/ul>",
+              "text_alignment": "left",
+              "width": "md",
+              "css_class": "",
+              "custom_css": ""
+            }
+          },
+          "200eb125-8d76-4e06-a5f3-2adbfba34d9e": {
+            "type": "image",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/82080987_10156771181387621_6479763296290340864_o_1.jpg",
+              "image_2": "shopify:\/\/shop_images\/signature_blend_1.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "fe1d528b-c536-44d6-8b0b-0bbffc2fbb7f",
+          "200eb125-8d76-4e06-a5f3-2adbfba34d9e"
+        ],
+        "settings": {
+          "show_section": true
+        }
+      },
+      "about-us__try": {
+        "type": "about-us__try",
+        "settings": {
+          "show_section": true,
+          "title": "<b><b class=\"text-black\">Give our coffee a try<\/b> <br>and taste the difference!<\/b>",
+          "heading_alignment": "center",
+          "text": "",
+          "text_alignment": "left",
+          "button_label": "Buy Now",
+          "button_link": "shopify:\/\/collections\/all",
+          "button_alignment": "center",
+          "button_style": "btn-primary",
+          "background": "#dabe99",
+          "gradient": "rgba(0,0,0,0)",
+          "width": "narrow",
+          "ripTop": "top__02",
+          "ripBottom": "none",
+          "custom_padding": false,
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "padding_left": 0,
+          "padding_right": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "product__primary": {
+        "type": "product__primary",
+        "settings": {
+          "tooltipText": "<p>&lt;b&gt;SIGN UP FOR A MONTHLY SUBSCRIPTION AND SAVE 20%!&lt;\/b&gt;<\/p>\n<p><br>This is where the description of the subscription\/autoship process goes. We do not have this copy yet.<\/p>\n<p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate diam magna, sed pellentesque odio venenatis in. Etiam venenatis vestibulum enim eu ultricies. <\/p>"
+        }
+      },
+      "media__page-header": {
+        "type": "media__page-header",
+        "settings": {
+          "backgroundImage": "shopify:\/\/shop_images\/media.jpg"
+        }
+      },
+      "media__items": {
+        "type": "media__items",
+        "blocks": {
+          "52cc9831-53a2-4383-aca6-7a9941d47df5": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/youtu.be\/6pU03Q-UyXQ",
+              "videoTitle": "Drinkin' Don Pablo Coffee"
+            }
+          },
+          "702ba10f-0ba8-4f4b-bbca-95cde67d18e4": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/youtu.be\/27uHRSrvRmw",
+              "videoTitle": "Bourbon Coffee- Bear attack caught on camera!"
+            }
+          },
+          "1595347860521": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/111577487",
+              "videoTitle": "The Don Pablo Story"
+            }
+          },
+          "1595347810828": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/279366663",
+              "videoTitle": "Don Pablo Bourbon Infused Coffee"
+            }
+          },
+          "1595348135799": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/307070237",
+              "videoTitle": "Don Pablo in Colombia"
+            }
+          },
+          "1595348121414": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/358310943",
+              "videoTitle": "Don Pablo Bourbon Infused Coffee"
+            }
+          },
+          "1595444036189": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/youtu.be\/R_JQ42y_ukE",
+              "videoTitle": "They call me Gustavo"
+            }
+          },
+          "1595443937052": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/296673803",
+              "videoTitle": "Don Pablo Rockin' Roastin'"
+            }
+          },
+          "1595443950654": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/297173449",
+              "videoTitle": "Don Pablo Colombian Supremo"
+            }
+          },
+          "1595443970997": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/146920637",
+              "videoTitle": "Don Pablo, we're out of coffee!"
+            }
+          },
+          "1595443988754": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/296485948",
+              "videoTitle": "Don Pablo Coffee Bewing"
+            }
+          },
+          "1595444007686": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/108157390",
+              "videoTitle": "Don Pablo Telenovela"
+            }
+          },
+          "1595444023488": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/108156212",
+              "videoTitle": "Don Pablo Mi Pappa"
+            }
+          },
+          "1595444053640": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/96870749",
+              "videoTitle": "CNN’s Small and Global - Cup of Joe"
+            }
+          },
+          "1595444069807": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/96872316",
+              "videoTitle": "CNN: Couple Brews Success"
+            }
+          },
+          "1595444086071": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/151235129",
+              "videoTitle": "Telemundo Interview with Darron & Eliana Burke"
+            }
+          }
+        },
+        "block_order": [
+          "52cc9831-53a2-4383-aca6-7a9941d47df5",
+          "702ba10f-0ba8-4f4b-bbca-95cde67d18e4",
+          "1595347860521",
+          "1595347810828",
+          "1595348135799",
+          "1595348121414",
+          "1595444036189",
+          "1595443937052",
+          "1595443950654",
+          "1595443970997",
+          "1595443988754",
+          "1595444007686",
+          "1595444023488",
+          "1595444053640",
+          "1595444069807",
+          "1595444086071"
+        ],
+        "settings": {
+          "title": "DON PABLO <br><b>COFFEE VIDEO GALLERY<\/b>"
+        }
+      },
+      "about-us__roasting-pt2": {
+        "type": "about-us__roasting-pt2",
+        "blocks": {
+          "27836753-0a7f-4055-8bc9-26713840a02e": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "heading_size": "regular",
+              "text": "<p>Over the years, we’ve found that discerning customers can taste the difference between fresh, artisanally-roasted coffee and coffee that’s been roasted by the metric ton and sold through multinational corporations – so we take the former approach. Unlike coffee that is produced by large multinational corporations, our coffee is best enjoyed black without any sweeteners. Your taste buds will experience the natural chocolate and caramel flavor notes, smooth, clean finishes, and naturally sweet, aftertaste of quality artisan coffee. Using our specialty-grade coffee beans, we roast in multiple small-batch coffee roasters, using a process that’s half an art and half a science. Our Master Roaster, who comes to us from three generations of coffee growing in Colombia, uses senses honed by thousands of hours of practice and study, relying on sight, smell, and sound, as well as computer profiling, to ensure that the natural sugars in the bean are carmelized in just the right way to bring out an unparalleled, chocolate flavor with just a hint of roastiness, as well as a smooth texture, cocoa-toned finish, and sweet pleasant, lingering aftertaste. <\/p>",
+              "button_label": "",
+              "button_style": "btn-primary",
+              "background": "rgba(0,0,0,0)",
+              "text_color": "rgba(0,0,0,0)",
+              "alignment": "left",
+              "vertical_position": "center"
+            }
+          },
+          "b0da8579-4236-4c16-b930-b2bfad006028": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/18.jpg",
+              "image_crop": "none"
+            }
+          }
+        },
+        "block_order": [
+          "27836753-0a7f-4055-8bc9-26713840a02e",
+          "b0da8579-4236-4c16-b930-b2bfad006028"
+        ],
+        "settings": {
+          "show_section": true,
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 0,
+          "padding_bottom": 80,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "about-us__story_2": {
+        "type": "about-us__story_2",
+        "blocks": {
+          "3cb66a2c-0ad2-49ba-8562-0a15a8016132": {
+            "type": "rich_text",
+            "settings": {
+              "title": "THE<br><b>DON PABLO STORY<\/b>",
+              "heading_alignment": "center",
+              "text": "<p>Today, Don Pablo Coffee is a world-class grower and roaster of specialty grade, small-batch roasted-to-order coffees sourced from the world’s best coffee-growing regions and delivered throughout the world.  But Don Pablo Coffee all started with a love story.<\/p>",
+              "text_alignment": "center",
+              "width": "narrow",
+              "css_class": "",
+              "custom_css": ""
+            }
+          },
+          "194e77c2-8ff1-4f2f-bb7c-35f2eb799331": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/player.vimeo.com\/video\/279366663"
+            }
+          },
+          "d48bd633-248d-49f3-a8cb-9617def45e70": {
+            "type": "text-with-image",
+            "settings": {
+              "text": "<p>In 1989, Darron J. Burke, founder of Burke Brands LLC., moved to South Florida in search of adventure. Little did he know he would soon meet the love of his life, Eliana, and his life would change forever. While visiting Eliana’s family in Colombia, Darron fell in love with Latin culture and the country’s delicious coffee. The couple quickly recognized an opportunity and began to learn everything they could about coffee growing and roasting in Colombia and traveled the rest of Latin America to further their education and forge relationships with other coffee growers.<\/p>",
+              "text_alignment": "left",
+              "css_class": "",
+              "custom_css": ""
+            }
+          },
+          "d6e3155e-1b4b-47be-a00b-59a6cddc39f1": {
+            "type": "text-with-image",
+            "settings": {
+              "text": "<p>The couple chose the name “Don Pablo” from the nickname Eliana’s grandmother gave to Darron. As a native Spanish speaker, she had great difficulty pronouncing his real name, so she called him “Don Pablo” after a character in her favorite tongue twister.<\/p><p>Thus, Don Pablo Coffee was born, and more than a quarter-century later the passion for quality and dedication to the craft of small-batch artisan roasting shines through in every fresh cup.<\/p>",
+              "text_alignment": "left",
+              "css_class": "",
+              "custom_css": ""
+            }
+          }
+        },
+        "block_order": [
+          "3cb66a2c-0ad2-49ba-8562-0a15a8016132",
+          "194e77c2-8ff1-4f2f-bb7c-35f2eb799331",
+          "d48bd633-248d-49f3-a8cb-9617def45e70",
+          "d6e3155e-1b4b-47be-a00b-59a6cddc39f1"
+        ],
+        "settings": {
+          "show_section": true
+        }
+      },
+      "about-us__batch": {
+        "type": "about-us__batch",
+        "blocks": {
+          "37c43539-68f9-4446-9fb9-86e51a3284a4": {
+            "type": "rich_text",
+            "settings": {
+              "title": "Specialty-Grade-Coffee<br><b>Roasted in small-batches<\/b>",
+              "heading_alignment": "center",
+              "text": "",
+              "text_alignment": "left",
+              "width": "wide",
+              "css_class": "mb-n5",
+              "custom_css": ""
+            }
+          },
+          "360b04bb-1077-4ca1-819e-338795dc8fcd": {
+            "type": "text-with-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/591_1_1.jpg",
+              "text": "<p>At Don Pablo Coffee, we are actively sourcing the best quality specialty grade beans from the top 2% of the world's coffee production. Our roots in Colombia and Honduras, and the decades-long relationships with other coffee farmers in Latin America, Africa, and Asia that we have, makes this possible.<\/p>",
+              "text_alignment": "left",
+              "css_class": "",
+              "custom_css": ""
+            }
+          },
+          "e0e662da-2125-4069-abd4-fe6516a72430": {
+            "type": "text-with-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/11_1.jpg",
+              "text": "<p><br\/>We draw on the timeless Latin American traditions of roasting quality coffee fresh to order in small batches, to bring customers in the US and the rest of the world, a better cup of coffee, every time. <br\/><br\/><\/p>",
+              "text_alignment": "left",
+              "css_class": "",
+              "custom_css": ""
+            }
+          }
+        },
+        "block_order": [
+          "37c43539-68f9-4446-9fb9-86e51a3284a4",
+          "360b04bb-1077-4ca1-819e-338795dc8fcd",
+          "e0e662da-2125-4069-abd4-fe6516a72430"
+        ],
+        "settings": {
+          "show_section": true
+        }
+      },
+      "about-us__banner": {
+        "type": "about-us__banner",
+        "settings": {
+          "title": "",
+          "heading_alignment": "center",
+          "text": "<p>Our <a href=\"\/pages\/contact-us\" title=\"Contact Us\" target=\"_blank\">Sharing Certified program<\/a> rewards farmers by giving back a portion of our roasted coffee profits, if they reach benchmarks in Labor, Economic and Environmental Sustainability, and also Quality. Our on-staff Green Coffee Buyer and Q Grader meticulously ensures this quality well before any coffee reaches our customer’s cup. <\/p><p>We are also certified for Food Safety by <a href=\"\/pages\/contact-us\" title=\"Contact Us\" target=\"_blank\">AIB<\/a> and Certified by CCOF for <a href=\"\/pages\/contact-us\" title=\"Contact Us\" target=\"_blank\">Organic Production<\/a>, as an added measure part to ensure that all health and safety measures are being met. <\/p>",
+          "text_alignment": "left",
+          "icon": "shopify:\/\/shop_images\/sharing_certified_2_1.png",
+          "background_overlay": "rgba(0,0,0,0)",
+          "background_image": "shopify:\/\/shop_images\/8h_1.jpg",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "about-us__art-of-roasting": {
+        "type": "about-us__art-of-roasting",
+        "blocks": {
+          "daf1c3bc-224b-4dcf-b06a-71ce568ee888": {
+            "type": "rich_text",
+            "settings": {
+              "title": "THE ART <br><b>OF ROASTING<\/b>",
+              "heading_alignment": "center",
+              "text": "<p>Even the finest bean is wasted without the right roasting technique, and at our roastery, we’ve honed our process to perfection. We slow-roast our specialty beans in small batches, ensuring they reach peak flavor and optimal freshness. We pride ourselves in being true artisan coffee roasters, roasting our coffee by sight, smell, and sound to provide each of our customers with excellent quality, true artisan specialty coffee. And because we are perfectionists, we do not stop there, we also have sophisticated computer profile software attached to each of our 5 small-batch roasters, that allow us to maintain a high level of consistency and also to tweak profiles in real-time based on the beans' density and the atmospheric conditions on a particular day that the coffee is roasted.<\/p>",
+              "text_alignment": "left",
+              "width": "md",
+              "css_class": "",
+              "custom_css": ""
+            }
+          },
+          "b549dcf1-bf1f-4acf-a186-9988aa0c4370": {
+            "type": "image",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/28661062_10155303725202621_8347933641799630848_n_1.jpg"
+            }
+          },
+          "cca9c246-7f29-4ccd-81c6-dbdd404a8724": {
+            "type": "rich_text",
+            "settings": {
+              "title": "",
+              "heading_alignment": "left",
+              "text": "<p>Over the years, we’ve found that discerning customers can taste the difference between fresh, artisanally-roasted coffee and coffee that’s been roasted by the metric ton and sold through multinational corporations – so we take the former approach. Unlike coffee that is produced by large multinational corporations, our coffee is best enjoyed black without any sweeteners. Your taste buds will experience the natural chocolate and caramel flavor notes, smooth, clean finishes, and naturally sweet, aftertaste of quality artisan coffee. Using our specialty-grade coffee beans, we roast in multiple small-batch coffee roasters, using a process that’s half an art and half a science. Our Master Roaster, who comes to us from three generations of coffee growing in Colombia, uses senses honed by thousands of hours of practice and study, relying on sight, smell, and sound, as well as computer profiling, to ensure that the natural sugars in the bean are carmelized in just the right way to bring out an unparalleled, chocolate flavor with just a hint of roastiness, as well as a smooth texture, cocoa-toned finish, and sweet pleasant, lingering aftertaste. <\/p>",
+              "text_alignment": "left",
+              "width": "md",
+              "css_class": "",
+              "custom_css": ""
+            }
+          },
+          "58949f1c-b70c-48c9-8c33-3584872f7df2": {
+            "type": "image",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/D_1.jpg",
+              "image_2": "shopify:\/\/shop_images\/7r_1.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "daf1c3bc-224b-4dcf-b06a-71ce568ee888",
+          "b549dcf1-bf1f-4acf-a186-9988aa0c4370",
+          "cca9c246-7f29-4ccd-81c6-dbdd404a8724",
+          "58949f1c-b70c-48c9-8c33-3584872f7df2"
+        ],
+        "settings": {
+          "show_section": true
+        }
+      },
+      "about-us__fresh-coffee": {
+        "type": "about-us__fresh-coffee",
+        "blocks": {
+          "21f7119b-6885-45b6-8cfa-e22bc4e62693": {
+            "type": "rich_text",
+            "settings": {
+              "title": "OUR COMMITMENT<br><b>TO FRESH COFFEE<\/b>",
+              "heading_alignment": "center",
+              "text": "<p>World-class beans and an artisanal roasting process would be wasted if we weren't able to get our coffee to you while it is still fresh. There’s simply no substitute for fresh, recently-roasted coffee, so we’ve structured our business to ensure you get the freshest cup possible every time. We roast our coffee to-order instead of roasting on a production schedule like our competitors, and we keep the supply chain short, with no coffee sitting in warehouses and DC's getting stale while we wait for an order to be placed. This ensures you get a freshly-roasted batch. Our process guarantees an unmatched flavor, freshness, and clean finish – and you can smell the difference from the moment you open the bag. <\/p>",
+              "text_alignment": "left",
+              "width": "md",
+              "css_class": "",
+              "custom_css": ""
+            }
+          },
+          "404f64f9-3cca-4e89-bbf2-8fd3d2430ad7": {
+            "type": "image",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/don_pablo_1.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "21f7119b-6885-45b6-8cfa-e22bc4e62693",
+          "404f64f9-3cca-4e89-bbf2-8fd3d2430ad7"
+        ],
+        "settings": {
+          "show_section": true
+        }
+      },
+      "sharing-certified-program__page-header": {
+        "type": "sharing-certified-program__page-header",
+        "settings": {
+          "backgroundImage": "shopify:\/\/shop_images\/AdobeStock_73787828_1.png"
+        }
+      },
+      "sharing-certified-program__intro": {
+        "type": "sharing-certified-program__intro",
+        "settings": {
+          "show_section": true,
+          "sectionTitle": "SHARING <br><b>CERTIFIED (N.)<\/b>",
+          "body": "<p>A system of trade where sharing profits is utilized to offset the lopsided distribution of capital between producers in lesser developed countries and sellers in the developed world. Incentives and rewards are used, rather than subsidies, to encourage producers to reach benchmarks in four program areas; improving labor conditions, sustainable agriculture, protecting the environment, and quality control.<\/p>",
+          "image": "shopify:\/\/shop_images\/bg.png",
+          "width": "standard",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "backgroundColor": "rgba(0,0,0,0)"
+        }
+      },
+      "sharing-certified-program__overview": {
+        "type": "sharing-certified-program__overview",
+        "settings": {
+          "show_section": true,
+          "title": "SHARING CERTIFIED <br><b>OVERVIEW<\/b>",
+          "heading_alignment": "center",
+          "text": "<p>The concept of a “Sharing Certified” system of direct commerce between green coffee producers and coffee roasters was created in the spirit of building win-win relationships between farmers in lesser developed countries, and marketers of roasted specialty coffees in more economically developed countries; where the products are sold at a premium.<\/p><p><\/p><p>Sharing Certified as a system addresses the shortcomings of other Corporate Social Responsibility programs in that it is driven by incentives and rewards rather than subsidies, its goals are specific and its achievements are measurable, and its programs, progress, and results are transparent and audited by an independent third party.<\/p><p><\/p><p>Burke Brands LLC Sharing Certified program is intended to have a swift and profound effect on the economies, ecologies, and overall psychology in the communities where Burke Brands LLC coffee is grown. The creation of a framework for sharing a percentage of sales with growers, and in some cases others in the supply chain, when program benchmarks are reached in the areas of labor, sustainability, environment, and quality, could achieve significant mutually-beneficial results.<\/p><p><\/p><p>The key to Burke Brands LLC program is incentives and rewards, not charity or subsidies. Empowering growers and providing them with an incentive to help improve their own communities and protect their environment, and rewarding them for their achievements, is essential to the success of the program.<\/p><p><\/p><p>The Sharing Certified program provides the growers an unlimited potential for gain. Under the program they must be successful in reaching labor, sustainability, and environmental benchmarks, and they must also follow guidelines for producing better quality coffee; when they produce better quality coffee, the roaster\/marketer and retailer is able to sell more coffee, and in-turn more money comes back to the growers to help them reach the next set of benchmarks. The Sharing Certified system offers growers a chance to participate in the free enterprise system as we know it in the US. It also gives them a dream, makes them work for it, and helps them succeed to the benefit of themselves, their families, their communities, and the environment.<\/p><p><\/p><p>The Sharing Certified system was developed organically. The founders of Burke Brands LLC recognized an opportunity to capitalize on their relationships in the coffee growing regions of Colombia, by offering higher than market prices for a better grade of coffee, and then offering a percentage of roasted coffee sales to the farmers if they agreed to, and invested the money in, implementing programs that seek to improve the following key areas of their operations:<\/p>",
+          "text_alignment": "left",
+          "button_label": "",
+          "button_alignment": "center",
+          "button_style": "btn-primary",
+          "background": "rgba(0,0,0,0)",
+          "gradient": "#c0c0c0",
+          "width": "lg",
+          "ripTop": "none",
+          "ripBottom": "none",
+          "custom_padding": false,
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "sharing-certified-program__stacked": {
+        "type": "sharing-certified-program__stacked",
+        "blocks": {
+          "005be46e-643e-4d15-8afa-4385aca38b05": {
+            "type": "section",
+            "settings": {
+              "title": "IMPROVING LABOR <br><b>CONDITIONS<\/b>",
+              "text": "<p>Improving labor conditions where coffee is grown is essential to improving peoples’ lives and their communities, and ensuring economic sustainability on the farm. Bringing standards up to consumer expectation also builds good will and increases sales of roasted coffee.<\/p>",
+              "image": "shopify:\/\/shop_images\/AdobeStock_196425620_1.jpg",
+              "css_class": "",
+              "custom_css": ""
+            }
+          },
+          "2dab6d99-8709-4aed-8134-a13d26c07209": {
+            "type": "section",
+            "settings": {
+              "title": "SUSTAINABLE <br><b>AGRICULTURE<\/b>",
+              "text": "<p>Aside from the economic sustainability built into the overall Sharing Certified system, farmers would be accountable for and not receive profit sharing unless they followed a program that would ensure the future viability of their farms, and safeguard the surrounding environment.<\/p>",
+              "image": "shopify:\/\/shop_images\/AdobeStock_293369382_1.jpg",
+              "css_class": "",
+              "custom_css": ""
+            }
+          },
+          "870a13a3-19e7-4332-9264-e0db8307033b": {
+            "type": "section",
+            "settings": {
+              "title": "<b>ENVIRONMENT<\/b>",
+              "text": "<p>Sustainable agriculture and protecting the environment go hand and hand, though the environmental programs of the Sharing Certified system would be developed as a process of on-going improvement and would seek innovative methods to strike the perfect balance between protecting the environment and ensuring the economic sustainability of the farm for all of its stakeholders.<\/p>",
+              "image": "shopify:\/\/shop_images\/AdobeStock_148235220_1.jpg",
+              "css_class": "",
+              "custom_css": ""
+            }
+          },
+          "faddd0c7-5af6-4e14-ae71-4a6c155202ba": {
+            "type": "section",
+            "settings": {
+              "title": "<b>QUALITY<\/b>",
+              "text": "<p>Producing the highest quality green coffee will ensure that a premium is paid when it is roasted and sold, and as sales are increased as a result of improved quality, more money goes back to the farm to help reach the next set of benchmarks in the four program areas.<\/p>",
+              "image": "shopify:\/\/shop_images\/AdobeStock_250574216_1.jpg",
+              "css_class": "",
+              "custom_css": ""
+            }
+          }
+        },
+        "block_order": [
+          "005be46e-643e-4d15-8afa-4385aca38b05",
+          "2dab6d99-8709-4aed-8134-a13d26c07209",
+          "870a13a3-19e7-4332-9264-e0db8307033b",
+          "faddd0c7-5af6-4e14-ae71-4a6c155202ba"
+        ],
+        "settings": {
+          "show_section": true
+        }
+      },
+      "sharing-certified-program__program": {
+        "type": "sharing-certified-program__program",
+        "settings": {
+          "background_image": "shopify:\/\/shop_images\/AdobeStock_197658245_1.jpg",
+          "headerOne": "LIVING <br><b>PROGRAM<\/b>",
+          "paragraphOne": "<p>The Burke Brands LLC Sharing Certified program is a living program that is dynamic. The program is intended to help growers reach small attainable goals in given periods of time, towards an ultimate goal (e.g. organic farming). The program was not created simply as window dressing to motivate socially conscious consumers to purchase roasted coffee manufacturers’ products, or to fit large retailers’ requirement to appear socially responsible. Sharing Certified does not provide incentives for, or encourage growers to seek unearned certifications for economic benefit. Rather, it is a transparent program that seeks to create ownership among consumers by sharing progress made by farmers toward specific goals. Burke Brands LLC believes large retailers would find this appealing as it eliminates potential erroneous certification issues that may lead to bad publicity and an erosion of consumer confidence.<\/p>",
+          "headerTwo": "<b>THIRD PARTY AUDITING<\/b>",
+          "paragraphTwo": "<p>Though the Sharing Certified system is transparent, both value and legitimacy are added through the auditing of the system by an experienced, not fosharing certified 3r profit, third party that is independent and who’s purpose and core competency is to assess whether an organizations’ programs are being put into place and effectively executed in order to meet their stated objectives.<\/p>",
+          "width": "standard",
+          "ripTop": "none",
+          "ripBottom": "bottom__01",
+          "alignContent": "left",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "sharing-certified-program__conclusion": {
+        "type": "sharing-certified-program__conclusion",
+        "settings": {
+          "show_section": true,
+          "title": "<b>CONCLUSION<\/b>",
+          "heading_alignment": "center",
+          "text": "<p>As the specialty coffee industry grows in more economically developed countries and premiums are being paid for quality roasted specialty coffee, there is an opportunity, and greater financial resources available, to empower those members of the supply chain that receive a disproportionate amount of money for their work.<\/p><p><\/p><p>The Sharing Certified system of direct trade between green coffee producers and marketers of roasted specialty coffees uses incentives and rewards to farmers rather than subsidies, in the spirit of win-win, to improve the lives of farmers and laborers, to ensure both economic and agricultural sustainability, to safeguard the environment, and to improve the quality of coffee grown at the point of origin.<\/p><p><\/p><p>A framework for measuring processes and results is essential, and transparency and auditing by an experienced, independent third party is necessary to add value and legitimacy.<\/p><p><\/p><p>Programs must be co-developed by the farmer and specialty coffee marketer in order that each party take ownership and share responsibility for the programs’ success.<\/p><p><\/p><p>The Sharing Certified program is a living program that uses transparency, and seeks to gain consumer confidence through sharing progress in reaching benchmarks in the four program areas. Burke Brands LLC believes this method is an attractive alternative for large retailers to avoid potential problems concerning erroneous certifications.<\/p><p><\/p><p>It is anticipated that the Burke Brands LLC Sharing Certified system will have a swift and profound effect on the lives of coffee farmers, laborers, their families, and their communities, as Burke Brands LLC full potential begins to be realized.<\/p>",
+          "text_alignment": "left",
+          "button_label": "",
+          "button_alignment": "center",
+          "button_style": "btn-primary",
+          "background": "rgba(0,0,0,0)",
+          "gradient": "rgba(0,0,0,0)",
+          "width": "lg",
+          "ripTop": "none",
+          "ripBottom": "none",
+          "custom_padding": false,
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "coffee-sweepstakes__page-header": {
+        "type": "coffee-sweepstakes__page-header",
+        "settings": {
+          "backgroundImage": "shopify:\/\/shop_images\/AdobeStock_197440119_1.jpg"
+        }
+      },
+      "coffee-sweepstakes__rules": {
+        "type": "coffee-sweepstakes__rules",
+        "settings": {
+          "show_section": true,
+          "title": "Official <br><b>Rules<\/b>",
+          "heading_alignment": "center",
+          "width": "md",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "product__decaf-section": {
+        "type": "product__decaf-section",
+        "settings": {
+          "subheader": "SWISS WATER PROCESS",
+          "header": "DECAFFEINATED COFFEES",
+          "decaf_text": "<p>All Don Pablo Decaf Specialty Coffees are decaffeinated utilizing the Swiss Water® Process method, which uses nothing but pure water to gently rinse the beans of their caffeine content without disrupting their natural flavor. The Swiss Water Process ensures the beans are guaranteed to be 99.9% caffeine-free.<\/p><p><\/p><p>We then  small-batch artisan roast these special beans to slightly caramelize the coffee’s natural sugars just right, and give a slight roastiness to a naturally smooth, sweet coffee. The result is a sweet, rich, and oh-so-smooth low-acid coffee that tastes just like the real thing – without the caffeine!<\/p><p><\/p><p>Please note: because of the Swiss Water Processing, the beans will appear slightly darker than the level they are roasted to.<\/p>"
+        }
+      },
+      "coffee-sweepstakes__form": {
+        "type": "coffee-sweepstakes__form",
+        "settings": {
+          "title": "ENTER TODAY <br><b>FOR YOUR CHANCE TO WIN!<\/b>",
+          "body": "",
+          "form_id": "TGVwV9",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "youtube__form": {
+        "type": "youtube__form",
+        "settings": {
+          "title": "FREE <br><b>Bag of coffee<\/b>",
+          "body": "<p>Fill out the form below to recieve your free bag of coffee! <\/p>",
+          "form_id": "WFnh9w",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "youtube__rules": {
+        "type": "youtube__rules",
+        "settings": {
+          "show_section": true,
+          "title": "<b>Rules<\/b>",
+          "heading_alignment": "center",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "youtube__page-header": {
+        "type": "youtube__page-header",
+        "settings": {
+          "backgroundImage": "shopify:\/\/shop_images\/d.jpg"
+        }
+      }
+    },
+    "content_for_index": [
+      "1591805262342",
+      "1591744667445",
+      "1591804282642",
+      "1592012934315",
+      "1592523435875",
+      "1593209682258"
+    ]
+  },
+  "presets": {
+    "Default": {}
   }
 }
