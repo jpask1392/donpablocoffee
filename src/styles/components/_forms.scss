@@ -19,7 +19,8 @@
 }
 
 form:not(#AddToCartForm):not([isembed="true"]) {
-  input:not([type='submit']) {
+  input:not([type='submit']),
+  select {
     @extend .form-control;
 
     padding: 0.25rem 1rem;
@@ -58,4 +59,8 @@ form:not(#AddToCartForm):not([isembed="true"]) {
       color: white;
     }
   }
+}
+
+.bh-sl-container {
+  font-family: $font-family-sans-serif !important;
 }

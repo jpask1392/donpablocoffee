@@ -19,3 +19,19 @@ input[name=checkout].btn.btn-primary {
   background-color: theme-color(green);
   border-color: theme-color(green);
 }
+
+.btn-primary-important {
+  display: inline-block !important;
+  font-weight: 400 !important;
+  color: white !important;
+  background-color: theme-color(primary) !important;
+  border: 2px solid transparent !important;
+  padding: $btn-padding-y $btn-padding-x !important;
+  font-size: 1rem !important;
+  line-height: 2 !important;
+  border-radius: $btn-border-radius !important;
+}
+
+button#scapl-geocode-btn.btn-primary-important {
+  background-color: theme-color(primary) !important;  
+}

@@ -27,12 +27,12 @@
 .scasl-tag-list li { padding: 0; clear: none !important; width: auto !important; }
 .scasl-tag-list li label { font-weight: normal; }
 .scasl-tag-list li label input { margin-top: 2px; }
-.scasl-search-btn { padding-top: 15px; width: 100%; float: left; margin: 10px 0 0; border-top: 1px solid #ccc; }
+.scasl-search-btn { margin: 10px 0 0;  }
 .bh-sl-loc-list, .bh-sl-map { border: 1px solid #ccc; }
 .bh-sl-loc-list ul li { margin: 0 !important; }
 .scasl-location-list { width: 30% !important; }
 .scasl-map { float: right !important; width: 69% !important; }
-.scasl-search-btn button, #scapl-geocode-btn { background: #30ABD9; height: 34px; width: 20%; }
+/* .scasl-search-btn button, #scapl-geocode-btn { background: #30ABD9; height: 34px; width: 20%; } */
 #scapl-geocode-btn { float: right; }
 .scasl-list-image, .scasl-info-image { float: right; }
 .scasl-list-image {/* width: 22%;*/ margin: 10px 10px 0 0; }
