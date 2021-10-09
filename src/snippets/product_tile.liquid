@@ -1,27 +1,43 @@
 {% comment %}
   Find variant ID based on meta title
+  - override if in 'map_default_product_variant'
 {% endcomment %}
+
 {% assign variant_id = "" %}
 {% assign image_url = product.featured_image.src %}
 {% assign image_alt = product.featured_image.alt %}
 {% assign price = product.price %}
-{% if template.name == "collection" %}
-  {% assign switch = false %}
-  {% for variant in product.variants %}
-    {% for option in variant.options %}
-      {% if collection.metafields.arena.variant_redirect contains option %}
-        {% assign switch = true %}
-        {% break %}
-      {% endif %}
-    {% endfor %}
-    {% if switch %}
-      {% assign variant_id = variant.id %}
+
+{% comment %} Returns matching arrays {% endcomment %}
+{% if collection.metafields.arena.product contains product.handle %}
+  {% for variant_url in collection.metafields.arena.variant %}
+    {% if variant_url contains product.handle %}
+      {% assign variant_id = variant_url | remove: product.handle | remove: '?variant=' | plus: 0  %}
+      {% assign variant = product.variants | where: 'id', variant_id | first %}
       {% assign image_url = variant.featured_image.src %}
       {% assign image_alt = variant.featured_image.alt %}
       {% assign price = variant.price %}
-      {% break %}
     {% endif %}
   {% endfor %}
+{% else %}
+  {% if template.name == "collection" %}
+    {% assign switch = false %}
+    {% for variant in product.variants %}
+      {% for option in variant.options %}
+        {% if collection.metafields.arena.variant_redirect contains option %}
+          {% assign switch = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if switch %}
+        {% assign variant_id = variant.id %}
+        {% assign image_url = variant.featured_image.src %}
+        {% assign image_alt = variant.featured_image.alt %}
+        {% assign price = variant.price %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 {% endif %}
 
 <div class="product-tile">
