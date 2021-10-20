@@ -12,6 +12,8 @@ $theme-colors: (
   dark-grey: #3D3D3D
 );
 
+$primary: map-get($theme-colors, primary);
+
 /**
 * Custom Variables
 */

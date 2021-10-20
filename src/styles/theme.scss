@@ -27,6 +27,9 @@
 @import "components/lists";
 @import "components/yotpo";
 @import "components/rips";
+@import "components/rewards-points-card";
+@import "components/icon-card";
+@import "components/rounded-edges-card";
 @import "layouts/header";
 @import "layouts/footer";
 @import "layouts/pages";
@@ -58,8 +61,10 @@
 @import "sections/image-with-text-overlay";
 @import "sections/rich-text";
 @import "sections/video";
+@import "sections/columns";
 @import "sections/banner";
 @import "sections/text-with-image";
 @import "sections/image-block";
 @import "sections/image-with-text-fullbleed";
 @import "sections/alternating-split";
+@import "sections/table";

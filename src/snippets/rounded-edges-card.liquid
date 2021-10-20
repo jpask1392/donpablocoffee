@@ -1,0 +1,14 @@
+{% comment %} 
+Available variables
+  - text
+  - title
+  - text_color
+  - header_color
+{% endcomment %}
+
+<div class="rounded-edges-card">
+  <div class="rounded-edges-card__content" style="--text-color: {{ text_color }}">
+    <h3 class="header" style="--header-color: {{ header_color }}">{{ title  }}</h3>
+    <p>{{ text }}</p>
+  </div>
+</div>

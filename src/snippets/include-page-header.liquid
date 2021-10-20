@@ -4,19 +4,41 @@
 {% assign background_image = collection.image %}
 {% endif %}
 
+{% comment %} Content {% endcomment %}
+{% assign header_override = section.settings.header_override %}
+{% assign sub_title = section.settings.sub_title %}
+{% assign cta_text_one = section.settings.cta_text_one %}
+{% assign cta_link_one = section.settings.cta_link_one %}
+{% assign cta_text_two = section.settings.cta_text_two %}
+{% assign cta_link_two = section.settings.cta_link_two %}
+
 <header 
   class="page-header page-header--{{ template.name }}"
-  style="background-image: url('{{ background_image | img_url: '1024x' }}')">
+  style="background-image: url('{{ background_image | img_url: '1024x' }}')"
+>
   <div class="container text-center">
     <h1 class="section-title {% if template.name == 'page' %}has-coffee-bean has-coffee-bean--on-dark{% endif %}">
-      {% if template.name == 'page' %}
-      <b>{{ page.title }}</b>
+      {% if header_override %}
+        <b>{{ header_override }}</b>
       {% else %}
-      <b>{{ collection.title }}</b>
+        {% if template.name == 'page' %}
+          <b>{{ page.title }}</b>
+        {% else %}
+          <b>{{ collection.title }}</b>
+        {% endif %}
       {% endif %}
     </h1>
     {% if template.name == 'collection' %}
-    {% render 'breadcrumbs' %}
+      {% render 'breadcrumbs' %}
+    {% endif %}
+
+    {% if sub_title %}{{ sub_title }}{% endif %}
+
+    {% if cta_text_one or cta_text_two %}
+      <div class="page-header__actions">
+        {% if cta_text_one %} <a href="{{ cta_link_one }}" class="btn btn-primary">{{ cta_text_one }}</a> {% endif %}
+        {% if cta_text_two %} <a href="{{ cta_link_two }}" class="btn btn-outline">{{ cta_text_two }}</a> {% endif %}
+      </div>
     {% endif %}
   </div>
 </header>

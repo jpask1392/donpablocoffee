@@ -1,0 +1,21 @@
+{% comment %} 
+Available variables
+  - text
+  - title
+  - background_image
+{% endcomment %}
+
+<div class="rewards-points-card" style="--bg-image: url({{ background_image | img_url: '600x' }})">
+  <div class="rewards-points-card__content">
+    <h3>{{ title  }}</h3>
+    <p>{{ text }}</p>
+  </div>
+
+  <div class="rewards-points-card__hover-content">
+    <a href="/account/register" class="btn btn-primary">Sign up</a>
+    <p>
+      Already a member? 
+      <a href="/account/login">Sign up</a>
+    </p>
+  </div>
+</div>

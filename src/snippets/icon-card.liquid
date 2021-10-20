@@ -1,0 +1,18 @@
+{% comment %} 
+Available variables
+  - text
+  - title
+  - text_color
+  - icon
+{% endcomment %}
+
+<div class="icon-card">
+  <div class="icon-card__content" style="--text-color: {{ text_color }}">
+    <div class="icon-wrapper">
+      {% assign icon_file = 'icon-' | append: icon %}
+      {% include icon_file %}
+    </div>
+    <h3>{{ title  }}</h3>
+    <p>{{ text }}</p>
+  </div>
+</div>

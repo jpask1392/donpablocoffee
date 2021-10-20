@@ -1,0 +1,13 @@
+.icon-card {
+  max-width: 400px;
+  margin: auto;
+
+  .icon-wrapper {
+    margin-bottom: 2rem;
+  }
+
+  &__content {
+    text-align: center;
+    color: var(--text-color);
+  }
+}

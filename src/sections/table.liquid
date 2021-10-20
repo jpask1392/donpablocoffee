@@ -1,0 +1,281 @@
+{% comment %} Content {% endcomment %}
+{% assign header = section.settings.header %}
+{% assign pre_grid_content = section.settings.pre_grid_content %}
+
+{% comment %} Layout {% endcomment %}
+{% assign width = section.settings.width %}
+{% assign column_count = section.settings.column_count %}
+{% assign column_width = 12 | divided_by: column_count %}
+{% assign background_color = section.settings.background_color %}
+{% assign rip_top = section.settings.ripTop %}
+{% assign rip_bottom = section.settings.ripBottom %}
+
+{% comment %} Advanced {% endcomment %}
+{% assign classes = '' %}
+{% assign classes = classes | append: ' ' | append: section.settings.css_class %}
+{% assign classes = classes | append: ' ' | append: rip_bottom %}
+{% assign classes = classes | append: ' ' | append: rip_top %}
+{% if background_color != blank %}
+  {% assign classes = classes | append: ' ' | append: 'has-bg' %}
+{% endif %}
+
+{% if section.settings.show_section %}
+<div 
+  class="table-section {{ classes }}" 
+  style="--bg-color: {{ background_color }}"
+>
+
+  {% if rip_top != "none" %}
+  <div class="rip-top">
+    {% assign rip_filename = "torn-element__" | append: rip_top | append: '.svg' %}
+    {% include {{rip_filename}} %}
+  </div>
+  {% endif %}
+
+  <div class="table container container--{{ width }}">
+    {% if header != blank %}
+      <div class="section-title text-center has-coffee-bean">
+        <h2>{{ header | remove: '<p>' | remove: '</p>' }}</h2>
+      </div>
+    {% endif %}
+
+    {% if pre_grid_content != blank %}
+      <div class="table__pre-grid-content">{{ pre_grid_content }}</div>
+    {% endif %}    
+
+    <div class="row">
+    {% for block in section.blocks %}
+      {% comment %} Block content {% endcomment %}
+      {% assign custom_html = block.settings.custom_html %}
+      {% assign text = block.settings.text %}
+      {% assign checkmark = block.settings.checkmark %}
+      {% assign text_align = block.settings.text_align %}
+
+      <div class="col-{{ column_width }}">
+        <div class="table__cell {{ text_align }}">
+
+           {% if checkmark %}
+             {% include 'icon-checkmark' %}
+           {% endif %}
+
+           {{ custom_html }}
+           {{ text }}
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  </div>    
+
+  {% if rip_bottom != "none" %}
+  <div class="rip-bottom">
+    {% assign rip_filename = "torn-element__" | append: rip_bottom | append: '.svg' %}
+    {% include {{rip_filename}} %}
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Table",
+  "tag": "section",
+  "class": "py-0",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_section",
+      "label": "Display Section",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "richtext",
+      "id": "header",
+      "label": "Header"
+    },
+    {
+      "type": "richtext",
+      "id": "pre_grid_content",
+      "label": "Pre Grid Content"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Text",
+      "info": "Displayed after grid."
+    },
+    {
+      "type": "url",
+      "id": "cta_url",
+      "label": "CTA URL"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "md",
+      "options": [
+        {
+          "value": "sm",
+          "label": "Small"
+        },
+        {
+          "value": "narrow",
+          "label": "Narrow"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
+        },
+        {
+          "value": "wide",
+          "label": "Large"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "column_count",
+      "label": "Column Count",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "select",
+      "id": "ripTop",
+      "label": "Rip Top",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "top__01",
+          "label": "Type One"
+        },
+        {
+          "value": "top__02",
+          "label": "Type Two"
+        },
+        {
+          "value": "top__03",
+          "label": "Type Three"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "ripBottom",
+      "label": "Rip Bottom",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "bottom__01",
+          "label": "Type One"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Advanced"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "table-cell",
+      "name": "Table Cell",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content"
+        },
+        {
+          "type": "html",
+          "id": "custom_html",
+          "label": "Custom HTML"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "select",
+          "id": "text_align",
+          "label": "Text Align",
+          "default": "text-left",
+          "options": [
+            {
+              "value": "text-center",
+              "label": "Center"
+            },
+            {
+              "value": "text-left",
+              "label": "Left"
+            },
+            {
+              "value": "text-right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "checkmark",
+          "label": "Checkmark",
+          "default": true
+        },
+        {
+          "type": "header",
+          "content": "Advanced"
+        },
+        {
+          "type": "text",
+          "id": "css_class",
+          "label": "CSS Class"
+        },
+        {
+          "type": "textarea",
+          "id": "custom_css",
+          "label": "Custom CSS"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Table",
+      "category": "Don Pablo"
+    }
+  ]
+}
+{% endschema %}

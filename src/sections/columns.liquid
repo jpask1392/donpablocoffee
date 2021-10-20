@@ -1,0 +1,323 @@
+{% comment %} Content {% endcomment %}
+{% assign header = section.settings.header %}
+{% assign pre_grid_content = section.settings.pre_grid_content %}
+{% assign cta_text = section.settings.cta_text %}
+{% assign cta_url = section.settings.cta_url %}
+
+{% comment %} Layout {% endcomment %}
+{% assign card_style = section.settings.card_style | append: "-card" %}
+{% assign width = section.settings.width %}
+{% assign max_columns_per_row = section.settings.max_columns_per_row %}
+{% assign column_width = 12 | divided_by: max_columns_per_row %}
+{% assign background_color = section.settings.background_color %}
+{% assign rip_top = section.settings.ripTop %}
+{% assign rip_bottom = section.settings.ripBottom %}
+
+{% comment %} Advanced {% endcomment %}
+{% assign classes = '' %}
+{% assign classes = classes | append: ' ' | append: section.settings.css_class %}
+{% assign classes = classes | append: ' ' | append: rip_bottom %}
+{% if background_color != blank %}
+  {% assign classes = classes | append: ' ' | append: 'has-bg' %}
+{% endif %}
+
+{% if section.settings.show_section %}
+<div 
+  class="columns-section {{ classes }}" 
+  style="--bg-color: {{ background_color }}"
+>
+
+  {% if rip_top != "none" %}
+  <div class="rip-top">
+    {% assign rip_filename = "torn-element__" | append: rip_top | append: '.svg' %}
+    {% include {{rip_filename}} %}
+  </div>
+  {% endif %}
+
+  <div class="columns container container--{{ width }}">
+    {% if header != blank %}
+      <div class="section-title text-center has-coffee-bean">
+        <h2>{{ header | remove: '<p>' | remove: '</p>' }}</h2>
+      </div>
+    {% endif %}
+
+    {% if pre_grid_content != blank %}
+      <div class="columns__pre-grid-content">{{ pre_grid_content }}</div>
+    {% endif %}    
+
+    <div class="row">
+    {% for block in section.blocks %}
+      <div class="col-lg-{{ column_width }}">
+        <div class="columns__card">
+          {% include card_style, 
+              text: block.settings.text, 
+              title: block.settings.title,
+              background_image: block.settings.background_image,
+              text_color: block.settings.text_color,
+              header_color: block.settings.header_color,
+              icon: block.settings.icon,
+          %}
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+
+    {% if cta_text != blank %}
+      <div class="columns__cta-wrapper">
+        <a href="{{ cta_link }}" class="btn btn-primary">{{ cta_text }}</a>
+      </div>
+    {% endif %}
+  </div>    
+
+  {% if rip_bottom != "none" %}
+  <div class="rip-bottom">
+    {% assign rip_filename = "torn-element__" | append: rip_bottom | append: '.svg' %}
+    {% include {{rip_filename}} %}
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Columns",
+  "tag": "section",
+  "class": "py-0",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_section",
+      "label": "Display Section",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "richtext",
+      "id": "header",
+      "label": "Header"
+    },
+    {
+      "type": "richtext",
+      "id": "pre_grid_content",
+      "label": "Pre Grid Content"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Text",
+      "info": "Displayed after grid."
+    },
+    {
+      "type": "url",
+      "id": "cta_url",
+      "label": "CTA URL"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "card_style",
+      "label": "Card Style",
+      "default": "standard",
+      "options": [
+        {
+          "value": "standard",
+          "label": "Standard"
+        },
+        {
+          "value": "icon",
+          "label": "Icon"
+        },
+        {
+          "value": "rewards-points",
+          "label": "Rewards Points"
+        },
+        {
+          "value": "rounded-edges",
+          "label": "Rounded Edges"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "md",
+      "options": [
+        {
+          "value": "sm",
+          "label": "Small"
+        },
+        {
+          "value": "narrow",
+          "label": "Narrow"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
+        },
+        {
+          "value": "wide",
+          "label": "Large"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "max_columns_per_row",
+      "label": "Max Columns Per Row",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "select",
+      "id": "ripTop",
+      "label": "Rip Top",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "top__01",
+          "label": "Type One"
+        },
+        {
+          "value": "top__02",
+          "label": "Type Two"
+        },
+        {
+          "value": "top__03",
+          "label": "Type Three"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "ripBottom",
+      "label": "Rip Bottom",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "bottom__01",
+          "label": "Type One"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Advanced"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "grid-item",
+      "name": "Grid Item",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Rich text"
+        },
+        {
+          "type": "color",
+          "id": "header_color",
+          "label": "Header Color"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color"
+        },
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "default": "money",
+          "info": "Applicable if card style is 'icon'.",
+          "options": [
+            {
+              "value": "money",
+              "label": "Money"
+            },
+            {
+              "value": "parcel",
+              "label": "Parcel"
+            },
+            {
+              "value": "user-plus",
+              "label": "User Plus"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "content": "Background"
+        },
+        {
+          "type": "image_picker",
+          "id": "background_image",
+          "label": "Background Image"
+        },
+        {
+          "type": "header",
+          "content": "Advanced"
+        },
+        {
+          "type": "text",
+          "id": "css_class",
+          "label": "CSS Class"
+        },
+        {
+          "type": "textarea",
+          "id": "custom_css",
+          "label": "Custom CSS"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Columns",
+      "category": "Don Pablo"
+    }
+  ]
+}
+{% endschema %}

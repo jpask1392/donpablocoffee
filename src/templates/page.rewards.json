@@ -1,0 +1,291 @@
+{
+  "sections": {
+    "page-header": {
+      "type": "page-header",
+      "settings": {
+        "backgroundImage": "shopify:\/\/shop_images\/AdobeStock_326122449_1.jpg",
+        "header_override": "Don Pablo Coffee Perks",
+        "sub_title": "Join the crew and get ready to score some serious perks.",
+        "cta_text_one": "Join Now",
+        "cta_link_one": "\/account\/register",
+        "cta_text_two": "Sign In",
+        "cta_link_two": "\/account\/login"
+      }
+    },
+    "columns": {
+      "type": "columns",
+      "blocks": {
+        "dcd2deda-8a31-466e-ab8b-8edfcba69536": {
+          "type": "grid-item",
+          "settings": {
+            "title": "Join",
+            "header_color": "",
+            "text": "<p>Sign up and start earning!<\/p>",
+            "text_color": "#ffffff",
+            "icon": "user-plus",
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "8b944bef-9aaa-4fa2-90e5-62acc2d184f0": {
+          "type": "grid-item",
+          "settings": {
+            "title": "Earn",
+            "header_color": "",
+            "text": "<p>Get points every time you shop.<\/p>",
+            "text_color": "#ffffff",
+            "icon": "money",
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "f58cdaa2-2217-4e94-b37e-e0278d8f7ac2": {
+          "type": "grid-item",
+          "settings": {
+            "title": "Redeem",
+            "header_color": "",
+            "text": "<p>Trade in your points for a discount at checkout!<\/p>",
+            "text_color": "#ffffff",
+            "icon": "parcel",
+            "css_class": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "dcd2deda-8a31-466e-ab8b-8edfcba69536",
+        "8b944bef-9aaa-4fa2-90e5-62acc2d184f0",
+        "f58cdaa2-2217-4e94-b37e-e0278d8f7ac2"
+      ],
+      "settings": {
+        "show_section": true,
+        "header": "<p>How It Works<\/p>",
+        "pre_grid_content": "",
+        "cta_text": "",
+        "cta_url": "",
+        "card_style": "icon",
+        "width": "md",
+        "max_columns_per_row": 3,
+        "background_color": "#050505",
+        "ripTop": "none",
+        "ripBottom": "bottom__01",
+        "css_class": "my-0",
+        "custom_css": ""
+      }
+    },
+    "163459559507fd040d": {
+      "type": "columns",
+      "blocks": {
+        "c9066d00-e880-4e82-9b20-da28f17aa933": {
+          "type": "grid-item",
+          "settings": {
+            "title": "10 points",
+            "header_color": "",
+            "text": "<p>Create an Account<\/p>",
+            "text_color": "",
+            "icon": "money",
+            "background_image": "shopify:\/\/shop_images\/AdobeStock_175958098_1.jpg",
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "92b1cbe3-e594-449a-83f7-fe01fb9a5d09": {
+          "type": "grid-item",
+          "settings": {
+            "title": "10 points",
+            "header_color": "",
+            "text": "<p>Create an Account<\/p>",
+            "text_color": "",
+            "icon": "money",
+            "background_image": "shopify:\/\/shop_images\/AdobeStock_292586114_1.jpg",
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "267729b0-b804-4b45-a9d4-a810aac74e48": {
+          "type": "grid-item",
+          "settings": {
+            "title": "20 Points",
+            "header_color": "",
+            "text": "<p>Don Pablo Perks Anniversary<\/p>",
+            "text_color": "",
+            "icon": "money",
+            "background_image": "shopify:\/\/shop_images\/AdobeStock_234283500_1.jpg",
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "cac99d91-56a4-4bc3-a954-3c05a1b9bc93": {
+          "type": "grid-item",
+          "settings": {
+            "title": "100 Points",
+            "header_color": "",
+            "text": "<p>On your birthday<\/p>",
+            "text_color": "",
+            "icon": "money",
+            "background_image": "shopify:\/\/shop_images\/AdobeStock_142267811_1.jpg",
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "fe56645e-71e9-48af-8487-dfb3ce72e02d": {
+          "type": "grid-item",
+          "settings": {
+            "title": "100 points",
+            "header_color": "",
+            "text": "<p>Make 10 purchases<\/p>",
+            "text_color": "",
+            "icon": "money",
+            "background_image": "shopify:\/\/shop_images\/AdobeStock_116864490_1.jpg",
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "fb25c7f6-cbbf-4c65-b298-087cb0c564f4": {
+          "type": "grid-item",
+          "settings": {
+            "title": "100 Points",
+            "header_color": "",
+            "text": "<p>Successful Referrals<\/p>",
+            "text_color": "",
+            "icon": "money",
+            "background_image": "shopify:\/\/shop_images\/AdobeStock_292736736_1.jpg",
+            "css_class": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "c9066d00-e880-4e82-9b20-da28f17aa933",
+        "92b1cbe3-e594-449a-83f7-fe01fb9a5d09",
+        "267729b0-b804-4b45-a9d4-a810aac74e48",
+        "cac99d91-56a4-4bc3-a954-3c05a1b9bc93",
+        "fe56645e-71e9-48af-8487-dfb3ce72e02d",
+        "fb25c7f6-cbbf-4c65-b298-087cb0c564f4"
+      ],
+      "settings": {
+        "show_section": true,
+        "header": "<p>Ways To<br\/><strong>Rack Up Points<\/strong><\/p>",
+        "pre_grid_content": "",
+        "cta_text": "",
+        "cta_url": "",
+        "card_style": "rewards-points",
+        "width": "wide",
+        "max_columns_per_row": 3,
+        "background_color": "",
+        "ripTop": "none",
+        "ripBottom": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16345957339d73e871": {
+      "type": "columns",
+      "blocks": {
+        "1d4591be-3c7e-41e4-aace-4a7f168ca723": {
+          "type": "grid-item",
+          "settings": {
+            "title": "$5 Off: 50 Points",
+            "header_color": "#df9d3e",
+            "text": "<p>Use your discount on orders $15+<\/p>",
+            "text_color": "#ffffff",
+            "icon": "money",
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "a8ad4ac9-7c48-4fb7-bd5b-4b7726c80700": {
+          "type": "grid-item",
+          "settings": {
+            "title": "$10 Off: 100 points",
+            "header_color": "#df9d3e",
+            "text": "<p>Use your discount on orders $30+<\/p>",
+            "text_color": "#ffffff",
+            "icon": "money",
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "95fa7050-3ae8-4582-92ef-0fedd5824d62": {
+          "type": "grid-item",
+          "settings": {
+            "title": "$15 Off: 150 Points",
+            "header_color": "#df9d3e",
+            "text": "<p>Use your discount on orders $45+<\/p>",
+            "text_color": "#ffffff",
+            "icon": "money",
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "d0e77288-8bc3-4816-bc64-238f31e7c66a": {
+          "type": "grid-item",
+          "settings": {
+            "title": "$20 Off: 200 Points",
+            "header_color": "#df9d3e",
+            "text": "<p>Use your discount on orders $60+<\/p>",
+            "text_color": "#ffffff",
+            "icon": "money",
+            "css_class": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "1d4591be-3c7e-41e4-aace-4a7f168ca723",
+        "a8ad4ac9-7c48-4fb7-bd5b-4b7726c80700",
+        "95fa7050-3ae8-4582-92ef-0fedd5824d62",
+        "d0e77288-8bc3-4816-bc64-238f31e7c66a"
+      ],
+      "settings": {
+        "show_section": true,
+        "header": "<p>How To<br\/><strong>Use Your Points<\/strong><\/p>",
+        "pre_grid_content": "<p>Redeeming your points is easy! Click REDEEM MY POINTS and then copy & paste your code at checkout.<\/p>",
+        "cta_text": "REDEEM MY POINTS",
+        "cta_url": "",
+        "card_style": "rounded-edges",
+        "width": "md",
+        "max_columns_per_row": 2,
+        "background_color": "#eeeeee",
+        "ripTop": "none",
+        "ripBottom": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "settings": {
+        "title": "<b>Refer A Friend<\/b>",
+        "heading_alignment": "center",
+        "text": "<p>Get 100 Points<br\/>How’s this for win-win? Refer a pal and we’ll give them $10 to spend on their first purchase of $25 or more. Plus, you’ll get 100 Don Pablo Perk points once they make a purchase.<\/p>",
+        "text_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_style": "btn-primary",
+        "background": "#eeeeee",
+        "width": "standard",
+        "ripTop": "none",
+        "ripBottom": "none",
+        "custom_padding": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "table": {
+      "type": "table"
+    }
+  },
+  "order": [
+    "page-header",
+    "columns",
+    "163459559507fd040d",
+    "16345957339d73e871",
+    "rich-text"
+  ]
+}

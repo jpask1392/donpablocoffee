@@ -1,0 +1,55 @@
+.rewards-points-card {
+  position: relative;
+  height: 0;
+  padding-bottom: 56%;
+  color: white;
+  background-image: var(--bg-image);
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #060301;
+    opacity: 0.8;
+  }
+
+  &__content,
+  &__hover-content {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  &__hover-content {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &:hover {
+    .rewards-points-card__content {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .rewards-points-card__hover-content {
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+}
