@@ -3,18 +3,18 @@
   background: linear-gradient(180deg, #ffffff 49.48%, #e1dbd3 100%);
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
 
-  .contact-bkg-img {
-    display: none;
-    
-    @include media-breakpoint-up(md) {
-      position: absolute;
-      display: flex;
-      justify-content: space-between;
-      bottom: 0;
-      width: 100%;
-      z-index: 0;
-    }
+.contact-bkg-img {
+  display: none;
+  
+  @include media-breakpoint-up(md) {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
   }
 }
 

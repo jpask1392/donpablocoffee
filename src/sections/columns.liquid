@@ -12,6 +12,7 @@
 {% assign background_color = section.settings.background_color %}
 {% assign rip_top = section.settings.ripTop %}
 {% assign rip_bottom = section.settings.ripBottom %}
+{% assign text_color = section.settings.text_color %}
 
 {% comment %} Advanced {% endcomment %}
 {% assign classes = '' %}
@@ -24,7 +25,7 @@
 {% if section.settings.show_section %}
 <div 
   class="columns-section {{ classes }}" 
-  style="--bg-color: {{ background_color }}"
+  style="--bg-color: {{ background_color }}; --text-color: {{ text_color }}"
 >
 
   {% if rip_top != "none" %}
@@ -175,6 +176,11 @@
       "max": 4,
       "step": 1,
       "default": 3
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
     },
     {
       "type": "color",

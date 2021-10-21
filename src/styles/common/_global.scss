@@ -109,3 +109,18 @@ body {
   z-index: 1060 !important;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1)
 }
+
+.bg-imagery.bg-imagery--beans-on-floor {
+  display: none;
+  
+  @include media-breakpoint-up(xl) {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

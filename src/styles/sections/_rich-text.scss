@@ -1,4 +1,7 @@
 .rich-text {
+  position: relative;
+  z-index: 1;
+
   &.container {
     &--sm {
       max-width: map-get($container-max-widths, sm);

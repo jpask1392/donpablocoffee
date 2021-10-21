@@ -1,8 +1,17 @@
 .columns-section {
   background-color: var(--bg-color);
-  // overflow: auto;
   margin-bottom: var(--section-spacing);
   margin-top: var(--section-spacing);
+  color: var(--text-color);
+
+  .section-title,
+  .section-title h2 {
+    color: var(--text-color);
+  }
+
+  &.has-light-bean .section-title::before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='35' height='50' viewBox='0 0 45 50' fill='none'%3E%3Cpath d='M37.6123 11.8618C37.499 11.613 37.2959 11.4165 37.0436 11.3118C36.7913 11.207 36.5085 11.2017 36.2521 11.2969C33.1858 12.4327 28.7868 14.9549 27.4543 20.2854C25.3419 28.7319 17.1069 31.2061 17.1069 31.2061C17.1069 31.2061 23.2338 27.67 24.1021 19.0837C24.6974 13.2157 28.096 9.91652 30.7112 8.22004C31.547 7.68032 31.2637 6.38399 30.2835 6.24128C24.3069 5.36417 16.7179 9.51895 11.5912 17.0363C5.23289 26.3595 5.07105 37.3237 11.2307 41.5245C17.3904 45.7253 27.5393 41.5722 33.8976 32.2489C38.7233 25.173 39.9787 17.1534 37.6123 11.8618Z' fill='%23DF9D3E'/%3E%3C/svg%3E");
+  }
 
   &.has-bg {
     padding-top: var(--section-spacing);
@@ -14,10 +23,13 @@
   }
 
   .section-title {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
   .columns {
+    position: relative;
+    z-index: 2;
+
     .row {
       margin-bottom: -30px;
     }

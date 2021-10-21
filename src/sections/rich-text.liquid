@@ -4,6 +4,7 @@
 {
   "name": "Rich text",
   "class": "rich-text",
+  "tag": "section",
   "settings": [
     {
       "type": "header",
@@ -138,6 +139,22 @@
       "default": "#EEEEEE"
     },
     {
+      "type": "select",
+      "id": "background_imagery",
+      "label": "Background Imagery",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "beans-on-floor",
+          "label": "Beans on Floor"
+        }
+      ]
+    },
+    {
       "type": "header",
       "content": "Layout"
     },
@@ -145,19 +162,23 @@
       "type": "select",
       "id": "width",
       "label": "Width",
-      "default": "wide",
+      "default": "md",
       "options": [
         {
-          "value": "half",
-          "label": "Half"
+          "value": "sm",
+          "label": "Small"
         },
         {
-          "value": "standard",
-          "label": "Standard"
+          "value": "narrow",
+          "label": "Narrow"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
         },
         {
           "value": "wide",
-          "label": "Wide"
+          "label": "Large"
         }
       ]
     },

@@ -7,6 +7,7 @@
 {% assign column_count = section.settings.column_count %}
 {% assign column_width = 12 | divided_by: column_count %}
 {% assign background_color = section.settings.background_color %}
+{% assign background_image = section.settings.background_image %}
 {% assign rip_top = section.settings.ripTop %}
 {% assign rip_bottom = section.settings.ripBottom %}
 
@@ -24,6 +25,7 @@
   class="table-section {{ classes }}" 
   style="--bg-color: {{ background_color }}"
 >
+  <div class="table-section__bg" style="--bg-image: url({{ background_image | img_url: '2040x' }})"></div>
 
   {% if rip_top != "none" %}
   <div class="rip-top">
@@ -52,7 +54,7 @@
       {% assign text_align = block.settings.text_align %}
 
       <div class="col-{{ column_width }}">
-        <div class="table__cell {{ text_align }}">
+        <div class="table__cell {{ text_align }} {% if checkmark %}is-checkmark{% endif %}">
 
            {% if checkmark %}
              {% include 'icon-checkmark' %}
@@ -153,6 +155,11 @@
       "type": "color",
       "id": "background_color",
       "label": "Background Color"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
     },
     {
       "type": "select",

@@ -31,6 +31,7 @@
 {% assign button_alignment = object.settings.button_alignment %}
 {% comment %}Background{% endcomment %}
 {% assign background = object.settings.background %}
+{% assign background_imagery = object.settings.background_imagery %}
 {% assign gradient = object.settings.gradient %}
 {% comment %}Layout{% endcomment %}
 {% assign width = object.settings.width %}
@@ -92,6 +93,19 @@
     </div>
   {% endif %}
 </div>
+
+{% if background_imagery != 'none' %}
+  {% if background_imagery == 'beans-on-floor' %}
+    <div class="bg-imagery bg-imagery--beans-on-floor">
+      <div class="contact-bkg-img__rhs">
+        <img src="{{ 'coffee-beans-lhs.png' | asset_img_url: 'large' }}" alt="">
+      </div>
+      <div class="contact-bkg-img__lhs">
+        <img src="{{ 'coffee-beans-rhs.png' | asset_img_url: 'large' }}" alt="">
+      </div>
+    </div>
+  {% endif %}
+{% endif %}
 
 {% if object.settings.ripBottom and object.settings.ripBottom != "none" %}
 <div class="rip-bottom">

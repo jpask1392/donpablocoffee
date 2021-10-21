@@ -32,7 +32,9 @@
       {% render 'breadcrumbs' %}
     {% endif %}
 
-    {% if sub_title %}{{ sub_title }}{% endif %}
+    {% if sub_title %}
+      <h2 class="page-header__sub-title">{{ sub_title }}</h2>
+    {% endif %}
 
     {% if cta_text_one or cta_text_two %}
       <div class="page-header__actions">
