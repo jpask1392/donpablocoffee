@@ -31,8 +31,9 @@ $btn-border-width:        2px;
 // Typography
 $line-height-base:          2;
 $font-family-sans-serif:    "Oxygen", sans-serif;
-$headings-font-family-02:   "SubwayNovella";
-$headings-font-family:      "FjordStamp";
+$headings-font-family-02:   "SubwayNovella", sans-serif;
+$headings-font-family-03:   "pulpo-rust-75", sans-serif;
+$headings-font-family:      "FjordStamp", sans-serif;
 $headings-font-weight:      400;
 // $headings-line-height:   1.2;
 $headings-color:            theme-color("black");

@@ -44,10 +44,11 @@
   },
   "scripts": {
     "start": "slate-tools start",
-    "start:feature": "slate-tools start --env=feature",
+    "start:staging": "slate-tools start --env=staging",
     "watch": "slate-tools start --skipFirstDeploy",
     "build": "slate-tools build",
     "deploy": "slate-tools build && slate-tools deploy",
+    "deploy:staging": "slate-tools build && slate-tools deploy --env=staging",
     "deploy:production": "slate-tools build && slate-tools deploy --env=production",
     "zip": "slate-tools build && slate-tools zip",
     "lint": "slate-tools lint",
