@@ -44,6 +44,7 @@
   },
   "scripts": {
     "start": "slate-tools start",
+    "start:feature": "slate-tools start --env=feature",
     "watch": "slate-tools start --skipFirstDeploy",
     "build": "slate-tools build",
     "deploy": "slate-tools build && slate-tools deploy",

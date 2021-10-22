@@ -4,15 +4,13 @@
   enctype="multipart/form-data" 
   id="AddToCartForm" 
   data-productid="{{product.id}}">
-
   
   <div class="title-review-wrapper">
     <div class="price">{{ current_variant.price | money }}</div>
   </div>
 
   <div>
-    {% comment %}{% capture option_titles %}Packaging,Grind,Roast{% endcapture %}{% endcomment %}
-    {% assign option_titles = option_titles | split:',' %}
+    {% assign option_titles = product.options_with_values | map: 'name' | join: ',' %}
     {% for option in product.options %}
       {% if option_titles contains option %}
         {% comment %}
