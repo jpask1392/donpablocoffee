@@ -116,13 +116,20 @@
       <div class="quantity-button quantity-up">+</div>
     </div>
   </div>
-  
-  <input 
-    type="submit" 
-    name="add" 
-    id="AddToCart" 
-    class="btn btn-primary"
-    value="Add to cart" />
   <!-- Quantity Control END -->
+  
+  <div class="atc-wrapper">
+    <input 
+      type="submit" 
+      name="add" 
+      id="AddToCart" 
+      class="btn btn-primary"
+      value="Add to cart" 
+    />
 
+    <div class="out-of-stock-notice" {% unless product.selected_or_first_available_variant.available %}style="display:none"{% endunless %}>
+      <span class="inventory">{{ product.selected_or_first_available_variant.inventory_quantity | json}}</span>
+      {{ 'products.product.unavailable' | t }}
+    </div>
+  </div>
 </form>
