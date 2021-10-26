@@ -1,0 +1,230 @@
+body#rewards {
+  .yotpo-widget-hero-section,
+  .yotpo-action-button-text,
+  .yotpo-description-text {
+    font-family: $font-family-sans-serif !important;
+  }
+
+  // .yotpo-button-style {
+  //   @extend .btn;
+
+  //   display: flex;
+
+  //   &.yotpo-filled-button {
+  //     @extend .btn-primary;
+  //   }
+  // }
+}
+
+.yotpo-widget-hero-section {
+  padding: 0;
+
+  .yotpo-widget-clear {
+    width: 100%;
+  }
+
+  .yotpo-title {
+    @extend .section-title;
+    @extend .has-coffee-bean;
+
+    font-family: $headings-font-family !important;
+    font-weight: normal;
+  }
+
+  .yotpo-text-on-background {
+    @extend .page-header;
+    @extend .page-header--page;
+
+    min-height: 300px !important;
+
+    @include media-breakpoint-up(md) {
+      min-height: 400px !important;
+    }
+  }
+
+  .yotpo-text-container.yotpo-center-layout {
+    max-width: 1100px !important;
+    top: 0 !important;
+  }
+}
+
+.yotpo-widget-my-rewards-widget {
+  background-color: #060301;
+
+  .yotpo-tile-box,
+  .yotpo-logged-in-view {
+    padding-bottom: calc(var(--section-spacing) + 4%) !important;
+  }
+
+  .yotpo-reward-steps-item * {
+    color: white !important;
+  }
+
+  .yotpo-headline {
+    @extend .section-title;
+    @extend .has-coffee-bean;
+    @extend .has-coffee-bean--on-dark;
+
+    .yotpo-inner-text {
+      font-family: $headings-font-family !important;
+    }
+  }
+
+  .yotpo-reward-steps-item .yotpo-inner-text {
+    font-size: 1rem !important;
+    margin-top: 24px;
+  }
+
+  .yotpo-step-icon {
+    height: 100px !important;
+  }
+}
+
+.yotpo-widget-campaign-widget {
+  .yotpo-container-headline {
+    @extend .section-title;
+    @extend .has-coffee-bean;
+
+    font-family: $headings-font-family !important;
+  }
+
+  .flexified-wrapper .flexified-child::before {
+    padding-top: 56% !important;
+  }
+
+  .yotpo-tile {
+    .yotpo-title-text {
+      font-family: $headings-font-family-03 !important;
+      text-transform: uppercase;
+    }
+
+    .yotpo-description-text {
+      font-size: 1rem !important;
+    }
+  }
+}
+
+.yotpo-coupons-redemption-widget {
+  div:empty {
+    display: none !important;
+  }
+
+  .yotpo-content-container {
+    max-width: 1100px !important;
+  }
+
+  .yotpo-headline {
+    @extend .section-title;
+    @extend .has-coffee-bean;
+
+    font-family: $headings-font-family !important;
+  }
+
+  .yotpo-description {
+    font-size: 1rem !important;
+    max-width: 100% !important;
+  }
+
+  .yotpo-rule {
+    display: none !important;
+  }
+
+  .yotpo-redemption-options-list {
+    max-width: 900px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .yotpo-redemption-option-details {
+    display: flex;
+    flex-direction: column;
+
+    .yotpo-redemption-option-reward {
+      order: 2;
+      padding-bottom: 0 !important;
+      font-size: 1rem !important;
+      font-weight: 300 !important;
+    }
+
+    .yotpo-redemption-option-cost {
+      font-family: $headings-font-family-03 !important;
+      margin-bottom: 1rem !important;
+    }
+  }
+
+  .yotpo-redemption-option {
+    background: #060301;
+    padding: 2.5rem;
+    border-radius: 40px;
+  }
+
+  .yotpo-redemption-item {
+    margin-bottom: 30px !important;
+  }
+
+  .yotpo-login-button {
+    margin-top: 2rem !important;
+  }
+}
+
+.yotpo-widget-referral-widget {
+  margin-top: 2rem;
+
+  .yotpo-background.yotpo-center-background {
+    height: auto !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .yotpo-tile {
+    min-height: 0 !important;
+  }
+
+  .yotpo-header-text,
+  .yotpo-title-text {
+    display: none !important;
+  }
+
+  .yotpo-tile-box {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .yotpo-referral-widget-form {
+    margin-top: 0 !important;
+
+    .yotpo-action-button-widget {
+      margin-top: 0 !important;
+    }
+
+    input:not([type=submit]) {
+      @extend .form-control;
+
+      border-radius: 100px !important;
+    }
+
+    .yotpo-button-style {
+      @extend .btn;
+      @extend .btn-primary;
+
+      max-width: 160px;
+      height: 30px !important;
+
+      .yopto-widget-button-text {
+        text-transform: uppercase;
+        font-size: 1rem !important;
+      }
+    }
+  }
+
+  .yotpo-input-example {
+    position: relative !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .yotpo-referral-widget-error-message {
+    position: relative !important;
+    justify-content: center !important;
+    margin-bottom: 1rem !important;
+
+  }
+}

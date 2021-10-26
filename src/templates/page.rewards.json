@@ -1,291 +1,246 @@
 {
   "sections": {
-    "page-header": {
-      "type": "page-header",
+    "yotpo-banner": {
+      "type": "yotpo__banner",
       "settings": {
-        "backgroundImage": "shopify:\/\/shop_images\/AdobeStock_326122449_1.jpg",
-        "header_override": "Don Pablo Coffee Perks",
-        "sub_title": "Join the crew and get ready to score some serious perks.",
-        "cta_text_one": "Join Now",
-        "cta_link_one": "\/account\/register",
-        "cta_text_two": "Sign In",
-        "cta_link_two": "\/account\/login"
       }
     },
-    "columns": {
-      "type": "columns",
-      "blocks": {
-        "dcd2deda-8a31-466e-ab8b-8edfcba69536": {
-          "type": "grid-item",
-          "settings": {
-            "title": "Join",
-            "header_color": "",
-            "text": "<p>Sign up and start earning!<\/p>",
-            "text_color": "#ffffff",
-            "icon": "user-plus",
-            "css_class": "",
-            "custom_css": ""
-          }
-        },
-        "8b944bef-9aaa-4fa2-90e5-62acc2d184f0": {
-          "type": "grid-item",
-          "settings": {
-            "title": "Earn",
-            "header_color": "",
-            "text": "<p>Get points every time you shop.<\/p>",
-            "text_color": "#ffffff",
-            "icon": "money",
-            "css_class": "",
-            "custom_css": ""
-          }
-        },
-        "f58cdaa2-2217-4e94-b37e-e0278d8f7ac2": {
-          "type": "grid-item",
-          "settings": {
-            "title": "Redeem",
-            "header_color": "",
-            "text": "<p>Trade in your points for a discount at checkout!<\/p>",
-            "text_color": "#ffffff",
-            "icon": "parcel",
-            "css_class": "",
-            "custom_css": ""
-          }
-        }
-      },
-      "block_order": [
-        "dcd2deda-8a31-466e-ab8b-8edfcba69536",
-        "8b944bef-9aaa-4fa2-90e5-62acc2d184f0",
-        "f58cdaa2-2217-4e94-b37e-e0278d8f7ac2"
-      ],
+    "yotpo-activity": {
+      "type": "yotpo__activity",
       "settings": {
-        "show_section": true,
-        "header": "<p>How It Works<\/p>",
-        "pre_grid_content": "",
-        "cta_text": "",
-        "cta_url": "",
-        "card_style": "icon",
-        "width": "md",
-        "max_columns_per_row": 3,
-        "background_color": "#050505",
-        "ripTop": "none",
-        "ripBottom": "bottom__01",
-        "css_class": "my-0",
-        "custom_css": ""
       }
     },
-    "163459559507fd040d": {
-      "type": "columns",
-      "blocks": {
-        "c9066d00-e880-4e82-9b20-da28f17aa933": {
-          "type": "grid-item",
-          "settings": {
-            "title": "10 points",
-            "header_color": "",
-            "text": "<p>Create an Account<\/p>",
-            "text_color": "",
-            "icon": "money",
-            "background_image": "shopify:\/\/shop_images\/AdobeStock_175958098_1.jpg",
-            "css_class": "",
-            "custom_css": ""
-          }
-        },
-        "92b1cbe3-e594-449a-83f7-fe01fb9a5d09": {
-          "type": "grid-item",
-          "settings": {
-            "title": "10 points",
-            "header_color": "",
-            "text": "<p>Create an Account<\/p>",
-            "text_color": "",
-            "icon": "money",
-            "background_image": "shopify:\/\/shop_images\/AdobeStock_292586114_1.jpg",
-            "css_class": "",
-            "custom_css": ""
-          }
-        },
-        "267729b0-b804-4b45-a9d4-a810aac74e48": {
-          "type": "grid-item",
-          "settings": {
-            "title": "20 Points",
-            "header_color": "",
-            "text": "<p>Don Pablo Perks Anniversary<\/p>",
-            "text_color": "",
-            "icon": "money",
-            "background_image": "shopify:\/\/shop_images\/AdobeStock_234283500_1.jpg",
-            "css_class": "",
-            "custom_css": ""
-          }
-        },
-        "cac99d91-56a4-4bc3-a954-3c05a1b9bc93": {
-          "type": "grid-item",
-          "settings": {
-            "title": "100 Points",
-            "header_color": "",
-            "text": "<p>On your birthday<\/p>",
-            "text_color": "",
-            "icon": "money",
-            "background_image": "shopify:\/\/shop_images\/AdobeStock_142267811_1.jpg",
-            "css_class": "",
-            "custom_css": ""
-          }
-        },
-        "fe56645e-71e9-48af-8487-dfb3ce72e02d": {
-          "type": "grid-item",
-          "settings": {
-            "title": "100 points",
-            "header_color": "",
-            "text": "<p>Make 10 purchases<\/p>",
-            "text_color": "",
-            "icon": "money",
-            "background_image": "shopify:\/\/shop_images\/AdobeStock_116864490_1.jpg",
-            "css_class": "",
-            "custom_css": ""
-          }
-        },
-        "fb25c7f6-cbbf-4c65-b298-087cb0c564f4": {
-          "type": "grid-item",
-          "settings": {
-            "title": "100 Points",
-            "header_color": "",
-            "text": "<p>Successful Referrals<\/p>",
-            "text_color": "",
-            "icon": "money",
-            "background_image": "shopify:\/\/shop_images\/AdobeStock_292736736_1.jpg",
-            "css_class": "",
-            "custom_css": ""
-          }
-        }
-      },
-      "block_order": [
-        "c9066d00-e880-4e82-9b20-da28f17aa933",
-        "92b1cbe3-e594-449a-83f7-fe01fb9a5d09",
-        "267729b0-b804-4b45-a9d4-a810aac74e48",
-        "cac99d91-56a4-4bc3-a954-3c05a1b9bc93",
-        "fe56645e-71e9-48af-8487-dfb3ce72e02d",
-        "fb25c7f6-cbbf-4c65-b298-087cb0c564f4"
-      ],
+    "yotpo-earning": {
+      "type": "yotpo__earning",
       "settings": {
-        "show_section": true,
-        "header": "<p>Ways To<br\/><strong>Rack Up Points<\/strong><\/p>",
-        "pre_grid_content": "",
-        "cta_text": "",
-        "cta_url": "",
-        "card_style": "rewards-points",
-        "width": "wide",
-        "max_columns_per_row": 3,
-        "background_color": "",
-        "ripTop": "none",
-        "ripBottom": "none",
-        "css_class": "",
-        "custom_css": ""
       }
     },
-    "16345957339d73e871": {
-      "type": "columns",
-      "blocks": {
-        "1d4591be-3c7e-41e4-aace-4a7f168ca723": {
-          "type": "grid-item",
-          "settings": {
-            "title": "$5 Off: 50 Points",
-            "header_color": "#df9d3e",
-            "text": "<p>Use your discount on orders $15+<\/p>",
-            "text_color": "#ffffff",
-            "icon": "money",
-            "css_class": "",
-            "custom_css": ""
-          }
-        },
-        "a8ad4ac9-7c48-4fb7-bd5b-4b7726c80700": {
-          "type": "grid-item",
-          "settings": {
-            "title": "$10 Off: 100 points",
-            "header_color": "#df9d3e",
-            "text": "<p>Use your discount on orders $30+<\/p>",
-            "text_color": "#ffffff",
-            "icon": "money",
-            "css_class": "",
-            "custom_css": ""
-          }
-        },
-        "95fa7050-3ae8-4582-92ef-0fedd5824d62": {
-          "type": "grid-item",
-          "settings": {
-            "title": "$15 Off: 150 Points",
-            "header_color": "#df9d3e",
-            "text": "<p>Use your discount on orders $45+<\/p>",
-            "text_color": "#ffffff",
-            "icon": "money",
-            "css_class": "",
-            "custom_css": ""
-          }
-        },
-        "d0e77288-8bc3-4816-bc64-238f31e7c66a": {
-          "type": "grid-item",
-          "settings": {
-            "title": "$20 Off: 200 Points",
-            "header_color": "#df9d3e",
-            "text": "<p>Use your discount on orders $60+<\/p>",
-            "text_color": "#ffffff",
-            "icon": "money",
-            "css_class": "",
-            "custom_css": ""
-          }
-        }
-      },
-      "block_order": [
-        "1d4591be-3c7e-41e4-aace-4a7f168ca723",
-        "a8ad4ac9-7c48-4fb7-bd5b-4b7726c80700",
-        "95fa7050-3ae8-4582-92ef-0fedd5824d62",
-        "d0e77288-8bc3-4816-bc64-238f31e7c66a"
-      ],
+    "yotpo-redeem": {
+      "type": "yotpo__redeem",
       "settings": {
-        "show_section": true,
-        "header": "<p>How To<br\/><strong>Use Your Points<\/strong><\/p>",
-        "pre_grid_content": "<p>Redeeming your points is easy! Click REDEEM MY POINTS and then copy & paste your code at checkout.<\/p>",
-        "cta_text": "REDEEM MY POINTS",
-        "cta_url": "",
-        "card_style": "rounded-edges",
-        "width": "md",
-        "max_columns_per_row": 2,
-        "background_color": "#eeeeee",
-        "ripTop": "none",
-        "ripBottom": "none",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "rich-text": {
-      "type": "rich-text",
-      "settings": {
-        "title": "<b>Refer A Friend<\/b>",
-        "heading_alignment": "center",
-        "text": "<p>Get 100 Points<br\/>How’s this for win-win? Refer a pal and we’ll give them $10 to spend on their first purchase of $25 or more. Plus, you’ll get 100 Don Pablo Perk points once they make a purchase.<\/p>",
-        "text_alignment": "center",
-        "button_label": "",
-        "button_link": "",
-        "button_alignment": "center",
-        "button_style": "btn-primary",
-        "background": "#eeeeee",
-        "width": "standard",
-        "ripTop": "none",
-        "ripBottom": "none",
-        "custom_padding": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_left": 0,
-        "padding_right": 0,
-        "css_class": "",
-        "custom_css": ""
       }
     },
     "table": {
-      "type": "table"
+      "type": "table",
+      "blocks": {
+        "1f2b3752-9797-4f08-bd14-4a175f10151f": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "",
+            "text_align": "text-left",
+            "checkmark": false,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "b9318872-6f96-4ed4-b1b8-994bf8d87f06": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "<div class=\"table__header\">\n\n<svg width=\"80\" height=\"80\" viewbox=\"0 0 80 80\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"40\" cy=\"40\" r=\"39.5\" stroke=\"#511E02\"><\/circle>\n<circle cx=\"39.6\" cy=\"39.6\" r=\"33.6\" fill=\"#511E02\"><\/circle>\n<g clip-path=\"url(#clip0_12:11022)\">\n<path d=\"M58.9383 34.3071L46.6417 32.4288L41.13 20.6888C40.7183 19.8121 39.28 19.8121 38.8683 20.6888L33.3583 32.4288L21.0617 34.3071C20.0517 34.4621 19.6483 35.6904 20.3567 36.4154L29.29 45.5721L27.1783 58.5171C27.01 59.5454 28.1083 60.3171 29.0167 59.8121L40 53.7421L50.9833 59.8138C51.8833 60.3138 52.9917 59.5571 52.8217 58.5188L50.71 45.5737L59.6433 36.4171C60.3517 35.6904 59.9467 34.4621 58.9383 34.3071Z\" fill=\"white\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0_12:11022\">\n<rect width=\"40\" height=\"40\" fill=\"white\" transform=\"translate(20 20)\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>\n<div class=\"content\">\n<h3>Don Pablo Man<\/h3>\n<br><p>Spend $20<\/p>\n<\/div>\n<\/div>",
+            "text": "",
+            "text_align": "text-left",
+            "checkmark": false,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "f2e70320-0ca9-40ac-bcf1-1d38f070b12f": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "<div class=\"table__header\">\n\n<svg width=\"80\" height=\"80\" viewbox=\"0 0 80 80\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"40\" cy=\"40\" r=\"39.5\" stroke=\"#511E02\"><\/circle>\n<circle cx=\"39.6\" cy=\"39.6\" r=\"33.6\" fill=\"#511E02\"><\/circle>\n<g clip-path=\"url(#clip0_12:11096)\">\n<path d=\"M47.1153 26.6799L44.4646 29.2635L45.0903 32.9126C45.265 33.9302 44.1907 34.7104 43.2763 34.2297L39.9998 32.5071L36.7234 34.2297C35.8099 34.711 34.7343 33.9321 34.9093 32.9126L35.5351 29.2635L32.8844 26.6799C32.1444 25.957 32.5527 24.6958 33.5773 24.548L37.2405 24.0152L38.8788 20.6957C39.3375 19.7679 40.6622 19.7682 41.1209 20.6957L42.7591 24.0152L46.4223 24.548C47.4462 24.6957 47.8559 25.9564 47.1153 26.6799Z\" fill=\"white\"><\/path>\n<path d=\"M34.6087 36.6799L31.958 39.2634L32.5837 42.9126C32.7584 43.9303 31.6841 44.7103 30.7697 44.2297L27.4932 42.5071L24.2168 44.2297C23.3033 44.711 22.2278 43.9321 22.4027 42.9126L23.0285 39.2634L20.3778 36.6799C19.6367 35.9559 20.0481 34.6955 21.0708 34.548L24.7339 34.0152L26.3722 30.6957C26.831 29.7679 28.1556 29.7682 28.6143 30.6957L30.2525 34.0152L33.9157 34.548C34.9396 34.6957 35.3493 35.9564 34.6087 36.6799Z\" fill=\"white\"><\/path>\n<path d=\"M59.6221 36.6799L56.9714 39.2635L57.5971 42.9126C57.7718 43.9302 56.6975 44.7104 55.7831 44.2297L52.5067 42.5071L49.2302 44.2297C48.3167 44.7111 47.2412 43.9321 47.4162 42.9126L48.0419 39.2635L45.3912 36.6799C44.6513 35.957 45.0595 34.6958 46.0842 34.548L49.7474 34.0152L51.3856 30.6957C51.8444 29.7679 53.1691 29.7682 53.6277 30.6957L55.266 34.0152L58.9291 34.548C59.9504 34.6953 60.3642 35.9549 59.6221 36.6799Z\" fill=\"white\"><\/path>\n<path d=\"M38.9907 52.304L36.34 54.8875L36.9658 58.5366C37.1405 59.5542 36.0662 60.3345 35.1518 59.8538L31.8753 58.1312L28.5988 59.8538C27.6854 60.3351 26.6098 59.5561 26.7848 58.5366L27.4106 54.8875L24.7599 52.304C24.0199 51.581 24.4282 50.3198 25.4528 50.172L29.116 49.6392L30.7542 46.3197C31.2131 45.392 32.5377 45.3923 32.9964 46.3197L34.6346 49.6392L38.2978 50.172C39.3217 50.3197 39.7313 51.5804 38.9907 52.304Z\" fill=\"white\"><\/path>\n<path d=\"M55.24 52.304L52.5893 54.8875L53.2151 58.5366C53.3897 59.5542 52.3155 60.3345 51.401 59.8538L48.1246 58.1312L44.8481 59.8538C43.9347 60.3351 42.8591 59.5561 43.0341 58.5366L43.6599 54.8875L41.0091 52.304C40.2692 51.581 40.6774 50.3198 41.7021 50.172L45.3653 49.6392L47.0035 46.3197C47.4623 45.392 48.787 45.3923 49.2456 46.3197L50.8839 49.6392L54.5471 50.172C55.5709 50.3197 55.9806 51.5804 55.24 52.304Z\" fill=\"white\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0_12:11096\">\n<rect width=\"40\" height=\"40\" fill=\"white\" transform=\"translate(20 20)\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>\n<div class=\"content\">\n<h3>Don Pablo Legend<\/h3>\n<br><p>Don Pablo Legend\nSpend $76<\/p>\n<\/div>\n<\/div>",
+            "text": "",
+            "text_align": "text-left",
+            "checkmark": false,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "a8d9a655-fa33-4fc0-8f18-b6ef633948cb": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "1 point for every $1 spent",
+            "text_align": "text-left",
+            "checkmark": false,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "107416f1-2c12-4ecb-8f09-76db417499b8": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "",
+            "text_align": "text-center",
+            "checkmark": true,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "a10729ba-071d-4740-a058-d04bfb19e11c": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "",
+            "text_align": "text-center",
+            "checkmark": true,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "18ed1f31-a549-4ddc-94e3-8ed36bfe279f": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "Anniversary Reward",
+            "text_align": "text-left",
+            "checkmark": false,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "43fb9364-8378-41f3-802f-0976236b216a": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "",
+            "text_align": "text-center",
+            "checkmark": true,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "8753e45b-8c62-4cf9-933a-e39421590920": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "",
+            "text_align": "text-center",
+            "checkmark": true,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "24695a78-ef77-44c7-83a3-df4323740c70": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "Early Access To New Products",
+            "text_align": "text-left",
+            "checkmark": false,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "2489a8d1-d7ec-4193-a723-28d5dbd35ddd": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "",
+            "text_align": "text-left",
+            "checkmark": false,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "e3eb8aef-4144-4537-858a-55bb9fd053fd": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "",
+            "text_align": "text-center",
+            "checkmark": true,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "3d884637-ece1-48f4-9f40-c2d576c3eccb": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "2x Point Opportunities",
+            "text_align": "text-left",
+            "checkmark": false,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "0e138d90-6deb-49a9-ae37-31070c001bb4": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "",
+            "text_align": "text-left",
+            "checkmark": false,
+            "css_class": "",
+            "custom_css": ""
+          }
+        },
+        "cc1250c8-6648-40cc-b923-1bceb842827d": {
+          "type": "table-cell",
+          "settings": {
+            "custom_html": "",
+            "text": "",
+            "text_align": "text-center",
+            "checkmark": true,
+            "css_class": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "1f2b3752-9797-4f08-bd14-4a175f10151f",
+        "b9318872-6f96-4ed4-b1b8-994bf8d87f06",
+        "f2e70320-0ca9-40ac-bcf1-1d38f070b12f",
+        "a8d9a655-fa33-4fc0-8f18-b6ef633948cb",
+        "107416f1-2c12-4ecb-8f09-76db417499b8",
+        "a10729ba-071d-4740-a058-d04bfb19e11c",
+        "18ed1f31-a549-4ddc-94e3-8ed36bfe279f",
+        "43fb9364-8378-41f3-802f-0976236b216a",
+        "8753e45b-8c62-4cf9-933a-e39421590920",
+        "24695a78-ef77-44c7-83a3-df4323740c70",
+        "2489a8d1-d7ec-4193-a723-28d5dbd35ddd",
+        "e3eb8aef-4144-4537-858a-55bb9fd053fd",
+        "3d884637-ece1-48f4-9f40-c2d576c3eccb",
+        "0e138d90-6deb-49a9-ae37-31070c001bb4",
+        "cc1250c8-6648-40cc-b923-1bceb842827d"
+      ],
+      "settings": {
+        "show_section": true,
+        "header": "<p>Take It<br\/><strong>To The Next Level<\/strong><\/p>",
+        "pre_grid_content": "",
+        "cta_text": "",
+        "cta_url": "",
+        "width": "md",
+        "column_count": 3,
+        "background_color": "#df9d3d",
+        "background_image": "shopify:\/\/shop_images\/AdobeStock_297520243_1_1.jpg",
+        "ripTop": "top__02",
+        "ripBottom": "bottom__01",
+        "css_class": "mt-0 rip-top-grey",
+        "custom_css": ""
+      }
+    },
+    "yotpo-refer": {
+      "type": "yotpo__refer",
+      "settings": {
+        "title": "<b>Refer A Friend<\/b>",
+        "heading_alignment": "center",
+        "text": "<p><strong>GET 100 POINTS<br\/><\/strong><br\/>How’s this for win-win? Refer a pal and we’ll give them $10 to spend on their first purchase of $25 or more. Plus, you’ll get 100 Don Pablo Perk points once they make a purchase.<\/p>",
+        "text_alignment": "center",
+        "width": "md",
+        "css_class": "",
+        "custom_css": ""
+      }
     }
   },
   "order": [
-    "page-header",
-    "columns",
-    "163459559507fd040d",
-    "16345957339d73e871",
-    "rich-text"
+    "yotpo-banner",
+    "yotpo-activity",
+    "yotpo-earning",
+    "yotpo-redeem",
+    "table",
+    "yotpo-refer"
   ]
 }
