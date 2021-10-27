@@ -1,0 +1,19 @@
+<div class="account__billing-shipping">
+  {% comment %}
+    List all customer addresses with a unique edit form.
+    Also add pagination in case they have a large number of addresses
+  {% endcomment %}
+  {% for address in customer.addresses %}
+    {% if customer.default_address == address %}
+      {% assign default_addy = true %}
+    {% else %}
+      {% assign default_addy = false %}
+    {% endif %}
+    
+    
+  {% endfor %}
+
+  {% if customer.addresses == empty %}
+    <div>You have no saved address.</div>
+  {% endif %}
+</div>
