@@ -95,11 +95,18 @@
     class="d-none">
     {% for variant in product.variants %}
       {% if variant.available %}
-        <option value="{{ variant.id }}" {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}>
+        <option 
+          value="{{ variant.id }}"
+          {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
+          data-variant-inventory-qty="{{ variant.inventory_quantity }}"
+        >
           {{ variant.title }} - {{ variant.price | money_with_currency }}
         </option>
       {% else %}
-        <option value="{{ variant.id }}">
+        <option 
+          value="{{ variant.id }}"
+          data-variant-inventory-qty="{{ variant.inventory_quantity }}"
+        >
           {{ variant.title }} - sold out
         </option>
       {% endif %}
@@ -127,7 +134,7 @@
       value="Add to cart" 
     />
 
-    <div class="out-of-stock-notice" {% unless product.selected_or_first_available_variant.available %}style="display:none"{% endunless %}>
+    <div class="out-of-stock-notice" {% unless product.selected_or_first_available_variant.inventory_quantity <= 0 %}style="display:none"{% endunless %}>
       <span class="inventory">{{ product.selected_or_first_available_variant.inventory_quantity | json}}</span>
       {{ 'products.product.unavailable' | t }}
     </div>
