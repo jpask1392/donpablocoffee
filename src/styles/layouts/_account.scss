@@ -2,6 +2,24 @@
   background-color: theme-color(grey);
 }
 
+.account-section,
+.template-order {
+  table {
+    width: 100%;
+
+    th,
+    td {
+      padding: 1rem 0.5rem;
+    }
+
+    tbody {
+      tr:nth-child(2n+1) {
+        background-color: theme-color(grey);
+      }
+    }
+  }
+}
+
 nav.account-nav {
   ul {
     display: flex;
@@ -114,12 +132,7 @@ nav.account-nav {
 #accountOrders {
   .account__order-history {
     .responsive-table {
-      width: 100%;
-      border: 1px solid theme-color(navy);
-
-      th {
-        padding: 0.5rem;
-      }
+      
     }
   }
 }
@@ -128,5 +141,28 @@ nav.account-nav {
   ul {
     list-style-type: none;
     padding: 0;
+  }
+}
+
+#accountBillingShipping {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      width: 33%;
+      margin-bottom: 2rem;
+
+      .tile {
+        padding-right: 20px;
+
+        &.default {
+          padding: 15px;
+          border: 1px solid black;
+        }
+      }
+    }
   }
 }

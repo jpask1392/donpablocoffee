@@ -1,17 +1,23 @@
 <div class="account__billing-shipping">
+  <h4 class="account__subheaders">Addresses</h4>
   {% comment %}
     List all customer addresses with a unique edit form.
     Also add pagination in case they have a large number of addresses
   {% endcomment %}
-  {% for address in customer.addresses %}
-    {% if customer.default_address == address %}
-      {% assign default_addy = true %}
-    {% else %}
-      {% assign default_addy = false %}
-    {% endif %}
-    
-    
-  {% endfor %}
+  <ul role="list">
+    {%- for address in customer.addresses -%}
+      <li data-address>
+        <div class="tile {% if address == customer.default_address %} default{% endif %}">
+          {%- if address == customer.default_address -%}
+            <h2>{{ 'customer.addresses.default' | t }}</h2>
+          {%- endif -%}
+
+          {{ address | format_address }}
+        </div>
+
+      </li>
+    {%- endfor -%}
+  </ul>
 
   {% if customer.addresses == empty %}
     <div>You have no saved address.</div>

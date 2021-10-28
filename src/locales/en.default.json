@@ -185,8 +185,10 @@
     "order": {
       "title": "Order {{ name }}",
       "date": "Placed on {{ date }}",
+      "date_html": "Placed on {{ date }}",
       "cancelled": "Order Cancelled on {{ date }}",
       "cancelled_reason": "Reason: {{ reason }}",
+      "cancelled_html": "Order Cancelled on {{ date }}",
       "billing_address": "Billing Address",
       "payment_status": "Payment Status",
       "shipping_address": "Shipping Address",
@@ -204,7 +206,8 @@
       "tracking_url": "Tracking link",
       "tracking_company": "Carrier",
       "tracking_number": "Tracking number",
-      "subtotal": "Subtotal"
+      "subtotal": "Subtotal",
+      "fulfilled_at_html": "Fulfilled {{ date }}"
     },
     "recover_password": {
       "title": "Reset your password",
