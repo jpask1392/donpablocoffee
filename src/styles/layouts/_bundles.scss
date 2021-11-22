@@ -1,0 +1,68 @@
+#bundle-builder-app--bundle--root {
+  @extend .has-coffee-background;
+
+  & > div {
+    max-width: 1440px;
+    padding: 0 30px;
+    margin: auto;
+  }
+
+  .bundle-builder-app--bundle--product-name,
+  .bundle-builder-app--bundle--name,
+  .bundle-builder-app--bundle--section-name {
+    font-family: $headings-font-family-03;
+  }
+
+  .bundle-builder-app--bundle--header-image-wrapper {
+    padding-top: 3rem;
+  }
+
+  .bundle-builder-app--bundle--section-name {
+    padding-bottom: 2rem;
+
+    &::after {
+      margin-top: 2rem;
+    }
+  }
+
+  .bundle-builder-app--bundle--product-auto-height img {
+    height: auto;
+  }
+
+  .bundle-builder-app--bundle--name {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .bundle-builder-app--bundle--product-options-form {
+    display: none;
+  }
+
+  .bundle-builder-app--bundle--product-name {
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-size: 1.25rem;
+    line-height: 2;
+    color: theme-color(red);
+  }
+
+  .bundle-builder-app--bundle--product-add-button {
+    @extend .btn;
+    @extend .btn-primary;
+
+    max-width: 200px;
+
+    &:hover {
+      background: theme-color(primary) !important;
+    }
+  }
+
+  .bundle-builder-app--bundle--product > div {
+    max-width: 250px;
+    margin: auto;
+  }
+
+  .bundle-builder-app--content {
+    padding-bottom: 3rem;
+  }
+}
