@@ -23,7 +23,7 @@
                       <b>{{ item.product.title }}</b>
                     </a>
                     <div class="section-title">{{ item.variant.title }}</div>
-                    <div class="mt-2"><b><span class="Makebecool-theme-hook-DO-NOT-DELETE makebecool_cart_item_price" data-item-key="{{item.key}}" style="display:none !important;"></span>{{ item.price | money }}</b></div>
+                    <div class="mt-2"><b>{{ item.price | money }}</b></div>
                   </div>
                 </div>
                 <div class="cart-list__quantity col-md-3">
@@ -62,7 +62,7 @@
               <div class="cart-title">Cart Totals</div>
               <div id="CartSubTotal" class="d-flex justify-content-between">
                 <span class="cart-title cart-title--sm">SUBTOTAL</span> 
-                <span class="cart-title--sm subtotal price"><span class="Makebecool-theme-hook-DO-NOT-DELETE makebecool_cart_total" style="display:none !important;"></span>{{ cart.total_price | money }}</span>
+                <span class="cart-title--sm subtotal price">{{ cart.total_price | money }}</span>
               </div>
               <div class="d-flex justify-content-between">
                 <span class="cart-title cart-title--sm">SHIPPING</span> 
@@ -80,7 +80,7 @@
             <div id="CartTotal" class="cart-totals__total">
               <div class="cart-totals__price-summary d-flex justify-content-between">
                 <span class="cart-title cart-title--sm">TOTAL</span>
-                <span class="price"><b><span class="Makebecool-theme-hook-DO-NOT-DELETE makebecool_cart_total" style="display:none !important;"></span>{{ cart.total_price | money }}</b></span>
+                <span class="price"><b>{{ cart.total_price | money }}</b></span>
               </div>
               <div class="cart-totals__discount-calcs"></div>
             </div>

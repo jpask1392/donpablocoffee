@@ -1,10 +1,16 @@
 [
   {
-    "lat": "32.363768",
-    "lng": "-86.1506925",
-    "id": 8401366,
+    "lat": "32.3626238",
+    "lng": "-86.151587",
+    "id": 8895216,
     "name": "Costco 1009 Montgomery, AL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "8251 EASTCHASE PKWY",
     "country": "USA",
@@ -14,11 +20,17 @@
     "priority": 1
   },
   {
-    "lat": "34.7441254",
-    "lng": "-86.6025161",
-    "id": 8401367,
+    "lat": "34.7429979",
+    "lng": "-86.6015114",
+    "id": 8895217,
     "name": "Costco 356 Huntsville, AL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "1205 N. MEMORIAL PKWY",
     "country": "USA",
@@ -28,11 +40,17 @@
     "priority": 1
   },
   {
-    "lat": "30.46093",
-    "lng": "-84.2122514",
-    "id": 8401368,
+    "lat": "30.4616371",
+    "lng": "-84.2121318",
+    "id": 8895218,
     "name": "Costco 1026 Tallahassee, FL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "4067 LAGNIAPPE WAY",
     "country": "USA",
@@ -44,9 +62,15 @@
   {
     "lat": "30.2019581",
     "lng": "-81.7567191",
-    "id": 8401369,
+    "id": 8895219,
     "name": "Costco 1294 W Jacksonville, FL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "8000 PARRAMORE RD",
     "country": "USA",
@@ -58,9 +82,15 @@
   {
     "lat": "27.4959807",
     "lng": "-82.4712427",
-    "id": 8401370,
+    "id": 8895220,
     "name": "Costco 1364 Bradenton, FL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "805 LIGHTHOUSE DRIVE",
     "country": "USA",
@@ -70,11 +100,17 @@
     "priority": 1
   },
   {
-    "lat": "26.5882276",
-    "lng": "-80.0712471",
-    "id": 8401371,
+    "lat": "26.5882974",
+    "lng": "-80.0709539",
+    "id": 8895221,
     "name": "Costco 180 Lantana, FL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "1873 LANTANA RD",
     "country": "USA",
@@ -86,9 +122,15 @@
   {
     "lat": "26.418703",
     "lng": "-80.0940851",
-    "id": 8401372,
+    "id": 8895222,
     "name": "Costco 345 Boca Raton, FL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "7800 CONGRESS AVE",
     "country": "USA",
@@ -100,9 +142,15 @@
   {
     "lat": "26.2194988",
     "lng": "-81.775276",
-    "id": 8401373,
+    "id": 8895223,
     "name": "Costco 354 Naples, FL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "6275 NAPLES BLVD",
     "country": "USA",
@@ -114,9 +162,15 @@
   {
     "lat": "30.2516046",
     "lng": "-81.5334151",
-    "id": 8401374,
+    "id": 8895224,
     "name": "Costco 357 E Jacksonville, FL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "4901 GATE PKWY",
     "country": "USA",
@@ -128,9 +182,15 @@
   {
     "lat": "27.9217568",
     "lng": "-82.3306069",
-    "id": 8401375,
+    "id": 8895225,
     "name": "Costco 358 Brandon, FL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "10921 CAUSEWAY BLVD",
     "country": "USA",
@@ -140,11 +200,17 @@
     "priority": 1
   },
   {
-    "lat": "26.6822326",
-    "lng": "-80.2255742",
-    "id": 8401376,
+    "lat": "26.6826099",
+    "lng": "-80.2198226",
+    "id": 8895226,
     "name": "Costco 623 Royal Palm Beach, FL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "11001 SOUTHERN BLVD",
     "country": "USA",
@@ -154,11 +220,17 @@
     "priority": 1
   },
   {
-    "lat": "26.0097444",
-    "lng": "-80.3604109",
-    "id": 8401377,
+    "lat": "26.0107189",
+    "lng": "-80.3608625",
+    "id": 8895227,
     "name": "Costco 742 Pembroke Pines, FL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "15915 PINES BLVD",
     "country": "USA",
@@ -170,9 +242,15 @@
   {
     "lat": "26.8065511",
     "lng": "-80.0875392",
-    "id": 8401378,
+    "id": 8895228,
     "name": "Costco 93 Palm Beach Gardens, FL",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "3250 NORTHLAKE BLVD",
     "country": "USA",
@@ -182,11 +260,17 @@
     "priority": 1
   },
   {
-    "lat": "34.9686638",
-    "lng": "-85.194867",
-    "id": 8401379,
+    "lat": "34.9678392",
+    "lng": "-85.19494",
+    "id": 8895229,
     "name": "Costco 1083 Ft Oglethope, GA",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "100 COBB PKWY",
     "country": "USA",
@@ -198,9 +282,15 @@
   {
     "lat": "33.8725435",
     "lng": "-84.3370041",
-    "id": 8401380,
+    "id": 8895230,
     "name": "Costco 1084 Brookhaven, GA",
     "description": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tagsvalue": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend \/ Subtle Earth Organic"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/SEO_SB.png?v=1628802071",
     "address": "500 BROOKHAVEN AVE NE",
     "country": "USA",
@@ -212,9 +302,15 @@
   {
     "lat": "33.5250091",
     "lng": "-82.0206187",
-    "id": 8401381,
+    "id": 8895231,
     "name": "Costco 1102 Augusta, GA",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "825 CABELA DR",
     "country": "USA",
@@ -226,9 +322,15 @@
   {
     "lat": "34.21395",
     "lng": "-84.1163001",
-    "id": 8401382,
+    "id": 8895232,
     "name": "Costco 1175 Cummings, GA",
     "description": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tagsvalue": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend \/ Subtle Earth Organic"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/SEO_SB.png?v=1628802071",
     "address": "1211 BALD RIDGE MARINA RD",
     "country": "USA",
@@ -240,9 +342,15 @@
   {
     "lat": "34.1197861",
     "lng": "-84.5151733",
-    "id": 8401383,
+    "id": 8895233,
     "name": "Costco 1295 Woodstock, GA",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "113 LINCOLN ST",
     "country": "USA",
@@ -254,9 +362,15 @@
   {
     "lat": "33.3977622",
     "lng": "-84.6176939",
-    "id": 8401384,
+    "id": 8895234,
     "name": "Costco 1361 Sharpsburg, GA",
     "description": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tagsvalue": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend \/ Subtle Earth Organic"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/SEO_SB.png?v=1628802071",
     "address": "40 FISCHER CROSSINGS DR",
     "country": "USA",
@@ -268,9 +382,15 @@
   {
     "lat": "33.9480143",
     "lng": "-84.1445236",
-    "id": 8401385,
+    "id": 8895235,
     "name": "Costco 187 Gwinnett, GA",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "3980 VENTURE DR",
     "country": "USA",
@@ -280,11 +400,17 @@
     "priority": 1
   },
   {
-    "lat": "33.9282579",
-    "lng": "-84.3541944",
-    "id": 8401386,
+    "lat": "33.9287269",
+    "lng": "-84.3527877",
+    "id": 8895236,
     "name": "Costco 188 Perimeter, GA",
     "description": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tagsvalue": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend \/ Subtle Earth Organic"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/SEO_SB.png?v=1628802071",
     "address": "6350 PEACHTREE DUNWOODY RD",
     "country": "USA",
@@ -296,9 +422,15 @@
   {
     "lat": "34.0047976",
     "lng": "-84.5696463",
-    "id": 8401387,
+    "id": 8895237,
     "name": "Costco 189 Town Center, GA",
     "description": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tagsvalue": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend \/ Subtle Earth Organic"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/SEO_SB.png?v=1628802071",
     "address": "645 BARRETT PARKWAY NW",
     "country": "USA",
@@ -308,11 +440,17 @@
     "priority": 1
   },
   {
-    "lat": "34.0620762",
-    "lng": "-83.9959185",
-    "id": 8401388,
+    "lat": "34.0622899",
+    "lng": "-83.996745",
+    "id": 8895238,
     "name": "Costco 366 Mall of Georgia, GA",
     "description": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tagsvalue": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend \/ Subtle Earth Organic"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/SEO_SB.png?v=1628802071",
     "address": "1550 MALL OF GEORGIA BLVD",
     "country": "USA",
@@ -324,9 +462,15 @@
   {
     "lat": "33.8823121",
     "lng": "-84.4703197",
-    "id": 8401389,
+    "id": 8895239,
     "name": "Costco 631 Cumberland Mall, GA",
     "description": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tagsvalue": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend \/ Subtle Earth Organic"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/SEO_SB.png?v=1628802071",
     "address": "2900 CUMBERLAND MALL SE",
     "country": "USA",
@@ -338,9 +482,15 @@
   {
     "lat": "34.0915616",
     "lng": "-84.278553",
-    "id": 8401390,
+    "id": 8895240,
     "name": "Costco 743 Alpharetta, GA",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "2855 JORDAN CT",
     "country": "USA",
@@ -350,11 +500,17 @@
     "priority": 1
   },
   {
-    "lat": "35.7468039",
-    "lng": "-78.8272924",
-    "id": 8401391,
+    "lat": "35.7465857",
+    "lng": "-78.8267615",
+    "id": 8895241,
     "name": "Costco 1206 Apex, NC",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "1021 PINE PLAZA DR",
     "country": "USA",
@@ -366,9 +522,15 @@
   {
     "lat": "35.5830834",
     "lng": "-80.8552161",
-    "id": 8401392,
+    "id": 8895242,
     "name": "Costco 1333 Morrisville, NC",
     "description": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tagsvalue": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend \/ Subtle Earth Organic"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/SEO_SB.png?v=1628802071",
     "address": "392 TALBERT RD",
     "country": "USA",
@@ -378,11 +540,17 @@
     "priority": 1
   },
   {
-    "lat": "36.028748",
-    "lng": "-78.9143261",
-    "id": 8401393,
+    "lat": "36.0292022",
+    "lng": "-78.9137957",
+    "id": 8895243,
     "name": "Costco 249 Durham, NC",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "1510 N POINTE DR",
     "country": "USA",
@@ -394,9 +562,15 @@
   {
     "lat": "36.0575846",
     "lng": "-79.8835827",
-    "id": 8401394,
+    "id": 8895244,
     "name": "Costco 339 Greensboro, NC",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "4201 W WENDOVER AVE",
     "country": "USA",
@@ -408,9 +582,15 @@
   {
     "lat": "35.1621148",
     "lng": "-80.8846939",
-    "id": 8401395,
+    "id": 8895245,
     "name": "Costco 359 Charlotte, NC",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "500 TYVOLA RD",
     "country": "USA",
@@ -420,11 +600,17 @@
     "priority": 1
   },
   {
-    "lat": "36.0649578",
-    "lng": "-80.3167843",
-    "id": 8401396,
+    "lat": "36.0659314",
+    "lng": "-80.317633",
+    "id": 8895246,
     "name": "Costco 361 Winston Salem, NC",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "1085 HANES MALL BLVD",
     "country": "USA",
@@ -436,9 +622,15 @@
   {
     "lat": "34.2484086",
     "lng": "-77.8728147",
-    "id": 8401397,
+    "id": 8895248,
     "name": "Costco 635 Wilmington, SC",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "5351 GINGERWOOD DR",
     "country": "USA",
@@ -450,9 +642,15 @@
   {
     "lat": "35.8191982",
     "lng": "-78.6237304",
-    "id": 8401398,
+    "id": 8895249,
     "name": "Costco 645 Raleigh, NC",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "2838 WAKE FOREST RD",
     "country": "USA",
@@ -462,11 +660,17 @@
     "priority": 1
   },
   {
-    "lat": "34.8363875",
-    "lng": "-82.3105939",
-    "id": 8401399,
+    "lat": "34.8372984",
+    "lng": "-82.3120299",
+    "id": 8895250,
     "name": "Costco 1005 Greenville, SC",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "1021 WOODRUFF RD",
     "country": "USA",
@@ -476,11 +680,17 @@
     "priority": 1
   },
   {
-    "lat": "34.9398374",
-    "lng": "-81.9974515",
-    "id": 8401400,
+    "lat": "34.9389103",
+    "lng": "-81.9973451",
+    "id": 8895251,
     "name": "Costco 1008 Spartanburg, SC",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "211 W BLACKSTOCK RD",
     "country": "USA",
@@ -490,11 +700,17 @@
     "priority": 1
   },
   {
-    "lat": "34.0703029",
-    "lng": "-81.1390386",
-    "id": 8401401,
+    "lat": "34.0704244",
+    "lng": "-81.1392565",
+    "id": 8895252,
     "name": "Costco 1232 Columbia, SC",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "507 PINEY GROVE RD",
     "country": "USA",
@@ -506,9 +722,15 @@
   {
     "lat": "32.8816282",
     "lng": "-79.7708353",
-    "id": 8401402,
+    "id": 8895253,
     "name": "Costco 1319 Mt Pleasant, SC",
     "description": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tagsvalue": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend \/ Subtle Earth Organic"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/SEO_SB.png?v=1628802071",
     "address": "3525 PARK AVENUE BLVD",
     "country": "USA",
@@ -518,11 +740,17 @@
     "priority": 1
   },
   {
-    "lat": "33.7058243",
-    "lng": "-78.9157407",
-    "id": 8401403,
+    "lat": "33.7053227",
+    "lng": "-78.9159175",
+    "id": 8895254,
     "name": "Costco 338 Myrtle Beach, SC",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "1021 OAK FOREST LN",
     "country": "USA",
@@ -534,9 +762,15 @@
   {
     "lat": "32.7952564",
     "lng": "-80.036252",
-    "id": 8401404,
+    "id": 8895255,
     "name": "Costco 360 Charleston, SC",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "3050 ASHLEY TOWN CENTER DR",
     "country": "USA",
@@ -546,11 +780,17 @@
     "priority": 1
   },
   {
-    "lat": "35.8967132",
-    "lng": "-84.1405455",
-    "id": 8401405,
+    "lat": "35.8975033",
+    "lng": "-84.1397828",
+    "id": 8895256,
     "name": "Costco 1116 Farragut, TN",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "10745 KINGSTON PIKE",
     "country": "USA",
@@ -562,9 +802,15 @@
   {
     "lat": "35.1918334",
     "lng": "-89.7959006",
-    "id": 8401406,
+    "id": 8895257,
     "name": "Costco 352 NE Memphis, TN",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "2431 N GERMANTOWN PKWY",
     "country": "USA",
@@ -576,9 +822,15 @@
   {
     "lat": "35.0479616",
     "lng": "-89.7973838",
-    "id": 8401407,
+    "id": 8895258,
     "name": "Costco 353 SE Memphis, TN",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "3775 HACKS CROSS RD",
     "country": "USA",
@@ -588,11 +840,17 @@
     "priority": 1
   },
   {
-    "lat": "35.9636496",
-    "lng": "-86.8163855",
-    "id": 8401408,
+    "lat": "35.9648103",
+    "lng": "-86.8168955",
+    "id": 8895259,
     "name": "Costco 386 Brentwood, TN",
     "description": "Don Pablo Signature Blend",
+    "tagsvalue": "Don Pablo Signature Blend",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Don_Pablo_Signature_Blend.png?v=1628801538",
     "address": "98 SEABOARD LN",
     "country": "USA",
@@ -602,11 +860,37 @@
     "priority": 1
   },
   {
+    "lat": "35.8272194",
+    "lng": "-86.4176617",
+    "id": 8895260,
+    "name": "Costco 1448 Murfreesboro, TN",
+    "description": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tagsvalue": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend \/ Subtle Earth Organic"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/SEO_SB.png?v=1628802071",
+    "address": "1524 BEASIE RD",
+    "country": "USA",
+    "state": "TN",
+    "city": "MURFREESBORO",
+    "postal": "37128",
+    "priority": 1
+  },
+  {
     "lat": "36.1394963",
     "lng": "-86.8861619",
-    "id": 8401409,
+    "id": 8895261,
     "name": "Costco 630 W Nashville, TN",
     "description": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tagsvalue": "Don Pablo Signature Blend \/ Subtle Earth Organic",
+    "tags": [
+      {
+        "tag": "Don Pablo Signature Blend \/ Subtle Earth Organic"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/SEO_SB.png?v=1628802071",
     "address": "6670 CHARLOTTE PIKE",
     "country": "USA",
@@ -618,9 +902,15 @@
   {
     "lat": "36.0579112",
     "lng": "-79.899329",
-    "id": 8401410,
+    "id": 8895262,
     "name": "Greensboro Sam's Club No. 6402",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "4418 W. Wendover Ave.",
     "country": "USA",
@@ -632,9 +922,15 @@
   {
     "lat": "36.3518467",
     "lng": "-94.1713742",
-    "id": 8401411,
+    "id": 8895263,
     "name": "Bentonville Sam's Club No. 4969",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3500 SE Club Blvd",
     "country": "USA",
@@ -644,11 +940,17 @@
     "priority": 1
   },
   {
-    "lat": "37.1783671",
-    "lng": "-93.219718",
-    "id": 8401412,
+    "lat": "37.1794571",
+    "lng": "-93.2188347",
+    "id": 8895264,
     "name": "Springfield Sam's Club No. 8296",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3660 E. Sunshine St.",
     "country": "USA",
@@ -658,11 +960,17 @@
     "priority": 1
   },
   {
-    "lat": "37.1329584",
-    "lng": "-93.3017564",
-    "id": 8401413,
+    "lat": "37.1337997",
+    "lng": "-93.3008323",
+    "id": 8895265,
     "name": "Springfield Sam's Club No. 4985",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "745 W El Camino Alto St",
     "country": "USA",
@@ -672,11 +980,17 @@
     "priority": 1
   },
   {
-    "lat": "26.2710304",
-    "lng": "-81.7676537",
-    "id": 8401414,
+    "lat": "26.2720072",
+    "lng": "-81.7690159",
+    "id": 8895266,
     "name": "Naples Sam's Club No. 6364",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "2550 Immokalee Rd.",
     "country": "USA",
@@ -688,9 +1002,15 @@
   {
     "lat": "36.1082073",
     "lng": "-94.1822938",
-    "id": 8401415,
+    "id": 8895267,
     "name": "Fayetteville Sam's Club No. 8209",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3081 N Highway 112",
     "country": "USA",
@@ -700,11 +1020,17 @@
     "priority": 1
   },
   {
-    "lat": "30.4388006",
-    "lng": "-89.1005989",
-    "id": 8401416,
+    "lat": "30.4389837",
+    "lng": "-89.1010461",
+    "id": 8895268,
     "name": "Gulfport Sam's Club No. 8236",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "10431 Old Hwy 49",
     "country": "USA",
@@ -714,11 +1040,17 @@
     "priority": 1
   },
   {
-    "lat": "34.8062484",
-    "lng": "-92.2079888",
-    "id": 8401417,
+    "lat": "34.8069567",
+    "lng": "-92.2081617",
+    "id": 8895269,
     "name": "N. Little Rock Sam's Club No. 8266",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "5600 Landers Rd.",
     "country": "USA",
@@ -730,9 +1062,15 @@
   {
     "lat": "34.9384138",
     "lng": "-80.9586114",
-    "id": 8401418,
+    "id": 8895270,
     "name": "Rock Hill Sam's Club No. 6236",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "2474 Cross Pointe Drive",
     "country": "USA",
@@ -744,9 +1082,15 @@
   {
     "lat": "29.6240949",
     "lng": "-82.3845491",
-    "id": 8401419,
+    "id": 8895271,
     "name": "Gainesville Sam's Club No. 8155",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "4001 SW 30th Place",
     "country": "USA",
@@ -756,11 +1100,17 @@
     "priority": 1
   },
   {
-    "lat": "47.5175136",
-    "lng": "-111.321278",
-    "id": 8401420,
+    "lat": "47.5171422",
+    "lng": "-111.3212633",
+    "id": 8895272,
     "name": "Great Falls Sam's Club No. 6379",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "401 N.W.Byp.",
     "country": "USA",
@@ -772,9 +1122,15 @@
   {
     "lat": "35.3498678",
     "lng": "-94.3480532",
-    "id": 8401421,
+    "id": 8895273,
     "name": "Ft. Smith Sam's Club No. 8134",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "7700 Rogers Ave.",
     "country": "USA",
@@ -786,9 +1142,15 @@
   {
     "lat": "21.294915",
     "lng": "-157.8429453",
-    "id": 8401422,
+    "id": 8895274,
     "name": "Honolulu Sam's Club No. 4755",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "750 Ke'eaumoku St.",
     "country": "USA",
@@ -800,9 +1162,15 @@
   {
     "lat": "33.399913",
     "lng": "-84.6237114",
-    "id": 8401423,
+    "id": 8895275,
     "name": "Sharpsburg Sam's Club No. 4789",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "310 fisher rd",
     "country": "USA",
@@ -814,9 +1182,15 @@
   {
     "lat": "30.4828235",
     "lng": "-87.214861",
-    "id": 8401424,
+    "id": 8895276,
     "name": "Pensacola Sam's Club No. 8119",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1250 Airport Blvd.",
     "country": "USA",
@@ -828,9 +1202,15 @@
   {
     "lat": "28.5700525",
     "lng": "-81.285562",
-    "id": 8401425,
+    "id": 8895277,
     "name": "Orlando Sam's Club No. 6212",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "7701 E. Colonial Dr.",
     "country": "USA",
@@ -840,11 +1220,17 @@
     "priority": 1
   },
   {
-    "lat": "34.4697758",
-    "lng": "-93.0698289",
-    "id": 8401426,
+    "lat": "34.469434",
+    "lng": "-93.0687918",
+    "id": 8895278,
     "name": "Hot Springs Sam's Club No. 4825",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1368 Higdon Ferry Road",
     "country": "USA",
@@ -854,11 +1240,17 @@
     "priority": 1
   },
   {
-    "lat": "34.0431365",
-    "lng": "-84.3147458",
-    "id": 8401427,
+    "lat": "34.0432543",
+    "lng": "-84.315086",
+    "id": 8895279,
     "name": "Alpharetta Sam's Club No. 6646",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "10600 Davis Dr.",
     "country": "USA",
@@ -870,9 +1262,15 @@
   {
     "lat": "30.4393536",
     "lng": "-86.6402765",
-    "id": 8401428,
+    "id": 8895280,
     "name": "Ft.Walton Beach Sam's Club No. 6361",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "740 N. Beal Pkwy.",
     "country": "USA",
@@ -884,9 +1282,15 @@
   {
     "lat": "38.9513101",
     "lng": "-92.2964404",
-    "id": 8401429,
+    "id": 8895281,
     "name": "Columbia Sam's Club No. 8163",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "101 Conley Rd.",
     "country": "USA",
@@ -896,11 +1300,17 @@
     "priority": 1
   },
   {
-    "lat": "37.0508644",
-    "lng": "-94.4747909",
-    "id": 8401430,
+    "lat": "37.0501533",
+    "lng": "-94.4758117",
+    "id": 8895282,
     "name": "Joplin Sam's Club No. 6415",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3536 Hammons Blvd.",
     "country": "USA",
@@ -910,11 +1320,17 @@
     "priority": 1
   },
   {
-    "lat": "36.2948249",
-    "lng": "-95.8283378",
-    "id": 8401431,
+    "lat": "36.2949849",
+    "lng": "-95.8284611",
+    "id": 8895283,
     "name": "Owasso Sam's Club No. 6238",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "12905 E 96th ST. N",
     "country": "USA",
@@ -926,9 +1342,15 @@
   {
     "lat": "35.2164146",
     "lng": "-97.4931033",
-    "id": 8401432,
+    "id": 8895284,
     "name": "Norman Sam's Club No. 4761",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3400 W. Main St.",
     "country": "USA",
@@ -940,9 +1362,15 @@
   {
     "lat": "30.3098255",
     "lng": "-89.8283614",
-    "id": 8401433,
+    "id": 8895285,
     "name": "Slidell Sam's Club No. 6220",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "181 Northshore Blvd.",
     "country": "USA",
@@ -954,9 +1382,15 @@
   {
     "lat": "28.3931927",
     "lng": "-81.2482694",
-    "id": 8401434,
+    "id": 8895286,
     "name": "Orlando Sam's Club No. 4828",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "11920 Narcoossee Rd.",
     "country": "USA",
@@ -968,9 +1402,15 @@
   {
     "lat": "36.0426307",
     "lng": "-96.0048873",
-    "id": 8401435,
+    "id": 8895287,
     "name": "Tulsa Sam's Club No. 4839",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "7757 S Olympia Ave W",
     "country": "USA",
@@ -982,9 +1422,15 @@
   {
     "lat": "36.100575",
     "lng": "-95.9061707",
-    "id": 8401436,
+    "id": 8895288,
     "name": "Tulsa Sam's Club No. 8263",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "4420 S. Sheridan",
     "country": "USA",
@@ -996,9 +1442,15 @@
   {
     "lat": "36.0625227",
     "lng": "-95.8711595",
-    "id": 8401437,
+    "id": 8895289,
     "name": "Tulsa Sam's Club No. 6342",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "6922 S. Mingo Rd.",
     "country": "USA",
@@ -1010,9 +1462,15 @@
   {
     "lat": "29.2198765",
     "lng": "-81.0986945",
-    "id": 8401438,
+    "id": 8895290,
     "name": "Daytona Beach Sam's Club No. 8138",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1460 cornerstone blvd.",
     "country": "USA",
@@ -1024,9 +1482,15 @@
   {
     "lat": "34.7358331",
     "lng": "-86.6584102",
-    "id": 8401439,
+    "id": 8895291,
     "name": "Huntsville Sam's Club No. 4776",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "5651 Holmes Ave.",
     "country": "USA",
@@ -1038,9 +1502,15 @@
   {
     "lat": "39.0458465",
     "lng": "-94.3671119",
-    "id": 8401440,
+    "id": 8895292,
     "name": "Independence Sam's Club No. 8293",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "4100 Bolger Rd.",
     "country": "USA",
@@ -1050,11 +1520,17 @@
     "priority": 1
   },
   {
-    "lat": "38.8109104",
-    "lng": "-94.4909213",
-    "id": 8401441,
+    "lat": "38.8090975",
+    "lng": "-94.4914043",
+    "id": 8895293,
     "name": "Raymore Sam's Club No. 8243",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "141 N. Dean Ave.",
     "country": "USA",
@@ -1066,9 +1542,15 @@
   {
     "lat": "36.0665729",
     "lng": "-80.312354",
-    "id": 8401442,
+    "id": 8895294,
     "name": "Winston Salem Sam's Club No. 8228",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "930 Hanes Mall Blvd.",
     "country": "USA",
@@ -1078,11 +1560,17 @@
     "priority": 1
   },
   {
-    "lat": "40.5341683",
-    "lng": "-80.0679857",
-    "id": 8401443,
+    "lat": "40.5340604",
+    "lng": "-80.0662833",
+    "id": 8895295,
     "name": "Pittsburgh Sam's Club No. 6678",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "289 Mount Nebo Pointe Rd.",
     "country": "USA",
@@ -1094,9 +1582,15 @@
   {
     "lat": "27.7885347",
     "lng": "-82.6789321",
-    "id": 8401444,
+    "id": 8895296,
     "name": "St Petersburg Sam's Club No. 4861",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1725 34th St. N.",
     "country": "USA",
@@ -1108,9 +1602,15 @@
   {
     "lat": "28.1882256",
     "lng": "-82.3575742",
-    "id": 8401445,
+    "id": 8895297,
     "name": "Wesley Chapel Sam's Club No. 4852",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "27727 State Rd. 56",
     "country": "USA",
@@ -1120,11 +1620,17 @@
     "priority": 1
   },
   {
-    "lat": "40.3088397",
-    "lng": "-79.5917723",
-    "id": 8401446,
+    "lat": "40.3028326",
+    "lng": "-79.594574",
+    "id": 8895298,
     "name": "Greensburg Sam's Club No. 4847",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "6211 Route 30",
     "country": "USA",
@@ -1136,9 +1642,15 @@
   {
     "lat": "32.5409966",
     "lng": "-84.9468386",
-    "id": 8401447,
+    "id": 8895299,
     "name": "Columbus Sam's Club No. 8213",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "5448 A Whittlesey Blvd",
     "country": "USA",
@@ -1148,11 +1660,17 @@
     "priority": 1
   },
   {
-    "lat": "28.5311304",
-    "lng": "-82.503023",
-    "id": 8401448,
+    "lat": "28.5326662",
+    "lng": "-82.5037419",
+    "id": 8895300,
     "name": "Brooksville Sam's Club No. 4818",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "13360 Cortez Blvd.",
     "country": "USA",
@@ -1162,11 +1680,17 @@
     "priority": 1
   },
   {
-    "lat": "36.1729852",
-    "lng": "-94.1916997",
-    "id": 8401449,
+    "lat": "36.1726577",
+    "lng": "-94.1913795",
+    "id": 8895301,
     "name": "Springdale Sam's Club No. 4808",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1517 gene george blvd.",
     "country": "USA",
@@ -1176,11 +1700,17 @@
     "priority": 1
   },
   {
-    "lat": "40.5659363",
-    "lng": "-79.8041088",
-    "id": 8401450,
+    "lat": "40.5655432",
+    "lng": "-79.8040703",
+    "id": 8895302,
     "name": "Tarentum Sam's Club No. 4952",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "2000 Village Center Dr.",
     "country": "USA",
@@ -1192,9 +1722,15 @@
   {
     "lat": "34.2723249",
     "lng": "-85.2306796",
-    "id": 8401451,
+    "id": 8895303,
     "name": "Rome Sam's Club No. 6509",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "2550 Redmond Cir.",
     "country": "USA",
@@ -1206,9 +1742,15 @@
   {
     "lat": "37.0846772",
     "lng": "-88.6898523",
-    "id": 8401452,
+    "id": 8895304,
     "name": "Paducah Sam's Club No. 6449",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3550 james-sanders blvd.",
     "country": "USA",
@@ -1218,11 +1760,17 @@
     "priority": 1
   },
   {
-    "lat": "35.6423004",
-    "lng": "-97.4277868",
-    "id": 8401453,
+    "lat": "35.6416305",
+    "lng": "-97.4269182",
+    "id": 8895305,
     "name": "Edmond Sam's Club No. 6267",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1117 West i-35 Frontage Road",
     "country": "USA",
@@ -1232,11 +1780,17 @@
     "priority": 1
   },
   {
-    "lat": "27.9984133",
-    "lng": "-81.922789",
-    "id": 8401454,
+    "lat": "27.9979909",
+    "lng": "-81.9217537",
+    "id": 8895306,
     "name": "Lakeland Sam's Club No. 4794",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3530 lakeland highlands rd",
     "country": "USA",
@@ -1246,11 +1800,17 @@
     "priority": 1
   },
   {
-    "lat": "39.5626118",
-    "lng": "-104.900378",
-    "id": 8401455,
+    "lat": "39.5614633",
+    "lng": "-104.9016097",
+    "id": 8895307,
     "name": "Lone Tree Sam's Club No. 6634",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "7817 Park Meadows Dr.",
     "country": "USA",
@@ -1262,9 +1822,15 @@
   {
     "lat": "27.9374161",
     "lng": "-82.3171806",
-    "id": 8401456,
+    "id": 8895308,
     "name": "Brandon Sam's Club No. 6403",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "2021 Brandon Blvd.W.",
     "country": "USA",
@@ -1276,9 +1842,15 @@
   {
     "lat": "33.7309403",
     "lng": "-84.7562014",
-    "id": 8401457,
+    "id": 8895309,
     "name": "Douglasville Sam's Club No. 8211",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "6995 Concourse Pkwy.",
     "country": "USA",
@@ -1288,11 +1860,17 @@
     "priority": 1
   },
   {
-    "lat": "37.7402074",
-    "lng": "-88.9692109",
-    "id": 8401458,
+    "lat": "37.7390437",
+    "lng": "-88.9690614",
+    "id": 8895310,
     "name": "Marion Sam's Club No. 8180",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "2709 Walton Way",
     "country": "USA",
@@ -1304,9 +1882,15 @@
   {
     "lat": "35.6666206",
     "lng": "-88.8518028",
-    "id": 8401459,
+    "id": 8895311,
     "name": "Jackson Sam's Club No. 6507",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "2120 Emporium Dr.",
     "country": "USA",
@@ -1318,9 +1902,15 @@
   {
     "lat": "35.9563982",
     "lng": "-78.5388293",
-    "id": 8401460,
+    "id": 8895312,
     "name": "Wake Forest Sam's Club No. 6976",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "11460 Royall Cotton rd",
     "country": "USA",
@@ -1332,9 +1922,15 @@
   {
     "lat": "41.9706676",
     "lng": "-73.9831866",
-    "id": 8401461,
+    "id": 8895313,
     "name": "Kingston Sam's Club No. 6201",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "801 Frank Sotille Blvd.",
     "country": "USA",
@@ -1344,11 +1940,17 @@
     "priority": 1
   },
   {
-    "lat": "33.9503421",
-    "lng": "-84.1364228",
-    "id": 8401462,
+    "lat": "33.9503578",
+    "lng": "-84.1367526",
+    "id": 8895314,
     "name": "Duluth Sam's Club No. 8166",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3450 Steve Reynolds Blvd.",
     "country": "USA",
@@ -1358,11 +1960,17 @@
     "priority": 1
   },
   {
-    "lat": "45.7540078",
-    "lng": "-108.5266618",
-    "id": 8401463,
+    "lat": "45.7532864",
+    "lng": "-108.5263973",
+    "id": 8895315,
     "name": "Billings Sam's Club No. 4805",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "4420 King Ave East",
     "country": "USA",
@@ -1374,9 +1982,15 @@
   {
     "lat": "32.815142",
     "lng": "-83.7117771",
-    "id": 8401464,
+    "id": 8895316,
     "name": "Macon Sam's Club No. 8225",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "4701 Log Cabin Dr.",
     "country": "USA",
@@ -1388,9 +2002,15 @@
   {
     "lat": "39.1869478",
     "lng": "-84.6059081",
-    "id": 8401465,
+    "id": 8895317,
     "name": "Cincinnati Sam's Club No. 6450",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "5375 N. Bend Rd.",
     "country": "USA",
@@ -1402,9 +2022,15 @@
   {
     "lat": "37.9825059",
     "lng": "-87.4707578",
-    "id": 8401466,
+    "id": 8895318,
     "name": "Evansville Sam's Club No. 8123",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "6770 E. Virginia St.",
     "country": "USA",
@@ -1414,11 +2040,17 @@
     "priority": 1
   },
   {
-    "lat": "30.8288913",
-    "lng": "-83.3204832",
-    "id": 8401467,
+    "lat": "30.8287212",
+    "lng": "-83.3206503",
+    "id": 8895319,
     "name": "Valdosta Sam's Club No. 6204",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "450 Norman Dr.",
     "country": "USA",
@@ -1430,9 +2062,15 @@
   {
     "lat": "40.4126915",
     "lng": "-75.9242318",
-    "id": 8401468,
+    "id": 8895320,
     "name": "Temple Sam's Club No. 8160",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "5314 Allentown Pike",
     "country": "USA",
@@ -1444,9 +2082,15 @@
   {
     "lat": "35.3228844",
     "lng": "-97.4876811",
-    "id": 8401469,
+    "id": 8895321,
     "name": "Moore Sam's Club No. 6779",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1705 South Broadway Ave",
     "country": "USA",
@@ -1458,9 +2102,15 @@
   {
     "lat": "36.6027525",
     "lng": "-87.278221",
-    "id": 8401470,
+    "id": 8895322,
     "name": "Clarksville Sam's Club No. 6512",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3315 Gutherie Hwy.",
     "country": "USA",
@@ -1470,11 +2120,17 @@
     "priority": 1
   },
   {
-    "lat": "30.6339453",
-    "lng": "-96.3023137",
-    "id": 8401471,
+    "lat": "30.6337423",
+    "lng": "-96.3032741",
+    "id": 8895323,
     "name": "College Station Sam's Club No. 6338",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1405 E. Earl Rudder Hwy.",
     "country": "USA",
@@ -1486,9 +2142,15 @@
   {
     "lat": "39.1865816",
     "lng": "-94.5796927",
-    "id": 8401472,
+    "id": 8895324,
     "name": "Kansas City Sam's Club No. 8207",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "5110 N. Oak Trfy.",
     "country": "USA",
@@ -1500,9 +2162,15 @@
   {
     "lat": "37.6747785",
     "lng": "-97.4155338",
-    "id": 8401473,
+    "id": 8895325,
     "name": "Wichita Sam's Club No. 8254",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "6200 W Kellogg Dr Ste A",
     "country": "USA",
@@ -1514,9 +2182,15 @@
   {
     "lat": "39.1865816",
     "lng": "-94.5796927",
-    "id": 8401474,
+    "id": 8895326,
     "name": "Kansas City Sam's Club No. 8207",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "5110 N. Oak Trfy.",
     "country": "USA",
@@ -1528,9 +2202,15 @@
   {
     "lat": "37.3186888",
     "lng": "-79.9654542",
-    "id": 8401475,
+    "id": 8895327,
     "name": "Roanoke Sam's Club No. 8220",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1455 Towne Square Blvd.",
     "country": "USA",
@@ -1540,11 +2220,17 @@
     "priority": 1
   },
   {
-    "lat": "32.608092",
-    "lng": "-85.4254668",
-    "id": 8401476,
+    "lat": "32.6081401",
+    "lng": "-85.428006",
+    "id": 8895328,
     "name": "Auburn Sam's Club No. 4989",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "2335 Bent Creek Road",
     "country": "USA",
@@ -1556,9 +2242,15 @@
   {
     "lat": "35.0297505",
     "lng": "-85.1900522",
-    "id": 8401477,
+    "id": 8895329,
     "name": "Chattanooga Sam's Club No. 8112",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "6101 Lee Hwy.",
     "country": "USA",
@@ -1570,9 +2262,15 @@
   {
     "lat": "33.4613738",
     "lng": "-84.2137788",
-    "id": 8401478,
+    "id": 8895330,
     "name": "Mcdonough Sam's Club No. 4804",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1765 Jonesboro Rd.",
     "country": "USA",
@@ -1582,11 +2280,17 @@
     "priority": 1
   },
   {
-    "lat": "36.3293081",
-    "lng": "-86.5974727",
-    "id": 8401479,
+    "lat": "36.3294817",
+    "lng": "-86.5976303",
+    "id": 8895331,
     "name": "Hendersonville Sam's Club No. 8257",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "301 Indian Lake Blvd",
     "country": "USA",
@@ -1596,11 +2300,17 @@
     "priority": 1
   },
   {
-    "lat": "40.1852995",
-    "lng": "-80.21784",
-    "id": 8401480,
+    "lat": "40.1856049",
+    "lng": "-80.2175894",
+    "id": 8895332,
     "name": "Washington Sam's Club No. 6251",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "80 Trinity Point Dr.",
     "country": "USA",
@@ -1612,9 +2322,15 @@
   {
     "lat": "39.3929308",
     "lng": "-74.5446804",
-    "id": 8401481,
+    "id": 8895333,
     "name": "Pleasantville Sam'sClub No. 8144",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1025 Black Horse Pike",
     "country": "USA",
@@ -1624,11 +2340,17 @@
     "priority": 1
   },
   {
-    "lat": "40.1852995",
-    "lng": "-80.21784",
-    "id": 8401482,
+    "lat": "40.1856049",
+    "lng": "-80.2175894",
+    "id": 8895334,
     "name": "Washington Sam's Club No. 6251",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "80 Trinity Point Dr.",
     "country": "USA",
@@ -1640,9 +2362,15 @@
   {
     "lat": "34.9597952",
     "lng": "-89.9818107",
-    "id": 8401483,
+    "id": 8895335,
     "name": "Southaven Sam's Club No. 4740",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "465 Goodman Rd e",
     "country": "USA",
@@ -1652,11 +2380,17 @@
     "priority": 1
   },
   {
-    "lat": "39.1476337",
-    "lng": "-76.6484909",
-    "id": 8401484,
+    "lat": "39.1488019",
+    "lng": "-76.6502958",
+    "id": 8895336,
     "name": "Severn Sam's Club No. 4771",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "424 George Clauss Blvd",
     "country": "USA",
@@ -1668,9 +2402,15 @@
   {
     "lat": "42.0519253",
     "lng": "-80.0905424",
-    "id": 8401485,
+    "id": 8895337,
     "name": "Erie Sam's Club No. 6675",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "7200 Peach St.",
     "country": "USA",
@@ -1680,11 +2420,17 @@
     "priority": 1
   },
   {
-    "lat": "28.0962512",
-    "lng": "-82.4999781",
-    "id": 8401486,
+    "lat": "28.0963198",
+    "lng": "-82.5016486",
+    "id": 8895338,
     "name": "Tampa Sam's Club No. 6401",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "15835 N Dale Mabry Hwy",
     "country": "USA",
@@ -1696,9 +2442,15 @@
   {
     "lat": "33.644533",
     "lng": "-86.6251242",
-    "id": 8401487,
+    "id": 8895339,
     "name": "Birmingham Sam's Club No. 4817",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "5940 Trussville Crossing Pkway",
     "country": "USA",
@@ -1710,9 +2462,15 @@
   {
     "lat": "33.8874419",
     "lng": "-84.7495107",
-    "id": 8401488,
+    "id": 8895340,
     "name": "Hiram Sam's Club No. 4802",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "4798 Jimmy Lee Smith Pkwy.",
     "country": "USA",
@@ -1724,9 +2482,15 @@
   {
     "lat": "30.1880331",
     "lng": "-85.6882682",
-    "id": 8401489,
+    "id": 8895341,
     "name": "Panama City Sam's Club No. 8151",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1707 W. 23rd St.",
     "country": "USA",
@@ -1738,9 +2502,15 @@
   {
     "lat": "39.7203833",
     "lng": "-75.0200421",
-    "id": 8401490,
+    "id": 8895342,
     "name": "Williamstown Sam's Club No. 4722",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "2080 N. Blackhorse Pike",
     "country": "USA",
@@ -1750,11 +2520,17 @@
     "priority": 1
   },
   {
-    "lat": "35.2067492",
-    "lng": "-89.7805166",
-    "id": 8401491,
+    "lat": "35.2074222",
+    "lng": "-89.7805217",
+    "id": 8895343,
     "name": "Bartlett Sam's Club No. 6260",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "8480 US Highway 64",
     "country": "USA",
@@ -1766,9 +2542,15 @@
   {
     "lat": "35.4362786",
     "lng": "-97.4148157",
-    "id": 8401492,
+    "id": 8895344,
     "name": "Midwest City Sam's Club No. 8241",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "6521 S.E. 29th St.",
     "country": "USA",
@@ -1780,9 +2562,15 @@
   {
     "lat": "36.1859544",
     "lng": "-80.2745936",
-    "id": 8401493,
+    "id": 8895345,
     "name": "Winston Salem Sam's Club No. 4798",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "84 Summit Square Blvd.",
     "country": "USA",
@@ -1792,11 +2580,17 @@
     "priority": 1
   },
   {
-    "lat": "35.2067492",
-    "lng": "-89.7805166",
-    "id": 8401494,
+    "lat": "35.2074222",
+    "lng": "-89.7805217",
+    "id": 8895346,
     "name": "Bartlett Sam's Club No. 6260",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "8480 US Highway 64",
     "country": "USA",
@@ -1806,11 +2600,17 @@
     "priority": 1
   },
   {
-    "lat": "34.6171305",
-    "lng": "-98.4242482",
-    "id": 8401495,
+    "lat": "34.6162498",
+    "lng": "-98.4239483",
+    "id": 8895347,
     "name": "Lawton Sam's Club No. 8239",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "802 N.W. Sheridan",
     "country": "USA",
@@ -1822,9 +2622,15 @@
   {
     "lat": "33.4583349",
     "lng": "-94.0855579",
-    "id": 8401496,
+    "id": 8895348,
     "name": "Texarkana Sam's Club No. 8295",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3610 St. Michael Dr.",
     "country": "USA",
@@ -1836,9 +2642,15 @@
   {
     "lat": "32.2690241",
     "lng": "-90.1481824",
-    "id": 8401497,
+    "id": 8895349,
     "name": "Pearl Sam's Club No. 4790",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "90 Bass Pro Drive",
     "country": "USA",
@@ -1850,9 +2662,15 @@
   {
     "lat": "41.6521996",
     "lng": "-72.7325515",
-    "id": 8401498,
+    "id": 8895350,
     "name": "Newington Sam's Club No. 6636",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3465 Berlin Turnpike",
     "country": "USA",
@@ -1864,9 +2682,15 @@
   {
     "lat": "39.7622314",
     "lng": "-86.2632205",
-    "id": 8401499,
+    "id": 8895351,
     "name": "Indianapolis Sam's Club No. 6304",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "5805 Rockville Rd.",
     "country": "USA",
@@ -1876,11 +2700,17 @@
     "priority": 1
   },
   {
-    "lat": "30.2851177",
-    "lng": "-81.5397585",
-    "id": 8401500,
+    "lat": "30.2840816",
+    "lng": "-81.5400694",
+    "id": 8895352,
     "name": "Jacksonville Sam's Club No. 8116",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "10690 beach blvd.",
     "country": "USA",
@@ -1892,9 +2722,15 @@
   {
     "lat": "39.193467",
     "lng": "-75.5522479",
-    "id": 8401501,
+    "id": 8895353,
     "name": "Dover Sam's Club No. 6330",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1572 N. Dupont Hwy.",
     "country": "USA",
@@ -1904,11 +2740,17 @@
     "priority": 1
   },
   {
-    "lat": "36.6359003",
-    "lng": "-82.1259692",
-    "id": 8401502,
+    "lat": "36.6319994",
+    "lng": "-82.140569",
+    "id": 8895354,
     "name": "Bristol Sam's Club No. 6518",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "13249 Lee Hwy",
     "country": "USA",
@@ -1920,9 +2762,15 @@
   {
     "lat": "38.9591419",
     "lng": "-94.7272677",
-    "id": 8401503,
+    "id": 8895355,
     "name": "Lenexa Sam's Club No. 8208",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "12200 W. 95th St.",
     "country": "USA",
@@ -1934,9 +2782,15 @@
   {
     "lat": "33.1652119",
     "lng": "-87.5205741",
-    "id": 8401504,
+    "id": 8895356,
     "name": "Tuscaloosa Sam's Club No. 6435",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1401 Skyland Blvd. E.",
     "country": "USA",
@@ -1948,9 +2802,15 @@
   {
     "lat": "40.4489903",
     "lng": "-80.177284",
-    "id": 8401505,
+    "id": 8895357,
     "name": "Pittsburgh (Robinson) Sam's Club No. 6575",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "249 Summit Park Dr.",
     "country": "USA",
@@ -1960,11 +2820,17 @@
     "priority": 1
   },
   {
-    "lat": "40.8770756",
-    "lng": "-79.9531948",
-    "id": 8401506,
+    "lat": "40.8777459",
+    "lng": "-79.9523643",
+    "id": 8895358,
     "name": "Butler Sam's Club No. 4859",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "200 Moraine Pointe Plz.",
     "country": "USA",
@@ -1976,9 +2842,15 @@
   {
     "lat": "40.8598916",
     "lng": "-96.677532",
-    "id": 8401507,
+    "id": 8895360,
     "name": "Lincoln Sam's Club No. 6413",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "4900 N. 27th St.",
     "country": "USA",
@@ -1990,9 +2862,15 @@
   {
     "lat": "40.0929092",
     "lng": "-74.9586355",
-    "id": 8401508,
+    "id": 8895361,
     "name": "Philadelphia Sam's Club No. 6332",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1000 Franklin Mills Cir.",
     "country": "USA",
@@ -2002,11 +2880,17 @@
     "priority": 1
   },
   {
-    "lat": "40.7819542",
-    "lng": "-82.5882254",
-    "id": 8401509,
+    "lat": "40.7816367",
+    "lng": "-82.5882514",
+    "id": 8895362,
     "name": "Ontario Sam's Club No. 6407",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "1070 N Lexington Springmill Rd",
     "country": "USA",
@@ -2016,11 +2900,17 @@
     "priority": 1
   },
   {
-    "lat": "34.0886397",
-    "lng": "-84.5205805",
-    "id": 8401510,
+    "lat": "34.0878316",
+    "lng": "-84.5214202",
+    "id": 8895363,
     "name": "Woodstock Sam's Club No. 8158",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "9464 Main St.",
     "country": "USA",
@@ -2030,11 +2920,17 @@
     "priority": 1
   },
   {
-    "lat": "41.4216163",
-    "lng": "-82.082248",
-    "id": 8401511,
+    "lat": "41.4209877",
+    "lng": "-82.082716",
+    "id": 8895364,
     "name": "Sheffield Village Sam's Club No. 6314",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "5225 cobblestone rd.",
     "country": "USA",
@@ -2044,11 +2940,17 @@
     "priority": 1
   },
   {
-    "lat": "40.5173827",
-    "lng": "-74.3766333",
-    "id": 8401512,
+    "lat": "40.5172897",
+    "lng": "-74.3760779",
+    "id": 8895365,
     "name": "Edison Sam's Club No. 6369",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "883 Route 1",
     "country": "USA",
@@ -2058,11 +2960,17 @@
     "priority": 1
   },
   {
-    "lat": "40.2615687",
-    "lng": "-76.7693594",
-    "id": 8401513,
+    "lat": "40.2621518",
+    "lng": "-76.7706667",
+    "id": 8895366,
     "name": "Harrisburg Sam's Club No. 8175",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "6781 Grayson Rd.",
     "country": "USA",
@@ -2072,11 +2980,17 @@
     "priority": 1
   },
   {
-    "lat": "33.3736816",
-    "lng": "-86.8087447",
-    "id": 8401514,
+    "lat": "33.3735694",
+    "lng": "-86.8067736",
+    "id": 8895367,
     "name": "Hoover Sam's Club No. 4724",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3053 John Hawkins Pkwy.",
     "country": "USA",
@@ -2086,11 +3000,17 @@
     "priority": 1
   },
   {
-    "lat": "28.4222949",
-    "lng": "-81.4062621",
-    "id": 8401515,
+    "lat": "28.4221898",
+    "lng": "-81.4074643",
+    "id": 8895368,
     "name": "Orlando Sam's Club No. 8290",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "9498 S. Orange Blossom Tr.",
     "country": "USA",
@@ -2102,9 +3022,15 @@
   {
     "lat": "41.5171746",
     "lng": "-88.1252111",
-    "id": 8401516,
+    "id": 8895369,
     "name": "Joliet Sam's Club No. 8298",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "321 S Larkin Ave",
     "country": "USA",
@@ -2116,9 +3042,15 @@
   {
     "lat": "42.9151058",
     "lng": "-78.7506318",
-    "id": 8401517,
+    "id": 8895370,
     "name": "Cheektowaga Sam's Club No. 6673",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "3735 Union Rd.",
     "country": "USA",
@@ -2130,9 +3062,15 @@
   {
     "lat": "39.9785626",
     "lng": "-76.672534",
-    "id": 8401518,
+    "id": 8895371,
     "name": "York Sam's Club No. 8161",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "2801 E. Market St.",
     "country": "USA",
@@ -2142,17 +3080,2008 @@
     "priority": 1
   },
   {
-    "lat": "33.9386909",
-    "lng": "-83.4863579",
-    "id": 8401519,
+    "lat": "33.9399348",
+    "lng": "-83.4865037",
+    "id": 8895372,
     "name": "Bogart Sam's Club No. 8194",
     "description": "Pablo's Pride Guatemala",
+    "tagsvalue": "Pablo's Pride Guatemala",
+    "tags": [
+      {
+        "tag": "Pablo's Pride Guatemala"
+      }
+    ],
     "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/Pablos_Pride_Guatemala.png?v=1628801750",
     "address": "4365 Atlanta Hwy.",
     "country": "USA",
     "state": "GA",
     "city": "Bogart",
     "postal": "30606",
+    "priority": 1
+  },
+  {
+    "lat": "41.4603029",
+    "lng": "-82.0113234",
+    "id": 8895373,
+    "name": "Costco 343 Avon, OH",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "35804 Detroit Rd",
+    "country": "USA",
+    "state": "OH",
+    "city": "Avon",
+    "postal": "44011-1681",
+    "priority": 1
+  },
+  {
+    "lat": "41.5239553",
+    "lng": "-81.4466104",
+    "id": 8895374,
+    "name": "Costco 344 Mayfield Htgs, OH",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "1409 Golden Gate Blvd",
+    "country": "USA",
+    "state": "OH",
+    "city": "Cleveland",
+    "postal": "44124-1808",
+    "priority": 1
+  },
+  {
+    "lat": "39.9142304",
+    "lng": "-86.0615293",
+    "id": 8895375,
+    "name": "Costco 346 Castelton, IN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "6110 E 86th Street",
+    "country": "USA",
+    "state": "IN",
+    "city": "Indianapolis",
+    "postal": "46250-3507",
+    "priority": 1
+  },
+  {
+    "lat": "39.9181158",
+    "lng": "-86.2264299",
+    "id": 8895376,
+    "name": "Costco 347 Indianapolis, IN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "9010 Michigan Rd",
+    "country": "USA",
+    "state": "IN",
+    "city": "Indianapolis",
+    "postal": "46268-3184",
+    "priority": 1
+  },
+  {
+    "lat": "38.959896",
+    "lng": "-94.7317545",
+    "id": 8895377,
+    "name": "Costco 349 Lenexa, KS",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "9350 Marshall Dr",
+    "country": "USA",
+    "state": "KS",
+    "city": "Lenexa",
+    "postal": "66215-3845",
+    "priority": 1
+  },
+  {
+    "lat": "38.5077665",
+    "lng": "-90.3379422",
+    "id": 8895378,
+    "name": "Costco 368 St Louis, MO",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "4200 Rusty Rd",
+    "country": "USA",
+    "state": "MO",
+    "city": "St Louis",
+    "postal": "63128-1973",
+    "priority": 1
+  },
+  {
+    "lat": "38.9063932",
+    "lng": "-94.6707093",
+    "id": 8895379,
+    "name": "Costco 369 Overland Pk, KS",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "12221 Blue Valley Pkwy",
+    "country": "USA",
+    "state": "KS",
+    "city": "Overland Park",
+    "postal": "66213-2640",
+    "priority": 1
+  },
+  {
+    "lat": "41.4744237",
+    "lng": "-87.3226358",
+    "id": 8895380,
+    "name": "Costco 370 Merrillville, IN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "1310 E 79th Ave",
+    "country": "USA",
+    "state": "IN",
+    "city": "Merrillville",
+    "postal": "46410-5768",
+    "priority": 1
+  },
+  {
+    "lat": "45.2002076",
+    "lng": "-93.3474895",
+    "id": 8895381,
+    "name": "Costco 372 Coon Rapids, MN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "12547 Riverdale Blvd NW",
+    "country": "USA",
+    "state": "MN",
+    "city": "Minneapolis",
+    "postal": "55448-6708",
+    "priority": 1
+  },
+  {
+    "lat": "39.0366091",
+    "lng": "-94.357637",
+    "id": 8895382,
+    "name": "Costco 373 Independence, MO",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "19040 E Valleyview Pkwy",
+    "country": "USA",
+    "state": "MO",
+    "city": "Independence",
+    "postal": "64055-7004",
+    "priority": 1
+  },
+  {
+    "lat": "42.6306637",
+    "lng": "-82.9786118",
+    "id": 8895383,
+    "name": "Costco 374 Lakeside, MI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "45460 Market Street",
+    "country": "USA",
+    "state": "MI",
+    "city": "Shelby Township",
+    "postal": "48315-6224",
+    "priority": 1
+  },
+  {
+    "lat": "39.0662974",
+    "lng": "-94.5817432",
+    "id": 8895384,
+    "name": "Costco 375 Kansas City, MO",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "241 E Linwood Blvd",
+    "country": "USA",
+    "state": "MO",
+    "city": "Kansas City",
+    "postal": "64111-1119",
+    "priority": 1
+  },
+  {
+    "lat": "44.9669096",
+    "lng": "-93.3543032",
+    "id": 8895385,
+    "name": "Costco 377 St Louis Pk, MN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "5801 W 16th St",
+    "country": "USA",
+    "state": "MN",
+    "city": "St Louis Pk",
+    "postal": "55337-4407",
+    "priority": 1
+  },
+  {
+    "lat": "42.1866515",
+    "lng": "-88.0922324",
+    "id": 8895386,
+    "name": "Costco 378 Lake Zurich, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "680 S Rand Rd",
+    "country": "USA",
+    "state": "IL",
+    "city": "Lake Zurich",
+    "postal": "60047-3409",
+    "priority": 1
+  },
+  {
+    "lat": "39.2869121",
+    "lng": "-84.4527295",
+    "id": 8895387,
+    "name": "Costco 379 Springdale, OH",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "1100 E Kemper Rd",
+    "country": "USA",
+    "state": "OH",
+    "city": "Springdale",
+    "postal": "45246-3321",
+    "priority": 1
+  },
+  {
+    "lat": "41.9305681",
+    "lng": "-87.6765922",
+    "id": 8895388,
+    "name": "Costco 380 Chicago, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2746 N Clybourn Ave",
+    "country": "USA",
+    "state": "IL",
+    "city": "Chicago",
+    "postal": "60614-1006",
+    "priority": 1
+  },
+  {
+    "lat": "38.7974517",
+    "lng": "-90.6088154",
+    "id": 8895389,
+    "name": "Costco 382 St Peters, MO",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "200 Costco Way",
+    "country": "USA",
+    "state": "MO",
+    "city": "St Peters",
+    "postal": "63376-4385",
+    "priority": 1
+  },
+  {
+    "lat": "39.296502",
+    "lng": "-84.3025708",
+    "id": 8895390,
+    "name": "Costco 384 Deerfield, OH",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "9691 Waterstone Blvd",
+    "country": "USA",
+    "state": "OH",
+    "city": "Cincinnati",
+    "postal": "45249-8220",
+    "priority": 1
+  },
+  {
+    "lat": "42.3814244",
+    "lng": "-83.3311763",
+    "id": 8895391,
+    "name": "Costco 390 Livonia, MI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "13700 Middlebelt Rd",
+    "country": "USA",
+    "state": "MI",
+    "city": "Livonia",
+    "postal": "45249-8220",
+    "priority": 1
+  },
+  {
+    "lat": "42.4316809",
+    "lng": "-83.4294809",
+    "id": 8895392,
+    "name": "Costco 391 Haggerty, MI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "20000 Haggerty Rd",
+    "country": "USA",
+    "state": "MI",
+    "city": " Livonia",
+    "postal": "48152-1011",
+    "priority": 1
+  },
+  {
+    "lat": "41.3165293",
+    "lng": "-81.8146864",
+    "id": 8895393,
+    "name": "Costco 625 Strongsville, OH",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "16690 Royalton Rd",
+    "country": "USA",
+    "state": "OH",
+    "city": "Strongsville",
+    "postal": "44136-4433",
+    "priority": 1
+  },
+  {
+    "lat": "43.3240383",
+    "lng": "-87.9207441",
+    "id": 8895394,
+    "name": "Costco 628 Grafton, WI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "950 Port Washington Rd",
+    "country": "USA",
+    "state": "WI",
+    "city": "Grafton",
+    "postal": "53024-9201",
+    "priority": 1
+  },
+  {
+    "lat": "40.1487431",
+    "lng": "-82.9758236",
+    "id": 8895395,
+    "name": "Costco 632 Columbus, OH",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "1500 Gemini Pl",
+    "country": "USA",
+    "state": "OH",
+    "city": "Columbus",
+    "postal": "43240-7002",
+    "priority": 1
+  },
+  {
+    "lat": "38.316885",
+    "lng": "-85.573431",
+    "id": 8895396,
+    "name": "Costco 634 NE Louisville, KY",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "5020 Norton Healthcare Blvd",
+    "country": "USA",
+    "state": "KY",
+    "city": "NE Louisville",
+    "postal": "40241-2835",
+    "priority": 1
+  },
+  {
+    "lat": "41.6006772",
+    "lng": "-87.8625329",
+    "id": 8895397,
+    "name": "Costco 647 Orland Pk, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "9915 W 159th Street",
+    "country": "USA",
+    "state": "IL",
+    "city": "Orland Park",
+    "postal": "60467-4572",
+    "priority": 1
+  },
+  {
+    "lat": "45.0933013",
+    "lng": "-93.4238188",
+    "id": 8895398,
+    "name": "Costco 648 Maple Grove, MN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "11330 Fountains Dr",
+    "country": "USA",
+    "state": "MN",
+    "city": "Maple Grove",
+    "postal": "55369-7200",
+    "priority": 1
+  },
+  {
+    "lat": "42.874531",
+    "lng": "-85.764682",
+    "id": 8895399,
+    "name": "Costco 744 Lake In The Hills, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "4901 Wildon Ave SW",
+    "country": "USA",
+    "state": "MI",
+    "city": "Wyoming",
+    "postal": "49418-8788",
+    "priority": 1
+  },
+  {
+    "lat": "42.1792449",
+    "lng": "-88.3363443",
+    "id": 8895400,
+    "name": "Costco 774 Lake In The Hills, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "250 N Randall Rd",
+    "country": "USA",
+    "state": "IL",
+    "city": "Lake In The Hills",
+    "postal": "60156-5943",
+    "priority": 1
+  },
+  {
+    "lat": "42.0814753",
+    "lng": "-87.9338249",
+    "id": 8895401,
+    "name": "Costco 779 Mt. Prospect, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "999 N Elmhurst Rd",
+    "country": "USA",
+    "state": "IL",
+    "city": "Mt. Prospect",
+    "postal": "60056-1133",
+    "priority": 1
+  },
+  {
+    "lat": "44.8603823",
+    "lng": "-93.4353222",
+    "id": 8895402,
+    "name": "Costco 783 Eden Praire, MN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "12011 Technology Dr",
+    "country": "USA",
+    "state": "MN",
+    "city": "Eden Praire",
+    "postal": "55344-3620",
+    "priority": 1
+  },
+  {
+    "lat": "42.9113733",
+    "lng": "-85.5437178",
+    "id": 8895403,
+    "name": "Costco 784 Grand Rapids, MI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "5100 28th Street SE",
+    "country": "USA",
+    "state": "MI",
+    "city": "Grand Rapids",
+    "postal": "49512-2049",
+    "priority": 1
+  },
+  {
+    "lat": "42.5025394",
+    "lng": "-83.7605179",
+    "id": 8895404,
+    "name": "Costco 786 Green Oak Twp, MI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "6700 Whitmore Rd",
+    "country": "USA",
+    "state": "MI",
+    "city": "Brighton",
+    "postal": "48116-2160",
+    "priority": 1
+  },
+  {
+    "lat": "41.5623854",
+    "lng": "-93.806072",
+    "id": 8895405,
+    "name": "Costco 788 W Des Moines, IA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "7205 Mills Civic Pkwy W",
+    "country": "USA",
+    "state": "IA",
+    "city": "W Des Moines",
+    "postal": "50266-8140",
+    "priority": 1
+  },
+  {
+    "lat": "41.6768871",
+    "lng": "-83.6265706",
+    "id": 8895406,
+    "name": "Costco 1007 Toledo, OH",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "3405 W Central Ave",
+    "country": "USA",
+    "state": "OH",
+    "city": "Toledo",
+    "postal": "44011-1681",
+    "priority": 1
+  },
+  {
+    "lat": "41.2638687",
+    "lng": "-96.1044991",
+    "id": 8895407,
+    "name": "Costco 1012 Omaha, NE",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "12300 W Dodge Rd",
+    "country": "USA",
+    "state": "NE",
+    "city": "Omaha",
+    "postal": "68154-2382",
+    "priority": 1
+  },
+  {
+    "lat": "43.098784",
+    "lng": "-89.5219624",
+    "id": 8895408,
+    "name": "Costco 1020 Middelton, WI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2150 Deming Way",
+    "country": "USA",
+    "state": "WI",
+    "city": "Middelton, WI",
+    "postal": "53562-5507",
+    "priority": 1
+  },
+  {
+    "lat": "45.0286352",
+    "lng": "-93.0411794",
+    "id": 8895409,
+    "name": "Costco 1021 Maplewood, MN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "1431 Beam Ave",
+    "country": "USA",
+    "state": "MN",
+    "city": "Maplewood",
+    "postal": "55109-1064",
+    "priority": 1
+  },
+  {
+    "lat": "42.6064786",
+    "lng": "-83.2937429",
+    "id": 8895410,
+    "name": "Costco 1037 Bloomfield, MI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2343 S Telegraph Rd",
+    "country": "USA",
+    "state": "MI",
+    "city": "Bloomfield",
+    "postal": "48302-0254",
+    "priority": 1
+  },
+  {
+    "lat": "41.9092859",
+    "lng": "-88.3430587",
+    "id": 8895411,
+    "name": "Costco 1040 St Charles, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "221 S Randall Rd",
+    "country": "USA",
+    "state": "IL",
+    "city": "St Charles",
+    "postal": "60174-1524",
+    "priority": 1
+  },
+  {
+    "lat": "38.5980314",
+    "lng": "-90.5076878",
+    "id": 8895412,
+    "name": "Costco 1060 Manchester, MO",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "301 Highlands Blvd DR",
+    "country": "USA",
+    "state": "MO",
+    "city": "Manchester",
+    "postal": "63011-4385",
+    "priority": 1
+  },
+  {
+    "lat": "42.2374898",
+    "lng": "-87.9034439",
+    "id": 8895413,
+    "name": "Costco 1074 Mettawa, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "25901 Riverwoods",
+    "country": "USA",
+    "state": "IL",
+    "city": "Mettawa",
+    "postal": "60045-3403",
+    "priority": 1
+  },
+  {
+    "lat": "44.7512215",
+    "lng": "-93.2939317",
+    "id": 8895414,
+    "name": "Costco 1087 Burnsville, MN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "14050 Burnhaven Dr",
+    "country": "USA",
+    "state": "MN",
+    "city": "Burnsville",
+    "postal": "55337-4407",
+    "priority": 1
+  },
+  {
+    "lat": "43.089326",
+    "lng": "-88.2307043",
+    "id": 8895415,
+    "name": "Costco 1101 Pewaukee, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "443 Pewaukee Rd",
+    "country": "USA",
+    "state": "IL",
+    "city": "Pewaukee",
+    "postal": "53072-5886",
+    "priority": 1
+  },
+  {
+    "lat": "42.2313676",
+    "lng": "-83.7428644",
+    "id": 8895416,
+    "name": "Costco 1106 Pittsfield Twn, MI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "771 Airport Blvd",
+    "country": "USA",
+    "state": "MI",
+    "city": "Ann Arbor",
+    "postal": "48108-3601",
+    "priority": 1
+  },
+  {
+    "lat": "46.8448397",
+    "lng": "-96.8868624",
+    "id": 8895417,
+    "name": "Costco 1119 W Fargo, ND",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "750 23rd Ave E",
+    "country": "USA",
+    "state": "ND",
+    "city": "W Fargo",
+    "postal": "58078-7804",
+    "priority": 1
+  },
+  {
+    "lat": "46.3488878",
+    "lng": "-94.2476281",
+    "id": 8895418,
+    "name": "Costco 1122 Baxter, MN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "13650 Elder Dr",
+    "country": "USA",
+    "state": "MN",
+    "city": "Baxter",
+    "postal": "56425-8818",
+    "priority": 1
+  },
+  {
+    "lat": "44.0454225",
+    "lng": "-92.5168727",
+    "id": 8895419,
+    "name": "Costco 1125 Rochester, MN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2020 Commerce Dr NW",
+    "country": "USA",
+    "state": "MN",
+    "city": "Rochester",
+    "postal": "55901-3246",
+    "priority": 1
+  },
+  {
+    "lat": "40.667347",
+    "lng": "-89.5846653",
+    "id": 8895420,
+    "name": "Costco 1126 E Peoria, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "301 W Washington",
+    "country": "USA",
+    "state": "IL",
+    "city": "E Peoria",
+    "postal": "61611-2036",
+    "priority": 1
+  },
+  {
+    "lat": "38.0257271",
+    "lng": "-84.4079306",
+    "id": 8895421,
+    "name": "Costco 1156 Lexington, KY",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "1500 Fitzgerald Ct",
+    "country": "USA",
+    "state": "KY",
+    "city": "Lexington",
+    "postal": "40509-8307",
+    "priority": 1
+  },
+  {
+    "lat": "43.5120925",
+    "lng": "-96.7395309",
+    "id": 8895422,
+    "name": "Costco 1159 Sioux Falls, SD",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "3700 S Grange Ave",
+    "country": "USA",
+    "state": "SD",
+    "city": "Sioux Falls",
+    "postal": "57105-6359",
+    "priority": 1
+  },
+  {
+    "lat": "40.0535075",
+    "lng": "-82.908279",
+    "id": 8895423,
+    "name": "Costco 1160 Easton, OH",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "3888 Stelzer Rd",
+    "country": "USA",
+    "state": "OH",
+    "city": "Easton",
+    "postal": "43219-3044",
+    "priority": 1
+  },
+  {
+    "lat": "41.7197742",
+    "lng": "-86.1726923",
+    "id": 8895424,
+    "name": "Costco 1183 Mishawake, IN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "625 E University Dr",
+    "country": "USA",
+    "state": "IN",
+    "city": "Granger",
+    "postal": "46530-7381",
+    "priority": 1
+  },
+  {
+    "lat": "39.6631003",
+    "lng": "-84.1057412",
+    "id": 8895425,
+    "name": "Costco 1185 Centerville, OH",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "5300 Cornerstone Blvd",
+    "country": "USA",
+    "state": "OH",
+    "city": "Centerville",
+    "postal": "45440-2268",
+    "priority": 1
+  },
+  {
+    "lat": "42.2720092",
+    "lng": "-85.6497414",
+    "id": 8895426,
+    "name": "Costco 1191 Kalamazoo, MI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "5100 Century Ave",
+    "country": "USA",
+    "state": "MI",
+    "city": "Kalamazoo",
+    "postal": "49006-5714",
+    "priority": 1
+  },
+  {
+    "lat": "41.5343801",
+    "lng": "-83.633014",
+    "id": 8895427,
+    "name": "Costco 1194 Perysburg, OH",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "26400 Dixie Hwy",
+    "country": "USA",
+    "state": "OH",
+    "city": "Perrysburg",
+    "postal": "43551-1967",
+    "priority": 1
+  },
+  {
+    "lat": "38.9877097",
+    "lng": "-84.6446835",
+    "id": 8895428,
+    "name": "Costco 1197 Florence, KY",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "800 Heights Blvd",
+    "country": "USA",
+    "state": "KY",
+    "city": "Florence",
+    "postal": "41042-1415",
+    "priority": 1
+  },
+  {
+    "lat": "42.5646055",
+    "lng": "-87.9193841",
+    "id": 8895429,
+    "name": "Costco 1198 Pleasant Praire, WI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "7707 94th Ave",
+    "country": "USA",
+    "state": "WI",
+    "city": "Pleasant Praire",
+    "postal": "53158-1955",
+    "priority": 1
+  },
+  {
+    "lat": "41.2651623",
+    "lng": "-81.5065495",
+    "id": 8895430,
+    "name": "Costco 1226 Boston Heights, OH",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "6720 Bass Pro Dr",
+    "country": "USA",
+    "state": "OH",
+    "city": "Boston Heights",
+    "postal": "44236-1198",
+    "priority": 1
+  },
+  {
+    "lat": "41.1771267",
+    "lng": "-96.1086385",
+    "id": 8895431,
+    "name": "Costco 1237 La Vista, NE",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "12515 Portside Pkwy",
+    "country": "USA",
+    "state": "NE",
+    "city": "La Vista",
+    "postal": "68128-5622",
+    "priority": 1
+  },
+  {
+    "lat": "38.2039676",
+    "lng": "-85.6679923",
+    "id": 8895432,
+    "name": "Costco 1238 Louisville, KY",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "3408 Bardstown Rd",
+    "country": "USA",
+    "state": "KY",
+    "city": "Louisville",
+    "postal": "40218-4608",
+    "priority": 1
+  },
+  {
+    "lat": "40.110416",
+    "lng": "-83.1893497",
+    "id": 8895433,
+    "name": "Costco 1243 NW Columbus, OH",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "7300 State Rt 161 E",
+    "country": "USA",
+    "state": "OH",
+    "city": "Plain City",
+    "postal": "43064-9276",
+    "priority": 1
+  },
+  {
+    "lat": "42.7500899",
+    "lng": "-84.4466189",
+    "id": 8895434,
+    "name": "Costco 1277 E Lansing, MI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2540 E Saginaw Hwy E",
+    "country": "USA",
+    "state": "MI",
+    "city": "E Lansing",
+    "postal": "48823-9719",
+    "priority": 1
+  },
+  {
+    "lat": "41.575605",
+    "lng": "-90.5330851",
+    "id": 8895435,
+    "name": "Costco 1325 Davenport, IA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2790 E 53rd Street",
+    "country": "USA",
+    "state": "IA",
+    "city": "Davenport",
+    "postal": "52807-3007",
+    "priority": 1
+  },
+  {
+    "lat": "37.9915222",
+    "lng": "-87.4670223",
+    "id": 8895436,
+    "name": "Costco 1331 Evansville, IN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "1201 Cross Pointe Pl",
+    "country": "USA",
+    "state": "IN",
+    "city": "Evansville",
+    "postal": "47715-9168",
+    "priority": 1
+  },
+  {
+    "lat": "45.549428",
+    "lng": "-94.2010993",
+    "id": 8895437,
+    "name": "Costco 1344 St Cloud, MN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "3636 2nd St S",
+    "country": "USA",
+    "state": "MN",
+    "city": "St Cloud",
+    "postal": "56301-3732",
+    "priority": 1
+  },
+  {
+    "lat": "42.3215866",
+    "lng": "-88.9617919",
+    "id": 8895438,
+    "name": "Costco 1353 Loves Pk, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "5000 Stadium Dr",
+    "country": "USA",
+    "state": "IL",
+    "city": "Loves Pk",
+    "postal": "61111",
+    "priority": 1
+  },
+  {
+    "lat": "46.8656287",
+    "lng": "-100.7707057",
+    "id": 8895439,
+    "name": "Costco 1380 Bismark, ND",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "1325 57th Ave NE",
+    "country": "USA",
+    "state": "ND",
+    "city": "Bismarck",
+    "postal": "58503-6581",
+    "priority": 1
+  },
+  {
+    "lat": "40.1405327",
+    "lng": "-88.2449229",
+    "id": 8895440,
+    "name": "Costco 1384 Champaign, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2002 N Neil Street",
+    "country": "USA",
+    "state": "IL",
+    "city": "Champaign",
+    "postal": "61820",
+    "priority": 1
+  },
+  {
+    "lat": "41.5879259",
+    "lng": "-88.1680006",
+    "id": 8895441,
+    "name": "Costco 1388 Plainfield, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "16261 S Boulevard Pl",
+    "country": "USA",
+    "state": "IL",
+    "city": "Plainfield",
+    "postal": "60586",
+    "priority": 1
+  },
+  {
+    "lat": "43.6036943",
+    "lng": "-84.1681989",
+    "id": 8895442,
+    "name": "Costco 1420 Midland, MI",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "4816 Bay City Rd",
+    "country": "USA",
+    "state": "MI",
+    "city": "Midland",
+    "postal": "48642",
+    "priority": 1
+  },
+  {
+    "lat": "46.8221941",
+    "lng": "-92.1740907",
+    "id": 8895443,
+    "name": "Costco 1422 Duluth, MN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "4611 W Arrowhead Rd",
+    "country": "USA",
+    "state": "MN",
+    "city": "Duluth",
+    "postal": "55811",
+    "priority": 1
+  },
+  {
+    "lat": "41.7984343",
+    "lng": "-88.1236493",
+    "id": 8895444,
+    "name": "Costco 1443 NE Naperville, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "1255 E Odgen Ave",
+    "country": "USA",
+    "state": "IL",
+    "city": "Naperville",
+    "postal": "60563",
+    "priority": 1
+  },
+  {
+    "lat": "37.2072448",
+    "lng": "-93.224533",
+    "id": 8895445,
+    "name": "Costco 1486 Springfield, IL",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "279 N Eastgate Ave",
+    "country": "USA",
+    "state": "IL",
+    "city": "Springfield",
+    "postal": "65802",
+    "priority": 1
+  },
+  {
+    "lat": "39.7652042",
+    "lng": "-86.3641189",
+    "id": 8895446,
+    "name": "Costco 1577 Avon, IN",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "8816 Dr Charles Nelson Dr",
+    "country": "USA",
+    "state": "IN",
+    "city": "Avon",
+    "postal": "46123",
+    "priority": 1
+  },
+  {
+    "lat": "33.5568116",
+    "lng": "-117.6776994",
+    "id": 8895447,
+    "name": "Costco 28 Laguna Niguel, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "27972 Cabot Rd",
+    "country": "USA",
+    "state": "CA",
+    "city": "Laguna Niguel",
+    "postal": "92677-1211",
+    "priority": 1
+  },
+  {
+    "lat": "34.1813362",
+    "lng": "-118.4635789",
+    "id": 8895448,
+    "name": "Costco 48 Van Nuys, Ca",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "6100 Sepulveda Blvd",
+    "country": "USA",
+    "state": "CA",
+    "city": "Van Nuys",
+    "postal": "91411-2503",
+    "priority": 1
+  },
+  {
+    "lat": "34.1520716",
+    "lng": "-118.7972232",
+    "id": 8895449,
+    "name": "Costco 117 Westlake Village, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "5700 Lindero Canyon Rd",
+    "country": "USA",
+    "state": "CA",
+    "city": "Westlake Village",
+    "postal": "91362-4063",
+    "priority": 1
+  },
+  {
+    "lat": "33.772593",
+    "lng": "-117.9408268",
+    "id": 8895450,
+    "name": "Costco 126 Garden Grove, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "11000 Garden Grove Blvd",
+    "country": "USA",
+    "state": "CA",
+    "city": "Garden Grove",
+    "postal": "92843-1206",
+    "priority": 1
+  },
+  {
+    "lat": "34.2839081",
+    "lng": "-118.7954702",
+    "id": 8895451,
+    "name": "Costco 128 Simi Valley, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2660 Park Center Dr",
+    "country": "USA",
+    "state": "CA",
+    "city": "Simi Valley",
+    "postal": " 93065-6207",
+    "priority": 1
+  },
+  {
+    "lat": "33.7031756",
+    "lng": "-117.931125",
+    "id": 8895452,
+    "name": "Costco 411 Fountain Valley, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "17900 Newhope Street",
+    "country": "USA",
+    "state": "CA",
+    "city": "Fountain Valley",
+    "postal": "92708-5404",
+    "priority": 1
+  },
+  {
+    "lat": "34.2251219",
+    "lng": "-119.1482291",
+    "id": 8895453,
+    "name": "Costco 420 Oxnard, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2001 E Ventura Blvd",
+    "country": "USA",
+    "state": "CA",
+    "city": "Oxnard",
+    "postal": "93036-1813",
+    "priority": 1
+  },
+  {
+    "lat": "33.8029516",
+    "lng": "-118.1647463",
+    "id": 8895454,
+    "name": "Costco 424 Signal Hill, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2200 E Willow Street",
+    "country": "USA",
+    "state": "CA",
+    "city": "Signal Hill",
+    "postal": "90755-2132",
+    "priority": 1
+  },
+  {
+    "lat": "34.089515",
+    "lng": "-118.148531",
+    "id": 8895455,
+    "name": "Costco 428 Alhambra, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2207 W Commonwealth Ave",
+    "country": "USA",
+    "state": "CA",
+    "city": "Alhambra",
+    "postal": "91803-1302",
+    "priority": 1
+  },
+  {
+    "lat": "33.4698876",
+    "lng": "-117.6777731",
+    "id": 8895456,
+    "name": "Costco 429 San Juan Capistrano, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "33961 Doheny Park Rd",
+    "country": "USA",
+    "state": "CA",
+    "city": "San Juan Capistrano",
+    "postal": "92675-4836",
+    "priority": 1
+  },
+  {
+    "lat": "33.7031756",
+    "lng": "-117.931125",
+    "id": 8895457,
+    "name": "Costco 441 Palm Desert, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "17900 Newhope Street",
+    "country": "USA",
+    "state": "CA",
+    "city": "Palm Desert",
+    "postal": "92708-5404",
+    "priority": 1
+  },
+  {
+    "lat": "33.8765614",
+    "lng": "-117.7430355",
+    "id": 8895458,
+    "name": "Costco 445 Yorba Linda, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "22633 Savi Ranch Parkway",
+    "state": "CA",
+    "city": "Yorba Linda",
+    "postal": "92887-4664",
+    "priority": 1
+  },
+  {
+    "lat": "33.6607545",
+    "lng": "-117.7458816",
+    "id": 8895459,
+    "name": "Costco 454 Irving, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "115 Technology Dr",
+    "state": "CA",
+    "city": "Irvine",
+    "postal": "92618-2408",
+    "priority": 1
+  },
+  {
+    "lat": "34.4278539",
+    "lng": "-119.8748309",
+    "id": 8895460,
+    "name": "Costco 474 Goleta, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "7095 Marketplace Dr",
+    "state": "CA",
+    "city": "Goleta",
+    "postal": "93117-5905",
+    "priority": 1
+  },
+  {
+    "lat": "33.9927736",
+    "lng": "-118.4469117",
+    "id": 8895461,
+    "name": "Costco 479 Culver City, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "13463 Washington Blvd",
+    "state": "CA",
+    "city": "Marina Del Rey",
+    "postal": "90292-5658",
+    "priority": 1
+  },
+  {
+    "lat": "33.7041015",
+    "lng": "-116.2730939",
+    "id": 8895462,
+    "name": "Costco 638 La Quinta, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "79795 Hwy 111",
+    "state": "CA",
+    "city": "La Quinta",
+    "postal": "92253-4756",
+    "priority": 1
+  },
+  {
+    "lat": "33.8985498",
+    "lng": "-118.3725144",
+    "id": 8895463,
+    "name": "Costco 671 Hawthorne, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "14501 Hindry Blvd",
+    "state": "CA",
+    "city": "Hawthorne",
+    "postal": "90250-6748",
+    "priority": 1
+  },
+  {
+    "lat": "34.1847395",
+    "lng": "-118.3228394",
+    "id": 8895464,
+    "name": "Costco 677 Burbank, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "1051 W Burbank Blvd",
+    "state": "CA",
+    "city": "Burbank",
+    "postal": "91506-1421",
+    "priority": 1
+  },
+  {
+    "lat": "33.5660565",
+    "lng": "-117.7112438",
+    "id": 8895466,
+    "name": "Costco 690 Laguna Marketplace, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "27220 Heather Ridge Rd",
+    "state": "CA",
+    "city": "Laguna Niguel",
+    "postal": "92677-3418",
+    "priority": 1
+  },
+  {
+    "lat": "35.2521946",
+    "lng": "-120.6917006",
+    "id": 8895467,
+    "name": "Costco 741 San Luis Obispo, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "1540 Froom Ranch Way",
+    "state": "CA",
+    "city": "San Luis Obispo",
+    "postal": "93405-7211",
+    "priority": 1
+  },
+  {
+    "lat": "33.8050976",
+    "lng": "-118.0375229",
+    "id": 8895468,
+    "name": "Costco 748 Cypress, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "5401 Katella Ave",
+    "state": "CA",
+    "city": "Cypress",
+    "postal": "90720-2809",
+    "priority": 1
+  },
+  {
+    "lat": "33.6999885",
+    "lng": "-117.8229001",
+    "id": 8895469,
+    "name": "Costco 1001 Tustin, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2700 Park Ave",
+    "state": "CA",
+    "city": "Tustin",
+    "postal": "92782-2708",
+    "priority": 1
+  },
+  {
+    "lat": "33.732793",
+    "lng": "-117.9968332",
+    "id": 8895470,
+    "name": "Costco 1110 Huntington Beach, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "7562 Center Ave",
+    "state": "CA",
+    "city": "Huntington Beach",
+    "postal": "92647-3002",
+    "priority": 1
+  },
+  {
+    "lat": "33.8065962",
+    "lng": "-118.3335929",
+    "id": 8895471,
+    "name": "Costco 1202 Torrance, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "2640 Lomita Blvd",
+    "state": "CA",
+    "city": "Torrance",
+    "postal": "90505-5214",
+    "priority": 1
+  },
+  {
+    "lat": "34.186682",
+    "lng": "-118.6032",
+    "id": 8895472,
+    "name": "Costco 1205 Woodland Hills, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "21800 Victory Blvd",
+    "state": "CA",
+    "city": "Woodland Hills",
+    "postal": "91367-2227",
+    "priority": 1
+  },
+  {
+    "lat": "34.9271255",
+    "lng": "-120.4185233",
+    "id": 8895473,
+    "name": "Costco 1275 Santa Maria, CA",
+    "description": "Don Pablo Bourbon Infused Coffee",
+    "tagsvalue": "Bourbon Infused Coffee",
+    "tags": [
+      {
+        "tag": "Bourbon Infused Coffee"
+      }
+    ],
+    "store_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0258\/5893\/2824\/files\/BOURBON_INFUSED_COFFEE.png?v=1635785704",
+    "address": "1700 S Bradley Rd ",
+    "state": "CA",
+    "city": "Santa Maria",
+    "postal": "93454-8001",
     "priority": 1
   }
 ]

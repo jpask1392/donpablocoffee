@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "coffee-sweepstakes__page-header",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
