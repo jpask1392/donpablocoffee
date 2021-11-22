@@ -395,11 +395,11 @@
         "type": "index__product-display",
         "settings": {
           "width": "standard",
-          "padding_top": 40,
-          "padding_bottom": 40,
-          "product_of_the_month": "don-isidro-genuine-antigua-guatemala",
-          "content": "<p><strong>Limited Release Specialty Coffee<\/strong><\/p><p>Full-body with a sweet, delicate brightness and hints of chocolate, honey roasted cacao nibs, with a clean fruit-toned finish. Here at Don Pablo Coffee, we are taking this exceptional coffee and roasting it in small batches which highlights the incredible flavors within. This is a well-balanced classic coffee with extraordinary flavors.<\/p><p><strong>12 oz Bag - Available in:<br\/><\/strong>Light Roast<br\/>True Medium Roast <br\/>Medium-Dark Roast<br\/>Dark Roast<\/p>",
-          "image": "shopify:\/\/shop_images\/Don_Isidro_36694912-e7c1-4faf-a75c-8f2d58a614b6.png",
+          "padding_top": 32,
+          "padding_bottom": 32,
+          "product_of_the_month": "don-pablo-bourbon-infused-coffee",
+          "content": "<p>Our Organic, Specialty-Grade coffee is soaked in fine Kentucky Bourbon, until it absorbs every drop. Then dried and roasted golden blonde to perfection in small batches, evaporating the alcohol, but infusing the coffee with intense, full-bodied notes of caramel, honey and butterscotch… A velvety balance of sweet and spice, fruitiness and nuttiness, that wows with each sip and keeps you coming back for more!<\/p>",
+          "image": "shopify:\/\/shop_images\/coffee_of_the_month_600.png",
           "css_class": "",
           "custom_css": ""
         }
@@ -558,7 +558,7 @@
         "type": "contact__contact-form",
         "settings": {
           "sectionTitle": "SEND US <br><b>A MESSAGE<\/b>",
-          "sectionSubtext": "<p>We would love to hear what you think about Don Pablo Coffee. Call us at: (877) 436-8722 or fill in the contact form below:<\/p>",
+          "sectionSubtext": "<p>We would love to hear what you think about Don Pablo Coffee. Call us at: (877) 436-6722 or fill in the contact form below:<\/p>",
           "width": "narrow",
           "padding_top": 80,
           "padding_bottom": 80,
@@ -575,7 +575,7 @@
           "customerServiceLocal": "(305) 249-5628",
           "customerServiceEmail": "info@donpablocoffee.com",
           "wholesaleContactRep": "Timothy Moynihan",
-          "wholesaleContactRepTitle": "Director of Sales",
+          "wholesaleContactRepTitle": "VP of Sales",
           "wholesaleDirect": "",
           "wholesaleOffice": "(305) 249-5628",
           "wholesaleEmail": "tmoynihan@burkebrands.com",

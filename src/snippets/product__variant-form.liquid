@@ -9,82 +9,84 @@
     <div class="price">{{ current_variant.price | money }}</div>
   </div>
 
-  <div>
-    {% assign option_titles = product.options_with_values | map: 'name' | join: ',' %}
-    {% for option in product.options %}
-      {% if option_titles contains option %}
-        {% comment %}
-          Input section for controlling variant selections
-        {% endcomment %}
-        {% if option == "Style" %}{% endif %}
-        {% assign outerloop_index = forloop.index %}
-        {% capture option_index %}option{{ forloop.index }}{% endcapture %}
-        {% assign option_values = product.variants | map: option_index | uniq %}
-        {% assign productOptions = product.selected_or_first_available_variant.options | join: ", " %}
+  {% unless product.has_only_default_variant %}
+    <div>
+      {% assign option_titles = product.options_with_values | map: 'name' | join: ',' %}
+      {% for option in product.options %}
+        {% if option_titles contains option %}
+          {% comment %}
+            Input section for controlling variant selections
+          {% endcomment %}
+          {% if option == "Style" %}{% endif %}
+          {% assign outerloop_index = forloop.index %}
+          {% capture option_index %}option{{ forloop.index }}{% endcapture %}
+          {% assign option_values = product.variants | map: option_index | uniq %}
+          {% assign productOptions = product.selected_or_first_available_variant.options | join: ", " %}
 
-        <div class="radio-btn-group row" id={{option_index}}><!-- Radio button group -->
-        {% comment %}
-          Case/switch statement for outputting radio button sections
-        {% endcomment %}
-        {% case option %}
+          <div class="radio-btn-group row" id={{option_index}}><!-- Radio button group -->
+          {% comment %}
+            Case/switch statement for outputting radio button sections
+          {% endcomment %}
+          {% case option %}
 
-          {% when "Packaging" %}
-            <div class="radio-btn-group__title col-12">Packaging</div>
-            {% for value in option_values %}
-              {% assign inputID = value | replace: ' ', '' %}
-              <div class="col-6 col-md-4 label-wrapper">
-                <input 
-                  type="radio" 
-                  id="{{ inputID }}" 
-                  name="{{ option }}" 
-                  value="{{ value }}"
-                  {% if productOptions contains value %}checked{% endif %}
-                />
-                <label class="variant-selector" for={{ inputID }}>
-                  <span>{{ value }}</span>
-                  <span class="variant-selector__price">
-                    {% comment %} Get price related to bag size {% endcomment %}
-                    {% for variant in product.variants %}
-                      {% if variant.option1 == value %}
-                        {% assign price = variant.price %}
-                        {% assign compare_at_price = variant.compare_at_price %}
-                        {% break %}
+            {% when "Packaging" %}
+              <div class="radio-btn-group__title col-12">Packaging</div>
+              {% for value in option_values %}
+                {% assign inputID = value | replace: ' ', '' %}
+                <div class="col-6 col-md-4 label-wrapper">
+                  <input 
+                    type="radio" 
+                    id="{{ inputID }}" 
+                    name="{{ option }}" 
+                    value="{{ value }}"
+                    {% if productOptions contains value %}checked{% endif %}
+                  />
+                  <label class="variant-selector" for={{ inputID }}>
+                    <span>{{ value }}</span>
+                    <span class="variant-selector__price">
+                      {% comment %} Get price related to bag size {% endcomment %}
+                      {% for variant in product.variants %}
+                        {% if variant.option1 == value %}
+                          {% assign price = variant.price %}
+                          {% assign compare_at_price = variant.compare_at_price %}
+                          {% break %}
+                        {% endif %}
+                      {% endfor %}
+                      <b>{{ price | money}}</b>
+                      {% if compare_at_price %}
+                      ({{ compare_at_price | minus: price | times: 100.0 | 
+                        divided_by: compare_at_price | money_without_currency | times: 100 
+                        | replace: '.0', ''}}% OFF)
                       {% endif %}
-                    {% endfor %}
-                    <b>{{ price | money}}</b>
-                    {% if compare_at_price %}
-                    ({{ compare_at_price | minus: price | times: 100.0 | 
-                      divided_by: compare_at_price | money_without_currency | times: 100 
-                      | replace: '.0', ''}}% OFF)
-                    {% endif %}
-                  </span>
-                </label>
-              </div>
-            {% endfor %}
+                    </span>
+                  </label>
+                </div>
+              {% endfor %}
 
-          {% else %} {% comment %} Default label {% endcomment %}
-            <div class="radio-btn-group__title col-12">{{ option }}</div>
-            {% for value in option_values %}
-              {% assign inputID = value | replace: ' ', '' %}
-              <div class="col-6 col-lg-4 label-wrapper">
-                <input 
-                  type="radio" 
-                  id="{{ inputID }}" 
-                  name="{{ option }}" 
-                  value="{{ value }}"
-                  {% if productOptions contains value %}checked{% endif %}
-                />
-                <label class="variant-selector" for={{ inputID }}>
-                  {{ value }}
-                </label>
-              </div>
-            {% endfor %}
+            {% else %} {% comment %} Default label {% endcomment %}
+              <div class="radio-btn-group__title col-12">{{ option }}</div>
+              {% for value in option_values %}
+                {% assign inputID = value | replace: ' ', '' %}
+                <div class="col-6 col-lg-4 label-wrapper">
+                  <input 
+                    type="radio" 
+                    id="{{ inputID }}" 
+                    name="{{ option }}" 
+                    value="{{ value }}"
+                    {% if productOptions contains value %}checked{% endif %}
+                  />
+                  <label class="variant-selector" for={{ inputID }}>
+                    {{ value }}
+                  </label>
+                </div>
+              {% endfor %}
 
-          {% endcase %}
-          </div><!-- Radio button group END -->
-      {% endif %}
-    {% endfor %}
-  </div>
+            {% endcase %}
+            </div><!-- Radio button group END -->
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endunless %}
 
   <!-- Select Control -->
   <select 
@@ -95,11 +97,18 @@
     class="d-none">
     {% for variant in product.variants %}
       {% if variant.available %}
-        <option value="{{ variant.id }}" {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}>
+        <option 
+          value="{{ variant.id }}"
+          {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
+          data-variant-inventory-qty="{{ variant.inventory_quantity }}"
+        >
           {{ variant.title }} - {{ variant.price | money_with_currency }}
         </option>
       {% else %}
-        <option value="{{ variant.id }}">
+        <option 
+          value="{{ variant.id }}"
+          data-variant-inventory-qty="{{ variant.inventory_quantity }}"
+        >
           {{ variant.title }} - sold out
         </option>
       {% endif %}
@@ -116,13 +125,20 @@
       <div class="quantity-button quantity-up">+</div>
     </div>
   </div>
-  
-  <input 
-    type="submit" 
-    name="add" 
-    id="AddToCart" 
-    class="btn btn-primary"
-    value="Add to cart" />
   <!-- Quantity Control END -->
+  
+  <div class="atc-wrapper">
+    <input 
+      type="submit" 
+      name="add" 
+      id="AddToCart" 
+      class="btn btn-primary"
+      value="Add to cart" 
+    />
 
+    <div class="out-of-stock-notice" {% unless product.selected_or_first_available_variant.inventory_quantity <= 0 %}style="display:none"{% endunless %}>
+      <span class="inventory">{{ product.selected_or_first_available_variant.inventory_quantity | json}}</span>
+      {{ 'products.product.unavailable' | t }}
+    </div>
+  </div>
 </form>

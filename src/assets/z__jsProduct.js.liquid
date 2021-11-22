@@ -244,21 +244,27 @@ Shopify.theme.jsProduct = {
      * @param variant 
      * @param selector 
      */
-    const selectCallback = (variant, selector) => { 
+    const selectCallback = (variant, selector) => {
+      let $stockNotice = $('.out-of-stock-notice');
+      const $variantOption = $('select#productSelect').find('option[value=' + variant.id + ']');
+      const variantInventory = $variantOption.data('variant-inventory-qty');
+
+      if (variantInventory <= 0 && variant.inventory_management) {
+        $stockNotice.show();
+      } else {
+        $stockNotice.hide();
+      }
+      
       if (variant && variant.title !== "Default Title") {
         // greys out unavailable options
         updateAvialableOptions(selector.product.variants, selector);
-
         if (variant.available) {
           const formSelector = $('#AddToCartForm');
-
           formSelector
             .find('.price')
             .html(Shopify.formatMoney(variant.price, "{{ shop.money_with_currency_format }}"));
-
           updateProductImage(variant, selector);
-
-        } 
+        }
       }
     }
 

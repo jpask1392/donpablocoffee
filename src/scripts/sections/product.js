@@ -33,6 +33,7 @@ const selectors = {
   thumbnail: '[data-product-single-thumbnail]',
   thumbnailById: (id) => `[data-thumbnail-id='${id}']`,
   thumbnailActive: '[data-product-single-thumbnail][aria-current]',
+  stockNotice: '.out-of-stock-notice',
 };
 
 register('product', {
