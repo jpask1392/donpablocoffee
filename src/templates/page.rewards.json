@@ -1,6 +1,5 @@
 {
   "sections": {
-<<<<<<< HEAD
     "page-header": {
       "type": "page-header",
       "settings": {
@@ -288,14 +287,5 @@
     "163459559507fd040d",
     "16345957339d73e871",
     "rich-text"
-=======
-    "main": {
-      "type": "coffee-sweepstakes__page-header",
-      "settings": {}
-    }
-  },
-  "order": [
-    "main"
->>>>>>> gift_box_page
   ]
 }
