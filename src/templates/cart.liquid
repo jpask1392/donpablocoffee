@@ -23,6 +23,15 @@
                       <b>{{ item.product.title }}</b>
                     </a>
                     <div class="section-title">{{ item.variant.title }}</div>
+
+                    {% unless item.properties == empty %}
+                      <ul class="line-item-properties">
+                        {% for property in item.properties %}
+                          <li>{{ property.last | remove: 'Don Pablo' }}</li>
+                        {% endfor %}
+                      </ul>
+                    {% endunless %}
+
                     <div class="mt-2"><b><span class="Makebecool-theme-hook-DO-NOT-DELETE makebecool_cart_item_price" data-item-key="{{item.key}}" style="display:none !important;"></span>{{ item.price | money }}</b></div>
                   </div>
                 </div>
