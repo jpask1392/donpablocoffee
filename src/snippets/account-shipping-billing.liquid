@@ -13,13 +13,81 @@
           {%- endif -%}
 
           {{ address | format_address }}
+
+          <div class="d-flex">
+            <a 
+              href="#"
+              class="link"
+              data-toggle="modal" 
+              data-target="#accountFormModal_{{ address.id }}">Edit</a>
+            <a href="#" class="link ml-5" onclick='slate.removeAddress({{address.id}})'>Delete</a>
+          </div>
         </div>
 
       </li>
+
+      {%
+        include 'account-address-form' with
+        id: address.id,
+        action: address,
+        title: 'Edit Address',
+        cta: 'Update Address',
+        formClassName: 'is-edit-form mb1'
+      %}
     {%- endfor -%}
   </ul>
 
+  <p>
+    <button 
+        class="btn btn-primary" 
+        data-toggle="modal" 
+        data-target="#accountFormModal_new"
+      >Create new address</button>
+  </p>
+
   {% if customer.addresses == empty %}
-    <div>You have no saved address.</div>
+    <div>
+      <p>You have no saved address.</p>
+      <p>
+          <button 
+            class="btn btn-primary" 
+            data-toggle="modal" 
+            data-target="#accountFormModal_new"
+          >Create new address</button>
+      </p>
+    </div>
   {% endif %}
 </div>
+
+{%
+  include 'account-address-form' with
+    id: 'new',
+    action: customer.new_address,
+    title: 'Add New Address',
+    cta: 'Add Address',
+    formClassName: 'mb1 pb1'
+%}
+
+<script>
+  window.slate = {
+    removeAddress: function removeAddress(id){
+      if (!confirm('Are you sure you wish to delete this address?')) return
+
+      var form = document.createElement('form')
+      var input = document.createElement('input');
+
+      form.setAttribute('method', 'post')
+      form.setAttribute('action', '/account/addresses/'+id)
+
+      input.setAttribute('type', 'hidden')
+      input.setAttribute('name', '_method')
+      input.setAttribute('value', 'delete')
+
+      form.appendChild(input)
+
+      document.body.appendChild(form)
+      form.submit()
+      document.body.removeChild(form)
+    }
+  }
+</script>

@@ -150,10 +150,14 @@ nav.account-nav {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
 
     li {
       width: 33%;
       margin-bottom: 2rem;
+      padding-left: 15px;
+      padding-right: 15px;
 
       .tile {
         padding-right: 20px;
@@ -163,6 +167,33 @@ nav.account-nav {
           border: 1px solid black;
         }
       }
+    }
+  }
+}
+
+.modal[id^="accountFormModal"] {
+  .modal-content {
+    padding: 5rem;
+
+    .btn {
+      min-width: 200px;
+    }
+  }
+}
+
+[id^="address_form"] {
+  label.checkbox {
+    display: flex !important;
+    align-items: center;
+
+    input {
+      width: auto !important;
+      margin-bottom: 0 !important;
+      margin-right: 1rem !important;
+    }
+
+    span {
+      margin-bottom: 0 !important;
     }
   }
 }
