@@ -1,0 +1,35 @@
+{%- capture uid -%}
+  select{{name | default: label}}
+{%- endcapture -%}
+
+{%- capture cx -%}
+  select-wrapper {{ className }}
+{%- endcapture -%}
+
+<div class="{{ cx }}" style="{{ style }}">
+  <label for="{{ id | default: uid | strip }}" class="form-label d-none">{{ label }}</label>
+
+  <div class="rel">
+    <select
+      id='{{ id | default: uid | strip }}'
+      name='{{ name | default: label | strip }}'
+      value='{{ value }}'
+      data-productid="{{product.id}}"
+      class="form-select form-select-lg {{ selectClass }}"
+      {{ attributes }}
+      {% if required %}required{% endif %}>
+      {% if placeholder %}<option disabled selected>{{ placeholder }}</option>{% endif %}
+      {{ options }}
+    </select>
+  </div>
+</div>
+
+{% assign id = blank %}
+{% assign style = blank %}
+{% assign label = blank %}
+{% assign name = blank %}
+{% assign required = blank %}
+{% assign value = blank %}
+{% assign placeholder = blank %}
+{% assign options = blank %}
+{% assign attributes = blank %}
